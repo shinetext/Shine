@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>Shine</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -38,8 +38,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
-                <h3>Chloe!</h3>
+                <div class="title">Shine</div>
+                <h3>Daily texts to remind you just how badass you are.</h3>
             </div>
         </div>
     </body>
