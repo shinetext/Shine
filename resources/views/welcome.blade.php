@@ -36,7 +36,7 @@
 
             .signup-form {
                 text-align: center;
-                padding: 15%;
+                padding: 15 %;
             }
         </style>
     </head>
@@ -44,7 +44,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">Shine</div>
-                <h3>Daily texts to remind you just how badass you are.</h3>
+                <h2>Daily texts to remind you just how badass you are.</h2>
             </div>
         </div>
 
