@@ -17,6 +17,9 @@
                 display: table;
                 font-weight: 100;
                 font-family: 'Lato';
+                background: url('{{ asset('images/girl_smiling.png') }}');
+                background-size: cover;
+
             }
 
             .container {
@@ -36,7 +39,7 @@
 
             .signup-form {
                 text-align: center;
-                padding: 15 %;
+                padding: 15%;
             }
         </style>
     </head>
