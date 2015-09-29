@@ -30,10 +30,27 @@
                 font-style: normal;
             }
 
+            .nav-bar { 
+                list-style:none; margin-top: 40px; 
+                margin: 0 10% 0 0 ;
+            }
+
+            .nav-bar li { 
+                display:inline; 
+                float: right;
+                padding-right: 1%;
+            }
+
+            .nav-bar li img {
+                max-width: 80%;
+                max-height: auto;
+            }
+
             .header {
-                background: url('{{ asset('images/girl_smiling.png') }}');
+                background: url('{{asset('images/girl_smiling.png')}}');
                 background-size: cover;
                 background-color: #E6E6E6;
+                clear: both;
             }
 
             #logo_column {
@@ -104,7 +121,7 @@
                 font-family: 'Bebas Neue Bold';
                 font-size: 28px;
                 text-align: center;
-                /*background: url('{{ asset('images/sign_up_button_regular.png') }}');*/
+                background: url('{{ asset('images/sign_up_button_regular.png') }}');
             }
 
             #center {
@@ -119,9 +136,9 @@
                 position: absolute;
                 top: 0px;
                 right: 0px;
-/*                margin-top: 15%;
-                margin-left: 15%;*/
-                margin: 14% 5% 0 25%;
+                margin-top: 15%;
+                margin-left: 15%;
+                margin: 10% 5% 0 25%;
             }
 
             #text_bubble {
@@ -136,20 +153,26 @@
 
             #last_text_bubble {
                 background: url('{{ asset('images/chat_bubble.png') }}');
-                width: 27%;
+                width: 26%;
                 background-size: 100% 70%;
                 background-repeat: no-repeat;
                 float: right;
                 margin: 1% 10% 0 10%;
                 clear: both;
                 color: white;
-                padding: 1% 3% 10% 3%;
+                padding: 2% 3% 10% 4%;
                 text-align: left;
             }
         </style>
     </head>
 
     <body>
+         <ul class="nav-bar">
+              <li><a href="http://twitter.com" target="_blank"><img src={{asset('images/twitter_Icon.png')}}></a></li>
+              <li><a href="http://instagram.com" target="_blank"><img src={{asset('images/instagram_Icon.png')}}></a></li>
+              <li><a href="http://facebook.com" target="_blank"><img src={{asset('images/facebook_Icon.png')}}></a></li>
+         </ul>
+
         <div class="header">    
             <a name="top"></a>
             <div id="logo_column">
