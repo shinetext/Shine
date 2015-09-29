@@ -3,28 +3,37 @@
     <head>
         <title>Shine</title>
         <link href='https://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
-        <!-- <link rel="stylesheet" href="fonts/BebasNeueBold.otf" type="text/css" charset="utf-8" />  -->
+        <link rel="stylesheet" href="fonts/BebasNeueBold.otf" type="text/css" charset="utf-8" /> 
+        <link rel="stylesheet" href="fonts/BebasNeueRegular.otf" type="text/css" charset="utf-8" /> 
 
 
         <style>
-         /*   @font-face {
+            @font-face {
                 font-family: 'Bebas Neue Bold';
-                src: url('BebasNeueBold.eot');
-                src: url('FontName.eot?#iefix') format('embedded-opentype'),
-                    url('FontName-webfont.woff') format('woff'),
-                    url('FontName-webfont.ttf') format('truetype'),
-                    url('FontName-webfont.svg#FontName') format('svg');
+                src: url('fonts/BebasNeueBold.eot');
+                src: url('fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+                    url('fonts/BebasNeueBold.woff') format('woff'),
+                    url('fonts/BebasNeueBold.ttf') format('truetype'),
+                    url('fonts/BebasNeueBold.svg#FontName') format('svg');
                 font-weight: normal;
                 font-style: normal;
-            }*/
+            }
+
+            @font-face {
+                font-family: 'Bebas Neue Regular';
+                src: url('fonts/BebasNeueRegular.eot');
+                src: url('fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+                    url('fonts/BebasNeueRegular.woff') format('woff'),
+                    url('fonts/BebasNeueRegular.ttf') format('truetype'),
+                    url('fonts/BebasNeueRegular.svg#FontName') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
 
             .header {
                 background: url('{{ asset('images/girl_smiling.png') }}');
                 background-size: cover;
-                position: relative;
                 background-color: #E6E6E6;
-/*                padding: 5%;
-*/                /*opacity: 10%;*/
             }
 
             #logo_column {
@@ -32,49 +41,110 @@
                 text-align: center;
                 padding-bottom: 5%;
                 font-family: 'Fira Sans';
+                position: relative;
             }
 
             #logo_column img {
                 max-width: 25%;
                 max-height: auto;
-                z-index: -1;
             }
 
             #logo_column h3 {
                 padding-bottom: 2%;
+                font-size: 24px;
+                width: 20%;
+                position: absolute;
+                top: 35%;
+                left: 40%;
+            }
+
+            form {
+                margin-top: 5%;
             }
 
             input {
                 border:none;
                 background-color:#FFFFFF;
-                width: 200px;
+                width: 18%;
                 padding: 10px;
                 margin: 5px;
                 border-bottom: 1px solid black;
-                font-family: 'Fira Sans';
+                font-family: 'Bebas Neue Regular';
+                font-size: 20px;
             }
-
-/*    <span style="display: table-cell; width: 100px;">Amount Paid: $ </span>
-    <span style="display: table-cell; border-bottom: 1px solid black;"></span>*/
 
             .column {
                 display: inline-block;
                 float: left;
                 width: 20%;
-                text-align: center;
+                text-align: left;
                 padding: 100px 0% 100px 10%;
+                margin-top: 5%;
                 background-color: white;
                 color: black;
+                font-family: 'Fira Sans';
+            }
+
+            .column h3 {
+                font-family: 'Bebas Neue Bold';
+                font-size: 40px;
+            }
+
+            .column img {
+                height: 114px;
+                width: auto;
             }
 
             .signup_button {
-                padding: .5% 3% .5% 3%;
-                /*text-align: center;*/
+                padding: 1% 5% 1% 5%;
+                width: 15%;
                 margin: 30px;
                 border-radius: 25px;
                 background:#FFC52D;
-                /*text-decoration:none;*/
+                font-family: 'Bebas Neue Bold';
+                font-size: 28px;
+                text-align: center;
                 /*background: url('{{ asset('images/sign_up_button_regular.png') }}');*/
+            }
+
+            #center {
+                display: block;
+                margin: 0 auto;
+                width: 5%;
+            }
+
+            .text_bubble_column {
+                text-align: left;
+                font-family: 'Fira Sans';
+                position: absolute;
+                top: 0px;
+                right: 0px;
+/*                margin-top: 15%;
+                margin-left: 15%;*/
+                margin: 14% 5% 0 25%;
+            }
+
+            #text_bubble {
+                border-radius: 25px;
+                background: black;
+                color: white;
+                padding: 20px;
+                width: 27%;
+                float: right;
+                margin: 1% 10% 0 10%;
+            }
+
+            #last_text_bubble {
+                background: url('{{ asset('images/chat_bubble.png') }}');
+                width: 27%;
+                background-size: 100% 70%;
+                background-repeat: no-repeat;
+                float: right;
+                margin: 1% 10% 0 10%;
+                clear: both;
+                color: white;
+                padding: 1% 3% 10% 3%;
+                text-align: left;
             }
         </style>
     </head>
@@ -107,6 +177,20 @@
                 
                 <!-- <span style="font-size:80%"><a href="https://www.mobilecommons.com/about/terms-and-conditions/">Msg &amp; Data Rates May Apply.</a><br />Text <b>STOP</b> to opt out. No purchase necessary.<br />Expect 4 msgs/mo. <a href="https://www.mobilecommons.com/about/terms-and-conditions/privacy-policy/">Terms and Conditions</a></span> -->
             </div>
+
+            <div class="text_bubble_column">
+                <div id="text_bubble">
+                    <p>Team-Up Tuesday: Work BFFs help with 1) happy hours 2) debriefing after anixety-inducing moments and 3) career growth: asking raise and promotion advice.</p>
+                </div>
+
+                <div id="text_bubble">
+                    <p>Really? How do I get one?</p>
+                </div>
+
+                <div id="last_text_bubble">
+                    <p>That's the gospel truth. Here are some tips on how to find the best work BFF for you: http://lil.ms/uxi/2yqaa9</p>
+                </div>
+            </div>
         </div>
 
     <div class="column">
@@ -128,7 +212,7 @@
     </div>
 
     <div style="clear: both;">
-        <a href="#top" class="signup_button" style="text-decoration: none; color: black;">SIGN UP</a>     
+        <a href="#top" class="signup_button" id="center" style="text-decoration: none; color: black;">SIGN UP</a>     
     </div>
 
     </body>
