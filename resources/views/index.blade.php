@@ -32,13 +32,21 @@
 
             .nav-bar { 
                 list-style:none; margin-top: 40px; 
-                margin: 0 10% 0 0 ;
+                margin: 0 10% 0 0;
+            }
+
+            .nav-bar img {
+                max-width: 7%;
+                max-height: auto;
+                float: left;
+                display: block;
+                position: relative;
             }
 
             .nav-bar li { 
                 display:inline; 
                 float: right;
-                padding-right: 1%;
+                padding: 2% 0 0 0;
             }
 
             .nav-bar li img {
@@ -95,7 +103,7 @@
                 float: left;
                 width: 20%;
                 text-align: left;
-                padding: 100px 0% 100px 10%;
+                padding: 100px 0 100px 10%;
                 margin-top: 5%;
                 background-color: white;
                 color: black;
@@ -136,9 +144,7 @@
                 position: absolute;
                 top: 0px;
                 right: 0px;
-                margin-top: 15%;
-                margin-left: 15%;
-                margin: 10% 5% 0 25%;
+                margin: 15% 5% 0 25%;
             }
 
             #text_bubble {
@@ -163,22 +169,59 @@
                 padding: 2% 3% 10% 4%;
                 text-align: left;
             }
+
+            .testimonials {
+                background-color: #E6E6E6;
+            }
+
+            .testimonials h2{
+                font-family: 'Bebas Neue Bold';
+                font-size: 40px;
+                padding: 100px 0 0 10%;
+                margin-top: 5%;
+            }
+
+            .testimonials_column {
+                margin: 0;
+                padding: 100px 0 100px 10%;
+                display: inline-block;
+                width: 20%;
+                text-align: left;
+                font-family: 'Fira Sans';
+            }
+
+            .refer-a-friend h2{
+                margin: 5% 0 0 0;
+                padding-top: 10%;
+                font-family: 'Bebas Neue Bold';
+                font-size: 40px;
+                text-align: center;
+            }
+
+            .refer-a-friend form {
+                display: block;
+                text-align: center;
+                padding-bottom: 5%;
+                font-family: 'Fira Sans';
+                position: relative;
+            }
         </style>
     </head>
 
     <body>
-         <ul class="nav-bar">
-              <li><a href="http://twitter.com" target="_blank"><img src={{asset('images/twitter_Icon.png')}}></a></li>
-              <li><a href="http://instagram.com" target="_blank"><img src={{asset('images/instagram_Icon.png')}}></a></li>
-              <li><a href="http://facebook.com" target="_blank"><img src={{asset('images/facebook_Icon.png')}}></a></li>
-         </ul>
+        <ul class="nav-bar">
+            <img src={{asset('images/shine_logo.png')}}>
+            <li><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_Icon.png')}}></a></li>
+            <li><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_Icon.png')}}></a></li>
+            <li><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_Icon.png')}}></a></li>
+        </ul>
 
         <div class="header">    
             <a name="top"></a>
             <div id="logo_column">
                 <img src={{asset('images/shine_logo.png')}}>
 
-                <h3>Daily texts to remind you how badass you are</h3>
+                <h3>A daily text so you can slay today.</h3>
 
                 <form action="https://secure.mcommons.com/profiles/join" method="post" class="mobilecommons">                    
                     <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
@@ -191,9 +234,6 @@
                     <input required="required" placeholder="EMAIL ADDRESS" id="person_email" name="person[email]" size="30" type="email" /></br>
           
                     <input required="required" placeholder="BIRTHDAY" id="person_birthday" name="person[birthday]" size="30" type="date" /></br>                       
-
-<!--                     <dt><label>Tell a Friend <small class="small">Phone Number</small></label></dt> 
-                    <input type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OP4B1A27AC508266A1F4373419CE1BE391" /><br> -->
           
                     <input type="submit" value="SIGN UP" class="signup_button"/>
                 </form>
@@ -236,6 +276,40 @@
 
     <div style="clear: both;">
         <a href="#top" class="signup_button" id="center" style="text-decoration: none; color: black;">SIGN UP</a>     
+    </div>
+
+    <div class="testimonials">
+        <h2>WORD ON THE STREET</h2>
+        <div class="testimonials_column">
+            <p>"This week was awesome, I loved hearing my text sound go off in the AM as I was getting ready for work.  It is the perfect mix of being smart, funny, and intelligent and of course accessible!"</p>  
+        </div>
+
+        <div class="testimonials_column">
+            <p>"Pushed me to take a few minutes to stop and reflect about my own goals and achievements, which helped spark my intrinsic confidence & mood."</p>
+        </div>
+
+        <div class="testimonials_column">
+            <p>"Thanks for this. I look forward to getting these messages every day. This has been an especially rough past couple of weeks and this is helping me get through them."</p>
+        </div>
+    </div>
+
+    <div style="clear: both;">
+
+
+    <div class="refer-a-friend">
+        <h2>Share Shine texts with your friends!</h2>
+            <form action="https://secure.mcommons.com/profiles/join" method="post" class="mobilecommons">                    
+                <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
+                <input type="hidden" name="redirect_to" value="https://www.mobilecommons.com/redirect_to_instructions" />
+
+                <input required="required" placeholder="YOUR NAME" type="text" name="person[first_name]" id="person_first_name" /></br>
+      
+                <input required="required" placeholder="YOUR PHONE NUMBER" type="text" name="person[phone]" id="person_phone" /></br>
+      
+                <input required="required" placeholder="YOUR FRIEND'S NUMBER" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OP4B1A27AC508266A1F4373419CE1BE391" /><br>
+      
+                <input type="submit" value="SIGN UP" class="signup_button"/>
+            </form>
     </div>
 
     </body>
