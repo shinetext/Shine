@@ -105,7 +105,6 @@
                 text-align: left;
                 padding: 100px 0 100px 10%;
                 margin-top: 5%;
-                background-color: white;
                 color: black;
                 font-family: 'Fira Sans';
             }
@@ -171,19 +170,21 @@
             }
 
             .testimonials {
-                background-color: #E6E6E6;
+                margin-top: 10%;
+                overflow: scroll;
+                background: #E6E6E6;
             }
 
             .testimonials h2{
                 font-family: 'Bebas Neue Bold';
                 font-size: 40px;
-                padding: 100px 0 0 10%;
+                padding: 3% 0 0 10%;
                 margin-top: 5%;
             }
 
             .testimonials_column {
-                margin: 0;
-                padding: 100px 0 100px 10%;
+                float: left;
+                padding: 0 0 100px 10%;
                 display: inline-block;
                 width: 20%;
                 text-align: left;
@@ -201,7 +202,7 @@
             .refer-a-friend form {
                 display: block;
                 text-align: center;
-                padding-bottom: 5%;
+                padding-bottom: 10%;
                 font-family: 'Fira Sans';
                 position: relative;
             }
@@ -277,24 +278,23 @@
     <div style="clear: both;">
         <a href="#top" class="signup_button" id="center" style="text-decoration: none; color: black;">SIGN UP</a>     
     </div>
-
+    
     <div class="testimonials">
         <h2>WORD ON THE STREET</h2>
         <div class="testimonials_column">
-            <p>"This week was awesome, I loved hearing my text sound go off in the AM as I was getting ready for work.  It is the perfect mix of being smart, funny, and intelligent and of course accessible!"</p>  
+            <p><span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</span>This week was awesome, I loved hearing my text sound go off in the AM as I was getting ready for work.  It is the perfect mix of being smart, funny, and intelligent and of course accessible!<span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</p>  
         </div>
 
         <div class="testimonials_column">
-            <p>"Pushed me to take a few minutes to stop and reflect about my own goals and achievements, which helped spark my intrinsic confidence & mood."</p>
+            <p><span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</span>Pushed me to take a few minutes to stop and reflect about my own goals and achievements, which helped spark my intrinsic confidence & mood.<span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</p>
         </div>
 
         <div class="testimonials_column">
-            <p>"Thanks for this. I look forward to getting these messages every day. This has been an especially rough past couple of weeks and this is helping me get through them."</p>
+            <p><span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</span>Thanks for this. I look forward to getting these messages every day. This has been an especially rough past couple of weeks and this is helping me get through them.<span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</p>
         </div>
     </div>
 
     <div style="clear: both;">
-
 
     <div class="refer-a-friend">
         <h2>Share Shine texts with your friends!</h2>
