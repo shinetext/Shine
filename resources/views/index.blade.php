@@ -193,7 +193,7 @@
 
             .refer-a-friend h2{
                 margin: 5% 0 0 0;
-                padding-top: 10%;
+                padding-top: 5%;
                 font-family: 'Bebas Neue Bold';
                 font-size: 40px;
                 text-align: center;
@@ -202,7 +202,7 @@
             .refer-a-friend form {
                 display: block;
                 text-align: center;
-                padding-bottom: 10%;
+                padding-bottom: 5%;
                 font-family: 'Fira Sans';
                 position: relative;
             }
