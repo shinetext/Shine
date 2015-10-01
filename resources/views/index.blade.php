@@ -31,7 +31,8 @@
             }
 
             .nav-bar { 
-                list-style:none; margin-top: 40px; 
+                list-style:none; 
+                margin-top: 40px; 
                 margin: 0 10% 0 0;
             }
 
@@ -46,7 +47,7 @@
             .nav-bar li { 
                 display:inline; 
                 float: right;
-                padding: 2% 0 0 0;
+                padding-top: 2%;
             }
 
             .nav-bar li img {
@@ -206,6 +207,38 @@
                 font-family: 'Fira Sans';
                 position: relative;
             }
+
+            .footer { 
+                list-style:none; 
+                background-color: black;
+                overflow: scroll;
+                z-index: 1;
+                padding-left: 5%;
+            }
+
+            .footer h1 {
+                float: left;
+                color: white;
+                display: block;
+                position: relative;
+                font-family: 'Bebas Neue Regular';
+            }
+
+            .footer li { 
+                display:inline; 
+                float: right;
+                padding-top: 2%;
+            }
+
+            .footer li img {
+                max-width: 80%;
+                max-height: auto;
+                z-index: 2;
+            }
+
+            .footer #footer-icons {
+                margin-right: 10%;
+            }
         </style>
     </head>
 
@@ -310,6 +343,15 @@
       
                 <input type="submit" value="SIGN UP" class="signup_button"/>
             </form>
+    </div>
+
+    <ul class="footer">
+        <h1>SHINE</h1>
+            <div id="footer-icons">
+                <li><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_Icon.png')}}></a></li>
+                <li><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_Icon.png')}}></a></li>
+                <li><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_Icon.png')}}></a></li>
+            </div>
     </div>
 
     </body>
