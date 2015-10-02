@@ -252,29 +252,6 @@
 
         <div class="header">    
             <a name="top"></a>
-            <div id="logo_column">
-                <img src={{asset('images/shine_logo.png')}}>
-
-                <h3>A daily text so you can slay today.</h3>
-
-                <form action="https://secure.mcommons.com/profiles/join" method="post" class="mobilecommons">                    
-                    <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
-                    <input type="hidden" name="redirect_to" value="https://www.mobilecommons.com/redirect_to_instructions" />
-
-                    <input required="required" placeholder="NAME" type="text" name="person[first_name]" id="person_first_name" /></br>
-          
-                    <input required="required" placeholder="PHONE NUMBER" type="text" name="person[phone]" id="person_phone" /></br>
-
-                    <input required="required" placeholder="EMAIL ADDRESS" id="person_email" name="person[email]" size="30" type="email" /></br>
-          
-                    <input required="required" placeholder="BIRTHDAY" id="person_birthday" name="person[birthday]" size="30" type="date" /></br>                       
-          
-                    <input type="submit" value="SIGN UP" class="signup_button"/>
-                </form>
-                
-                <!-- <span style="font-size:80%"><a href="https://www.mobilecommons.com/about/terms-and-conditions/">Msg &amp; Data Rates May Apply.</a><br />Text <b>STOP</b> to opt out. No purchase necessary.<br />Expect 4 msgs/mo. <a href="https://www.mobilecommons.com/about/terms-and-conditions/privacy-policy/">Terms and Conditions</a></span> -->
-            </div>
-
             <div class="text_bubble_column">
                 <div id="text_bubble">
                     <p>Team-Up Tuesday: Work BFFs help with 1) happy hours 2) debriefing after anixety-inducing moments and 3) career growth: asking raise and promotion advice.</p>
@@ -288,7 +265,31 @@
                     <p>That's the gospel truth. Here are some tips on how to find the best work BFF for you: http://lil.ms/uxi/2yqaa9</p>
                 </div>
             </div>
+            
+            <div id="logo_column">
+                <img src={{asset('images/shine_logo.png')}}>
+
+                <h3>A daily text so you can slay today.</h3>
+
+                <form action="https://secure.mcommons.com/profiles/join" method="post">                    
+                    <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
+                    <input type="hidden" name="redirect_to" value="https://www.mobilecommons.com/redirect_to_instructions" />
+
+                    <input required="required" placeholder="NAME" type="text" name="person[first_name]" id="person_first_name" /></br>
+
+                    <input required="required" placeholder="PHONE NUMBER" type="text" name="person[phone]" id="person_phone" /></br>
+                    
+                    <!-- <input required="required" placeholder="EMAIL ADDRESS" id="person_email" name="person[email]" size="30" type="email" /></br> -->
+          
+                    <input required="required" placeholder="BIRTHDAY" id="person_birthday" name="person[birthday]" size="30" type="date" /></br>                       
+          
+                    <input type="submit" value="SIGNUP" class="signup_button"/>
+                </form>
+                
+                <!-- <span style="font-size:80%"><a href="https://www.mobilecommons.com/about/terms-and-conditions/">Msg &amp; Data Rates May Apply.</a><br />Text <b>STOP</b> to opt out. No purchase necessary.<br />Expect 4 msgs/mo. <a href="https://www.mobilecommons.com/about/terms-and-conditions/privacy-policy/">Terms and Conditions</a></span> -->
+            </div>
         </div>
+
 
     <div class="column">
         <img src={{asset('images/coffee_icon.png')}}>
@@ -331,7 +332,7 @@
 
     <div class="refer-a-friend">
         <h2>Share Shine texts with your friends!</h2>
-            <form action="https://secure.mcommons.com/profiles/join" method="post" class="mobilecommons">                    
+            <form action="https://secure.mcommons.com/profiles/join" method="post">                    
                 <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
                 <input type="hidden" name="redirect_to" value="https://www.mobilecommons.com/redirect_to_instructions" />
 
