@@ -341,7 +341,7 @@
       
                 <input required="required" placeholder="YOUR FRIEND'S NUMBER" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OP4B1A27AC508266A1F4373419CE1BE391" /><br>
       
-                <input type="submit" value="SIGN UP" class="signup_button"/>
+                <input type="submit" value="SUBMIT" class="signup_button"/>
             </form>
     </div>
 
