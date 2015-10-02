@@ -33,7 +33,7 @@
             .nav-bar { 
                 list-style:none; 
                 margin-top: 40px; 
-                margin: 0 10% 0 0;
+                margin: 0 5% 0 0;
             }
 
             .nav-bar img {
@@ -237,7 +237,7 @@
             }
 
             #footer-social {
-                margin-right: 10%;
+                margin-right: 5%;
             }
         </style>
     </head>
