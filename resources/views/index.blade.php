@@ -208,11 +208,42 @@
                 position: relative;
             }
 
+            .about {
+                margin-top: 10%;
+                padding-bottom: 10%;
+                overflow: scroll;
+                background: url('{{ asset('images/map_icon.png') }}'); 
+                background-repeat: no-repeat;
+                background-position: 85% 80%;
+                background-size: 18%;
+                background-color: #E6E6E6;
+            }
+
+            .about h2 {
+                font-family: 'Bebas Neue Bold';
+                font-size: 40px;
+                padding: 3% 0 0 10%;
+                margin-top: 5%;
+            }
+
+            .about p {
+                font-family: 'Fira Sans';
+                text-align: left;
+                padding: 0 25% 5% 10%;
+                z-index: 1;
+            }
+
+            .about a {
+                font-style: italic;
+                color: #FFC52D;
+            }
+
             .footer { 
                 list-style:none; 
                 background-color: black;
                 overflow: scroll;
                 padding-left: 5%;
+                margin-top: 0;
             }
 
             .footer h1 {
@@ -265,7 +296,7 @@
                     <p>That's the gospel truth. Here are some tips on how to find the best work BFF for you: http://lil.ms/uxi/2yqaa9</p>
                 </div>
             </div>
-            
+
             <div id="logo_column">
                 <img src={{asset('images/shine_logo.png')}}>
 
@@ -344,6 +375,17 @@
       
                 <input type="submit" value="SUBMIT" class="signup_button"/>
             </form>
+    </div>
+
+    <div class="about">
+        <h2>WE'RE FIGURING IT OUT WITH YOU</h2>
+        <p>
+            50% of women report that they experience feelings of self-doubt about their performance and careers - compared to just 31% of men. We want to change that because we're living it too. 
+            As three close friends who met at work, we regularly leaned on each other for support, work advice, and confidence tips and recognized a gap in the market. 
+            How could we scale the support we gave each other for women across the country? That's how Shine came to be. We are three women of color with separate backgrounds in product, marketing and engineering. 
+            We are curating content we need and want in our day to day.
+            <br><br>Have suggestions, thoughts, or just want to get in touch? We'd love to hear from you! <a href="mailto:theshinetext@gmail.com" target="_top">Contact us.</a>
+        </p>
     </div>
 
     <ul class="footer">
