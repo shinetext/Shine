@@ -212,7 +212,6 @@
                 list-style:none; 
                 background-color: black;
                 overflow: scroll;
-                z-index: 1;
                 padding-left: 5%;
             }
 
@@ -228,15 +227,16 @@
                 display:inline; 
                 float: right;
                 padding-top: 2%;
+                max-width: 42px;
             }
 
             .footer li img {
-                max-width: 80%;
+                max-width: 75%;
                 max-height: auto;
-                z-index: 2;
+                position: relative;
             }
 
-            .footer #footer-icons {
+            #footer-social {
                 margin-right: 10%;
             }
         </style>
@@ -347,10 +347,10 @@
 
     <ul class="footer">
         <h1>SHINE</h1>
-            <div id="footer-icons">
-                <li><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_Icon.png')}}></a></li>
-                <li><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_Icon.png')}}></a></li>
-                <li><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_Icon.png')}}></a></li>
+            <div id="footer-social">
+                <li><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_yellow.png')}}></a></li>
+                <li><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_yellow.png')}}></a></li>
+                <li><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_yellow.png')}}></a></li>
             </div>
     </div>
 
