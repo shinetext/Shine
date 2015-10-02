@@ -203,7 +203,6 @@
             .refer-a-friend form {
                 display: block;
                 text-align: center;
-                padding-bottom: 5%;
                 font-family: 'Fira Sans';
                 position: relative;
             }
