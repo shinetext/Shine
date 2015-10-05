@@ -192,6 +192,12 @@
                 font-family: 'Fira Sans';
             }
 
+            .testimonials_column img {
+                max-width: 40%;
+                max-height: auto;
+                padding: 5% 0 5% 0;
+            }
+
             .refer-a-friend h2{
                 margin: 5% 0 0 0;
                 padding-top: 5%;
@@ -346,14 +352,17 @@
     <div class="testimonials">
         <h2>WORD ON THE STREET</h2>
         <div class="testimonials_column">
+            <img src={{asset('images/messages.png')}}>
             <p><span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</span>This week was awesome, I loved hearing my text sound go off in the AM as I was getting ready for work.  It is the perfect mix of being smart, funny, and intelligent and of course accessible!<span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</p>  
         </div>
 
         <div class="testimonials_column">
+            <img src={{asset('images/messages.png')}}>
             <p><span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</span>Pushed me to take a few minutes to stop and reflect about my own goals and achievements, which helped spark my intrinsic confidence & mood.<span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</p>
         </div>
 
         <div class="testimonials_column">
+            <img src={{asset('images/messages.png')}}>
             <p><span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</span>Thanks for this. I look forward to getting these messages every day. This has been an especially rough past couple of weeks and this is helping me get through them.<span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</p>
         </div>
     </div>
