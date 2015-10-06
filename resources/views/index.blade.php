@@ -32,8 +32,7 @@
 
             .nav-bar { 
                 list-style:none; 
-                margin-top: 40px; 
-                margin: 0 5% 0 0;
+                margin-right: 5%;
             }
 
             .nav-bar img {
@@ -42,6 +41,7 @@
                 float: left;
                 display: block;
                 position: relative;
+                margin: -30px 0 -20px 0;
             }
 
             .nav-bar li { 
