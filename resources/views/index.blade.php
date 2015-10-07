@@ -120,6 +120,20 @@
                 width: auto;
             }
 
+            @media (max-width: 700px) {
+                #logo_column {
+                    display: block;
+                    float: none;
+                    width: 100%;
+                }
+
+                .column {
+                    display: block;
+                    float: none;
+                    width: 100%;
+                }
+            }
+
             .signup_button {
                 padding: 1% 5% 1% 5%;
                 width: 15%;
@@ -234,7 +248,7 @@
             .about p {
                 font-family: 'Fira Sans';
                 text-align: left;
-                padding: 0 25% 5% 10%;
+                padding: 0 35% 5% 10%;
                 z-index: 1;
             }
 
@@ -329,20 +343,20 @@
 
     <div class="column">
         <img src={{asset('images/coffee_icon.png')}}>
-            <h3>MOTIVATION</h3>
-              <p>Learn how better posture, the perfect playlist, and a work bestie (you know, besides us) can boost confidence and reduce stress at the office. We’ll send pro tips from our favorite women (both real and fictitious), from Mindy Kaling to Sylvia Plath to Leslie Knope.</p>
+            <h3>A.M. MOTIVATION</h3>
+              <p>We curate and create content to send you every morning around your lifestyle. Learn how positive affirmations, the perfect playlist, and a work bestie can boost confidence and reduce stress at the office.</p>
     </div>
     
     <div class="column">
         <img src={{asset('images/mail_icon.png')}}>
-            <h3>A.M. LOLS</h3>
-              <p>Meetings: not funny. Know what is funny? Bridesmaids. Liz Lemon. A slow-motion video of a golden retriever who just can’t catch food. (Spoiler alert: the taco explodes all over his face.) You’ve got meetings. We’ve got ROFL-inducing Vines, vids, and memes.</p>
+            <h3>SAY BYE TO ANXIETY </h3>
+              <p>Daily affirmations are proven to reprogram negative thought patterns. Shine texts help target dysfunctional beliefs through short positive statements (a common practice in Cognitive Behavioral Therapy and modern meditation).</p>
     </div>
     
     <div class="column">
         <img src={{asset('images/ice_cream_icon.png')}}>
-            <h3>MOTIV-AFFIRMATION</h3>
-              <p>Motivation + affirmation. (Yeah, we made up a word. What of it?) Here is the boost you need. Here are the props you deserve. Here are the Channing Tatum GIFs you’ll be thinking about as you crush each day and roll into happy hour, smiling. (A hard day deserves hard abs. You’re welcome.)</p>
+            <h3>SHARE WITH FRIENDS</h3>
+              <p>The best part? You can share all of this motiv-affirmation (motivation + affirmation. Yeah, we made up a word.) with your friends to give them the boost they need. A few Channing Tatum GIFs never hurt anyone, right?</p>
     </div>
 
     <div style="clear: both;">
@@ -388,10 +402,10 @@
     <div class="about">
         <h2>WE'RE FIGURING IT OUT WITH YOU</h2>
         <p>
-            50% of women report that they experience feelings of self-doubt about their performance and careers - compared to just 31% of men. We want to change that because we're living it too. 
-            As three close friends who met at work, we regularly leaned on each other for support, work advice, and confidence tips and recognized a gap in the market. 
-            How could we scale the support we gave each other for women across the country? That's how Shine came to be. We are three women of color with separate backgrounds in product, marketing and engineering. 
-            We are curating content we need and want in our day to day.
+            50% of women report that they experience feelings of self-doubt about their performance and careers - compared to just 31% of men. We want to change that.<br><br> 
+            As three close friends who met at work, we regularly leaned on each other for support, advice, and confidence tips and recognized a gap in the market. 
+            How could we scale the support we gave each other for women across the country? That's how Shine came to be. We are three women of color with separate backgrounds in product, marketing and engineering, 
+            curating content we need and want in our day to day.
             <br><br>Have suggestions, thoughts, or just want to get in touch? We'd love to hear from you! <a href="mailto:theshinetext@gmail.com" target="_top">Contact us.</a>
         </p>
     </div>
