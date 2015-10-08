@@ -30,6 +30,24 @@
                 font-style: normal;
             }
 
+            /*medium+ screen sizes*/
+            @media (min-width:992px) {
+                .desktop-only {
+                    display:block !important;
+                }
+            }
+             
+            /*small screen sizes*/
+            @media (max-width: 991px) {
+                .mobile-only {
+                    display:block !important;
+                }
+             
+                .desktop-only {
+                    display:none !important;
+                }
+            }
+
             .nav-bar { 
                 list-style:none; 
                 margin-right: 5%;
@@ -121,16 +139,16 @@
             }
 
             @media (max-width: 700px) {
-                #logo_column {
-                    display: block;
-                    float: none;
-                    width: 100%;
-                }
-
                 .column {
                     display: block;
                     float: none;
-                    width: 100%;
+                    width: 80%;
+                }
+
+                .testimonials_column {
+                    display: block;
+                    float: none;
+                    width: 80%;                    
                 }
             }
 
@@ -144,12 +162,6 @@
                 font-size: 28px;
                 text-align: center;
                 background: url('{{ asset('images/sign_up_button_regular.png') }}');
-            }
-
-            #center {
-                display: block;
-                margin: 0 auto;
-                width: 5%;
             }
 
             .text_bubble_column {
@@ -359,9 +371,7 @@
               <p>The best part? You can share all of this motiv-affirmation (motivation + affirmation. Yeah, we made up a word.) with your friends to give them the boost they need. A few Channing Tatum GIFs never hurt anyone, right?</p>
     </div>
 
-    <div style="clear: both;">
-        <a href="#top" class="signup_button" id="center" style="text-decoration: none; color: black;">SIGN UP</a>     
-    </div>
+    <div style="clear: both;"></div>
     
     <div class="testimonials">
         <h2>WORD ON THE STREET</h2>
