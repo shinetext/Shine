@@ -30,24 +30,6 @@
                 font-style: normal;
             }
 
-            /*medium+ screen sizes*/
-            @media (min-width:992px) {
-                .desktop-only {
-                    display:block !important;
-                }
-            }
-             
-            /*small screen sizes*/
-            @media (max-width: 991px) {
-                .mobile-only {
-                    display:block !important;
-                }
-             
-                .desktop-only {
-                    display:none !important;
-                }
-            }
-
             .nav-bar { 
                 list-style:none; 
                 margin-right: 5%;
@@ -80,6 +62,14 @@
                 clear: both;
             }
 
+            @media screen and (max-width:1000px) {
+                .header { 
+                    background: none;
+                    background-color: #E6E6E6;
+                    clear: both;
+                }
+            }
+
             #logo_column {
                 display: block;
                 text-align: center;
@@ -102,6 +92,12 @@
                 left: 40%;
             }
 
+            @media screen and (max-width:1000px) {
+                #logo_column h3 { 
+                    display:none 
+                }
+            }
+
             form {
                 margin-top: 5%;
             }
@@ -115,6 +111,12 @@
                 border-bottom: 1px solid black;
                 font-family: 'Bebas Neue Regular';
                 font-size: 20px;
+            }
+
+            @media screen and (max-width:1000px) {
+                input { 
+                    width: 50%;
+                }
             }
 
             .column {
@@ -155,7 +157,15 @@
                 font-family: 'Bebas Neue Bold';
                 font-size: 28px;
                 text-align: center;
-                background: url('{{ asset('images/sign_up_button_regular.png') }}');
+                border-radius: 25px;
+                background: #FFC52D;
+                color: black;
+            }
+
+            @media screen and (max-width:1000px) {
+                .signup_button { 
+                    width: 27%;
+                }
             }
 
             .text_bubble_column {
@@ -188,6 +198,12 @@
                 color: white;
                 padding: 2% 3% 10% 4%;
                 text-align: left;
+            }
+
+            @media screen and (max-width:1000px) {
+                .text_bubble_column { 
+                    display:none 
+                }
             }
 
             .testimonials {
