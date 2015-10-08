@@ -144,12 +144,6 @@
                     float: none;
                     width: 80%;
                 }
-
-                .testimonials_column {
-                    display: block;
-                    float: none;
-                    width: 80%;                    
-                }
             }
 
             .signup_button {
@@ -222,6 +216,14 @@
                 max-width: 40%;
                 max-height: auto;
                 padding: 5% 0 5% 0;
+            }
+
+            @media (max-width: 700px) {
+                .testimonials_column {
+                    display: block;
+                    float: none;
+                    width: 80%;                    
+                }
             }
 
             .refer-a-friend h2{
