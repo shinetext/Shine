@@ -35,17 +35,18 @@
                 margin-right: 5%;
             }
 
-            .nav-bar img {
+            .right li {
+                display: inline;
                 max-width: 7%;
                 max-height: auto;
                 float: left;
-                display: block;
-                position: relative;
+                /*display: block;*/
+                /*position: relative;*/
                 margin: -30px 0 -20px 0;
             }
 
-            .nav-bar li { 
-                display:inline; 
+            .left li { 
+                display: inline; 
                 float: right;
                 padding-top: 2%;
             }
@@ -53,6 +54,17 @@
             .nav-bar li img {
                 max-width: 80%;
                 max-height: auto;
+            }
+
+            #nav_refer {
+                padding: 3% 10% 3% 10%;
+                margin: 30px;
+                border-radius: 25px;
+                background:#FFC52D;
+                font-family: 'Bebas Neue Bold';
+                font-size: 22px;
+                text-align: center;
+                color: black;
             }
 
             .header {
@@ -165,8 +177,6 @@
                 font-family: 'Bebas Neue Bold';
                 font-size: 28px;
                 text-align: center;
-                border-radius: 25px;
-                background: #FFC52D;
                 color: black;
             }
 
@@ -278,6 +288,14 @@
                 width: 100%;
             }
 
+            @media (max-width: 700px) {
+                .referral_column {
+                    display: block;
+                    float: none;
+                    width: 80%;
+                }
+            }
+
             #center {
                 margin: 0 auto;
             }
@@ -349,14 +367,20 @@
 
     <body>
         <ul class="nav-bar">
-            <img src={{asset('images/shine_logo.png')}}>
-            <li><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_Icon.png')}}></a></li>
-            <li><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_Icon.png')}}></a></li>
-            <li><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_Icon.png')}}></a></li>
+            <ul class="right">
+                <li><a href="#"><img src={{asset('images/hamburger.png')}}></a></li>
+                <li><img src={{asset('images/shine_logo.png')}}></li>
+            </ul>
+
+            <ul class="left">
+                <!-- <li><a href="#refer" id="nav_refer" style="text-decoration: none; color: black;">REFER FRIENDS</a></li> -->
+                <li><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_Icon.png')}}></a></li>
+                <li><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_Icon.png')}}></a></li>
+                <li><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_Icon.png')}}></a></li>
+            </ul>
         </ul>
 
         <div class="header">    
-            <a name="top"></a>
             <div class="text_bubble_column">
                 <div id="text_bubble">
                     <p>Team-Up Tuesday: Work BFFs help with 1) happy hours 2) debriefing after anixety-inducing moments and 3) career growth: asking raise and promotion advice.</p>
@@ -436,6 +460,7 @@
 
     <div style="clear: both;">
 
+    <a name="refer"></a>
     <div class="refer-a-friend">
         <h2>Share Shine texts with your friends!</h2>
             <form action="https://secure.mcommons.com/profiles/join" method="post">                    
