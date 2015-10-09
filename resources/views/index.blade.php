@@ -363,7 +363,7 @@
                     
                     <!-- <input required="required" placeholder="EMAIL ADDRESS" id="person_email" name="person[email]" size="30" type="email" /></br> -->
           
-                    <input required="required" placeholder="BIRTHDAY" id="person_birthday" name="person[birthday]" size="30" type="date" /></br>                       
+                    <input required="required" placeholder="BIRTHDAY" onfocus="(this.type='date')" id="person_birthday" name="person[birthday]" size="30" type="text" /></br>                       
           
                     <input type="submit" value="SIGNUP" class="signup_button"/>
                 </form>
