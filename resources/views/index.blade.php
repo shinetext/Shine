@@ -245,11 +245,12 @@
             }
 
             .refer-a-friend h2{
-                margin: 5% 0 0 0;
+                margin-top: 5%;
                 padding-top: 5%;
                 font-family: 'Bebas Neue Bold';
                 font-size: 40px;
-                text-align: center;
+                padding: 3% 0 0 10%;
+                text-align: left;
             }
 
             .refer-a-friend form {
@@ -257,6 +258,22 @@
                 text-align: center;
                 font-family: 'Fira Sans';
                 position: relative;
+            }
+
+            .referral_column {
+                float: left;
+                padding: 0 0 100px 10%;
+                display: inline-block;
+                width: 20%;
+                text-align: left;
+            }
+
+            .referral_column input {
+                width: 100%;
+            }
+
+            #center {
+                margin: 0 auto;
             }
 
             .about {
@@ -418,14 +435,27 @@
             <form action="https://secure.mcommons.com/profiles/join" method="post">                    
                 <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
                 <input type="hidden" name="redirect_to" value="https://www.mobilecommons.com/redirect_to_instructions" />
+                
+                <div class="referral_column">
+                    <input required="required" placeholder="YOUR NAME" type="text" name="person[first_name]" id="person_first_name" /></br></br>
+                    <input required="required" placeholder="YOUR PHONE NUMBER" type="text" name="person[phone]" id="person_phone" /></br>
+                </div>
 
-                <input required="required" placeholder="YOUR NAME" type="text" name="person[first_name]" id="person_first_name" /></br>
-      
-                <input required="required" placeholder="YOUR PHONE NUMBER" type="text" name="person[phone]" id="person_phone" /></br>
-      
-                <input required="required" placeholder="YOUR FRIEND'S NUMBER" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OP4B1A27AC508266A1F4373419CE1BE391" /><br>
-      
-                <input type="submit" value="SUBMIT" class="signup_button"/>
+                <div class="referral_column">
+                    <input required="required" placeholder="YOUR FRIEND'S NUMBER" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OP4B1A27AC508266A1F4373419CE1BE391" /><br>
+                    <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OP4B1A27AC508266A1F4373419CE1BE391" /><br>               
+                </div>
+
+                <div class="referral_column">            
+                    <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OP4B1A27AC508266A1F4373419CE1BE391" /><br>
+                    <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OP4B1A27AC508266A1F4373419CE1BE391" /><br>
+                
+                </div>
+
+                <div style="clear: both;">
+                <input type="submit" value="SUBMIT" class="signup_button" id="center"/>
+                </div>  
+
             </form>
     </div>
 
