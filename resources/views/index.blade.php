@@ -94,7 +94,9 @@
 
             @media screen and (max-width:1000px) {
                 #logo_column h3 { 
-                    display:none 
+                    position: relative;
+                    width: 20%;
+                    padding-bottom: 0;
                 }
             }
 
