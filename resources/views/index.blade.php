@@ -32,45 +32,111 @@
 
             .nav-bar { 
                 list-style:none; 
-                margin-right: 5%;
             }
 
-            .right li {
-                display: inline;
-                max-width: 7%;
-                max-height: auto;
-                float: left;
-                /*display: block;*/
-                /*position: relative;*/
-                margin: -30px 0 -20px 0;
+            #right {
+                padding-right: 25px;
             }
 
-            .left li { 
+            #right li { 
                 display: inline; 
                 float: right;
                 padding-top: 2%;
+                margin-top: -30px;
             }
-
+             
+             
             .nav-bar li img {
-                max-width: 80%;
-                max-height: auto;
+                padding: 0 0 0 15px;
             }
 
-            #nav_refer {
+            #nav-refer {
                 padding: 3% 10% 3% 10%;
-                margin: 30px;
+                margin: -15px 15px 0 15px;
                 border-radius: 25px;
-                background:#FFC52D;
+                background: #FFC52D;
                 font-family: 'Bebas Neue Bold';
                 font-size: 22px;
                 text-align: center;
                 color: black;
+                text-decoration: none;
             }
+
+            #left li {
+                display: inline;
+                float: left;
+                display: block;
+                margin: -10px 0 0 -30px;
+            }
+
+ /*               <ul class="drop_menu">
+                    <li><a href="#"><img src={{asset('images/hamburger.png')}}></a>
+                        <ul>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#testimonials">TESTIMONIALS</a></li>
+                            <li><a href="#refer">REFER-A-FRIEND</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </li>
+                </ul>*/
+
+                .drop_menu {
+                    background: white;
+                    padding:0;
+                    margin:0;
+                    list-style-type:none;
+                    /*height:30px;*/
+                }
+                
+                .drop_menu li { 
+                    float:left; 
+                }
+                    
+                .drop_menu li a {
+                    padding:9px 20px;
+                    display:block;
+                    color: black;
+                    text-decoration:none;
+                    font-family: 'Bebas Neue Regular';
+                    font-size: 22px;
+                }
+                
+                    /* Submenu */
+                .drop_menu ul {
+                    position: absolute;
+                    left:-9999px;
+                    top:-9999px;
+                    list-style-type: none;
+                }
+                
+                .drop_menu li:hover { 
+                    position:relative; 
+                    background: white; 
+                }
+                    
+                .drop_menu li:hover ul {
+                    left:0px;
+                    top:0px;
+                    background: white;
+                    padding:5px;
+                }
+                     
+                .drop_menu li:hover ul li a {
+                    padding:5px;
+                    display:block;
+                    width:168px;
+                    text-indent:15px;
+                    background-color: white;
+                }
+                
+                .drop_menu li:hover ul li a:hover { 
+                    background: #E6E6E6; 
+                }
 
             .header {
                 background: url('{{asset('images/girl_smiling.png')}}');
                 background-size: cover;
-                background-color: #E6E6E6;
+                background-color: white;
                 clear: both;
             }
 
@@ -214,7 +280,7 @@
                 margin: 1% 10% 0 10%;
                 clear: both;
                 color: white;
-                padding: 2% 3% 10% 4%;
+                padding: 1% 2% 5% 4%;
                 text-align: left;
             }
 
@@ -366,32 +432,42 @@
     </head>
 
     <body>
-        <ul class="nav-bar">
-            <ul class="right">
-                <li><a href="#"><img src={{asset('images/hamburger.png')}}></a></li>
-                <li><img src={{asset('images/shine_logo.png')}}></li>
-            </ul>
+        <div class="nav-bar">
+            <ul id="left">
+<!--                 <ul class="drop_menu">
+                    <li><a href="#"><img src={{asset('images/hamburger2.png')}}></a>
+                        <ul>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#testimonials">TESTIMONIALS</a></li>
+                            <li><a href="#refer">REFER-A-FRIEND</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </li>
+                </ul> -->
 
-            <ul class="left">
-                <!-- <li><a href="#refer" id="nav_refer" style="text-decoration: none; color: black;">REFER FRIENDS</a></li> -->
+                <li><img src={{asset('images/shine2_logo.png')}}></li>
+            </ul> 
+
+            <ul id="right">
+                <!-- <li><a href="#refer" id="nav-refer">REFER FRIENDS</a></li> -->
                 <li><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_Icon.png')}}></a></li>
                 <li><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_Icon.png')}}></a></li>
                 <li><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_Icon.png')}}></a></li>
             </ul>
-        </ul>
+        </div>
 
         <div class="header">    
             <div class="text_bubble_column">
                 <div id="text_bubble">
-                    <p>Team-Up Tuesday: Work BFFs help with 1) happy hours 2) debriefing after anixety-inducing moments and 3) career growth: asking raise and promotion advice.</p>
+                    <p>Welcome to Shine! We all need a little help to get through the day & feel our best self. We'll text you daily work hacks & reminders of why you're a badass.</p>
                 </div>
 
                 <div id="text_bubble">
-                    <p>Really? How do I get one?</p>
+                    <p>So pumped!</p>
                 </div>
 
                 <div id="last_text_bubble">
-                    <p>That's the gospel truth. Here are some tips on how to find the best work BFF for you: http://lil.ms/uxi/2yqaa9</p>
+                    <p>Glad to hear it. You're going to crush today. #ShineOn.</p>
                 </div>
             </div>
 
@@ -419,7 +495,7 @@
             </div>
         </div>
 
-
+    <a name="about"></a>
     <div class="column">
         <img src={{asset('images/coffee_icon.png')}}>
             <h3>A.M. MOTIVATION</h3>
@@ -440,6 +516,7 @@
 
     <div style="clear: both;"></div>
     
+    <a name="testimonials"></a>
     <div class="testimonials">
         <h2>WORD ON THE STREET</h2>
         <div class="testimonials_column">
@@ -490,6 +567,7 @@
             </form>
     </div>
 
+    <a name="contact"></a>
     <div class="about">
         <h2>WE'RE FIGURING IT OUT WITH YOU</h2>
         <p>
