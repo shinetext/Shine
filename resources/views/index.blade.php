@@ -50,12 +50,11 @@
                 max-height: auto;
             }
 
-            @media (max-width: 1000px) {
+            @media screen and (max-width: 1000px) {
                 #right {
                     display: none;
                 }
             }
-
 
             #nav-refer {
                 padding: 5% 15% 5% 15%;
@@ -133,10 +132,16 @@
                     top:-9999px;
                     list-style-type: none;
                 }
+
+                .drop_menu:hover {
+                    display:block;
+                    height: 1010px;
+                    z-index: 2;
+                }
                 
                 .drop_menu li:hover { 
                     position:relative; 
-                    background: white; 
+                    height: 30px;
                 }
                     
                 .drop_menu li:hover ul {
@@ -339,12 +344,13 @@
                 padding: 0 0 100px 10%;
                 display: inline-block;
                 width: 20%;
-                text-align: left;
+                text-align: center;
                 font-family: 'Fira Sans';
             }
 
+
             .testimonials_column img {
-                max-width: 40%;
+                max-width: 100%;
                 max-height: auto;
                 padding: 5% 0 5% 0;
             }
@@ -551,18 +557,18 @@
     <div class="testimonials">
         <h2>WORD ON THE STREET</h2>
         <div class="testimonials_column">
-            <img src={{asset('images/messages.png')}}>
-            <p><span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</span>This week was awesome, I loved hearing my text sound go off in the AM as I was getting ready for work.  It is the perfect mix of being smart, funny, and intelligent and of course accessible!<span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</p>  
+            <img src={{asset('images/lindsay.png')}}>
+            <p>"This week was awesome, I loved hearing my text sound go off in the AM as I was getting ready for work. It is the perfect mix of being smart, funny, and intelligent and of course accessible! Shine is DOPE!" - Lindsay Bishop</p>  
         </div>
 
         <div class="testimonials_column">
-            <img src={{asset('images/messages.png')}}>
-            <p><span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</span>Pushed me to take a few minutes to stop and reflect about my own goals and achievements, which helped spark my intrinsic confidence & mood.<span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</p>
+            <img src={{asset('images/brenna.png')}}>
+            <p>"EVERYTHING I ever needed to make it through another awkward week of my version of adulting." - Brenna Smith</p>
         </div>
 
         <div class="testimonials_column">
-            <img src={{asset('images/messages.png')}}>
-            <p><span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</span>Thanks for this. I look forward to getting these messages every day. This has been an especially rough past couple of weeks and this is helping me get through them.<span style="color: #FFC52D; font-size: 25px; font-family: 'Bebas Neue Bold';">"</p>
+            <img src={{asset('images/jenni.png')}}>
+            <p>"Thank you so much for the positive energy. We live in such a stressful world. It's incredible what a few positive words or a funny picture can do to our psyche." - Jenni Bobbio</p>
         </div>
     </div>
 
