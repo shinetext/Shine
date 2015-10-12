@@ -35,24 +35,23 @@
             }
 
             #right {
-                padding-right: 25px;
+                padding-right: 100px;
             }
 
             #right li { 
                 display: inline; 
                 float: right;
-                padding-top: 2%;
+                padding: 3% 0 0.5% 0;
                 margin-top: -30px;
             }
-             
-             
-            .nav-bar li img {
-                padding: 0 0 0 15px;
+
+            #right li img {
+                max-width: 70%;
+                max-height: auto;
             }
 
             #nav-refer {
-                padding: 3% 10% 3% 10%;
-                margin: -15px 15px 0 15px;
+                padding: 5% 15% 5% 15%;
                 border-radius: 25px;
                 background: #FFC52D;
                 font-family: 'Bebas Neue Bold';
@@ -62,14 +61,21 @@
                 text-decoration: none;
             }
 
+            #left {
+                padding-left: 100px;
+            }
+
             #left li {
                 display: inline;
                 float: left;
                 display: block;
-                margin: -10px 0 0 -30px;
+                margin: -5px 0 0 -30px;
             }
 
- /*               <ul class="drop_menu">
+            #left li img {
+                padding: 0 0 0 15px;
+            }
+/*                <ul class="drop_menu">
                     <li><a href="#"><img src={{asset('images/hamburger.png')}}></a>
                         <ul>
                             <li><a href="#about">ABOUT</a></li>
@@ -85,7 +91,7 @@
                     padding:0;
                     margin:0;
                     list-style-type:none;
-                    /*height:30px;*/
+                    /*height: 30px;*/
                 }
                 
                 .drop_menu li { 
@@ -99,6 +105,11 @@
                     text-decoration:none;
                     font-family: 'Bebas Neue Regular';
                     font-size: 22px;
+                }
+
+                .drop_menu li a img {
+                    width: 50%; 
+                    height: auto;
                 }
                 
                     /* Submenu */
@@ -115,14 +126,14 @@
                 }
                     
                 .drop_menu li:hover ul {
-                    left:0px;
-                    top:0px;
+                    left:70px;
+                    top:50px;
                     background: white;
-                    padding:5px;
+                    padding:0px;
                 }
                      
                 .drop_menu li:hover ul li a {
-                    padding:5px;
+                    padding:10px;
                     display:block;
                     width:168px;
                     text-indent:15px;
@@ -134,9 +145,9 @@
                 }
 
             .header {
-                background: url('{{asset('images/girl_smiling.png')}}');
+                background: url('{{asset('images/girl_smiling2.png')}}');
                 background-size: cover;
-                background-color: white;
+                background-color: #E6E6E6;
                 clear: both;
             }
 
@@ -449,7 +460,7 @@
             </ul> 
 
             <ul id="right">
-                <!-- <li><a href="#refer" id="nav-refer">REFER FRIENDS</a></li> -->
+                <li><a href="#refer" id="nav-refer">REFER FRIENDS</a></li>
                 <li><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_Icon.png')}}></a></li>
                 <li><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_Icon.png')}}></a></li>
                 <li><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_Icon.png')}}></a></li>
