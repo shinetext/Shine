@@ -50,6 +50,13 @@
                 max-height: auto;
             }
 
+            @media (max-width: 1000px) {
+                #right {
+                    display: none;
+                }
+            }
+
+
             #nav-refer {
                 padding: 5% 15% 5% 15%;
                 border-radius: 25px;
@@ -59,6 +66,13 @@
                 text-align: center;
                 color: black;
                 text-decoration: none;
+            }
+
+
+            @media (max-width: 1000px) {
+                #nav-refer {
+                    display: none;
+                }
             }
 
             #left {
@@ -143,6 +157,12 @@
                 .drop_menu li:hover ul li a:hover { 
                     background: #E6E6E6; 
                 }
+
+            @media (max-width: 1000px) {
+                #left {
+                    display: none;
+                }
+            }
 
             .header {
                 background: url('{{asset('images/girl_smiling2.png')}}');
