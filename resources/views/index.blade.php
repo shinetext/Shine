@@ -99,69 +99,71 @@
                     </li>
                 </ul>*/
 
-                .drop_menu {
-                    background: white;
-                    padding:0;
-                    margin:0;
-                    list-style-type:none;
-                    /*height: 30px;*/
-                }
+            .drop_menu {
+                background: white;
+                padding:0;
+                margin:0;
+                list-style-type:none;
+                /*height: 30px;*/
+            }
+            
+            .drop_menu li { 
+                float:left; 
+            }
                 
-                .drop_menu li { 
-                    float:left; 
-                }
-                    
-                .drop_menu li a {
-                    padding:9px 20px;
-                    display:block;
-                    color: black;
-                    text-decoration:none;
-                    font-family: 'Bebas Neue Regular';
-                    font-size: 22px;
-                }
+            .drop_menu li a {
+                padding:9px 20px;
+                display:block;
+                color: black;
+                text-decoration:none;
+                font-family: 'Bebas Neue Regular';
+                font-size: 22px;
+            }
 
-                .drop_menu li a img {
-                    width: 50%; 
-                    height: auto;
-                }
-                
-                    /* Submenu */
-                .drop_menu ul {
-                    position: absolute;
-                    left:-9999px;
-                    top:-9999px;
-                    list-style-type: none;
-                }
+            .drop_menu li a img {
+                width: 60%; 
+                height: auto;
+                padding: 0px;
+            }
+            
+                /* Submenu */
+            .drop_menu ul {
+                position: absolute;
+                left:-9999px;
+                top:-9999px;
+                list-style-type: none;
+            }
 
-                .drop_menu:hover {
-                    display:block;
-                    height: 1010px;
-                    z-index: 2;
-                }
+            .drop_menu:hover {
+                display:block;
+                height: 110px;
+
+            }
+            
+            .drop_menu li:hover { 
+                position:relative; 
+                height: 30px;
+            }
                 
-                .drop_menu li:hover { 
-                    position:relative; 
-                    height: 30px;
-                }
-                    
-                .drop_menu li:hover ul {
-                    left:70px;
-                    top:50px;
-                    background: white;
-                    padding:0px;
-                }
-                     
-                .drop_menu li:hover ul li a {
-                    padding:10px;
-                    display:block;
-                    width:168px;
-                    text-indent:15px;
-                    background-color: white;
-                }
-                
-                .drop_menu li:hover ul li a:hover { 
-                    background: #E6E6E6; 
-                }
+            .drop_menu li:hover ul {
+                left:70px;
+                top:50px;
+                background: white;
+                padding:0px;
+            }
+                 
+            .drop_menu li:hover ul li a {
+                padding:10px;
+                display:block;
+                width:168px;
+                text-indent:15px;
+                background-color: white;
+            }
+            
+            .drop_menu li:hover ul li a:hover { 
+                background: #E6E6E6; 
+                padding: 5px;
+            }
 
             @media (max-width: 1000px) {
                 #left {
@@ -344,15 +346,15 @@
                 padding: 0 0 100px 10%;
                 display: inline-block;
                 width: 20%;
-                text-align: center;
+                text-align: left;
                 font-family: 'Fira Sans';
+                font-style: italic;
             }
 
 
             .testimonials_column img {
-                max-width: 100%;
-                max-height: auto;
-                padding: 5% 0 5% 0;
+                width: 300px;
+                height: 300px;
             }
 
             @media (max-width: 700px) {
@@ -471,7 +473,7 @@
     <body>
         <div class="nav-bar">
             <ul id="left">
-<!--                 <ul class="drop_menu">
+      <!--           <ul class="drop_menu">
                     <li><a href="#"><img src={{asset('images/hamburger2.png')}}></a>
                         <ul>
                             <li><a href="#about">ABOUT</a></li>
@@ -558,7 +560,7 @@
         <h2>WORD ON THE STREET</h2>
         <div class="testimonials_column">
             <img src={{asset('images/lindsay.png')}}>
-            <p>"This week was awesome, I loved hearing my text sound go off in the AM as I was getting ready for work. It is the perfect mix of being smart, funny, and intelligent and of course accessible! Shine is DOPE!" - Lindsay Bishop</p>  
+            <p>"This week was awesome, I loved hearing my text sound go off in the AM as I was getting ready for work. It's the perfect mix of being smart, funny, and intelligent and of course accessible! Shine is DOPE!" - Lindsay Bishop</p>  
         </div>
 
         <div class="testimonials_column">
