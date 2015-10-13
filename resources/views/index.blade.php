@@ -467,6 +467,12 @@
             #footer-social {
                 margin-right: 5%;
             }
+
+            @media (max-width: 900px) {
+                .footer li img{
+                    margin-top: 25%;
+                }
+            }
         </style>
     </head>
 
