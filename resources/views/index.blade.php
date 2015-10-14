@@ -353,8 +353,8 @@
 
 
             .testimonials_column img {
-                width: 300px;
-                height: 300px;
+                width: 90%;
+                height: 90%;
             }
 
             @media (max-width: 700px) {
@@ -479,7 +479,7 @@
     <body>
         <div class="nav-bar">
             <ul id="left">
-      <!--           <ul class="drop_menu">
+                <ul class="drop_menu">
                     <li><a href="#"><img src={{asset('images/hamburger2.png')}}></a>
                         <ul>
                             <li><a href="#about">ABOUT</a></li>
@@ -488,7 +488,7 @@
                             <li><a href="#contact">CONTACT</a></li>
                         </ul>
                     </li>
-                </ul> -->
+                </ul>
 
                 <li><img src={{asset('images/shine2_logo.png')}}></li>
             </ul> 
