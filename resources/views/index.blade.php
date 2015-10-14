@@ -239,9 +239,9 @@
 
             .column {
                 display: inline-block;
-                float: left;
+                /*float: left;*/
                 width: 20%;
-                text-align: left;
+                text-align: center;
                 padding: 100px 0 100px 10%;
                 margin-top: 5%;
                 color: black;
@@ -259,9 +259,13 @@
             }
 
             #mail {
-                height: 90px;
+                height: 80px;
                 width: auto;
-                padding: 5px 0 20px 0;
+                padding: 20px 0 10px 0;
+            }
+
+            .column p {
+                float: left;
             }
 
             @media (max-width: 700px) {
