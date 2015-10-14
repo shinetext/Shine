@@ -239,11 +239,9 @@
 
             .column {
                 display: inline-block;
-                /*float: left;*/
                 width: 20%;
                 text-align: center;
-                padding: 100px 0 100px 10%;
-                margin-top: 5%;
+                padding: 100px 0 0 10%;
                 color: black;
                 font-family: 'Fira Sans';
             }
@@ -251,6 +249,7 @@
             .column h3 {
                 font-family: 'Bebas Neue Bold';
                 font-size: 40px;
+                margin-bottom: 5px;
             }
 
             .column img {
