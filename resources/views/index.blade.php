@@ -50,6 +50,12 @@
                 max-height: auto;
             }
 
+            @media screen and (max-width: 1000px) {
+                #right {
+                    display: none;
+                }
+            }
+
             #nav-refer {
                 padding: 5% 15% 5% 15%;
                 border-radius: 25px;
@@ -59,6 +65,13 @@
                 text-align: center;
                 color: black;
                 text-decoration: none;
+            }
+
+
+            @media (max-width: 1000px) {
+                #nav-refer {
+                    display: none;
+                }
             }
 
             #left {
@@ -123,7 +136,7 @@
 
             .drop_menu:hover {
                 display:block;
-                /*height: 110px;*/
+                height: 110px;
 
             }
             
@@ -153,10 +166,11 @@
             }
 
             @media (max-width: 1000px) {
-                .nav-bar {
+                #left {
                     display: none;
                 }
             }
+
             .header {
                 background: url('{{asset('images/girl_smiling2.png')}}');
                 background-size: cover;
@@ -468,7 +482,7 @@
     <body>
         <div class="nav-bar">
             <ul id="left">
-<!--                 <ul class="drop_menu">
+  <!--               <ul class="drop_menu">
                     <li><a href="#"><img src={{asset('images/hamburger2.png')}}></a>
                         <ul>
                             <li><a href="#about">ABOUT</a></li>
@@ -581,24 +595,25 @@
                 <input type="hidden" name="redirect_to" value="https://www.mobilecommons.com/redirect_to_instructions" />
                 
                 <div class="referral_column">
-                    <input required="required" placeholder="YOUR NAME" type="text" name="person[first_name]" id="person_first_name" /><br><br>
-                    <input required="required" placeholder="YOUR PHONE NUMBER" type="text" name="person[phone]" id="person_phone" /><br>
+                    <input required="required" placeholder="YOUR NAME" type="text" name="person[first_name]" id="person_first_name" /></br></br>
+                    <input required="required" placeholder="YOUR PHONE NUMBER" type="text" name="person[phone]" id="person_phone" /></br>
                 </div>
 
                 <div class="referral_column">
-                    <input required="required" placeholder="YOUR FRIEND'S NUMBER" type="text" name="friends[]"/><br><br>
-                    <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br><br>      
+                    <input required="required" placeholder="YOUR FRIEND'S NUMBER" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OP4B1A27AC508266A1F4373419CE1BE391" /><br>
+                    <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OP4B1A27AC508266A1F4373419CE1BE391" /><br>               
                 </div>
 
                 <div class="referral_column">            
-                    <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br><br>
-                    <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br>
+                    <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OP4B1A27AC508266A1F4373419CE1BE391" /><br>
+                    <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OP4B1A27AC508266A1F4373419CE1BE391" /><br>
                 
                 </div>
 
                 <div style="clear: both;">
                 <input type="submit" value="SUBMIT" class="signup_button" id="center"/>
                 </div>  
+
             </form>
     </div>
 
