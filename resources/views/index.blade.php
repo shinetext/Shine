@@ -528,11 +528,13 @@
                     <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
                     <input type="hidden" name="redirect_to" value="https://www.mobilecommons.com/redirect_to_instructions" />
 
-                    <input required="required" placeholder="NAME" type="text" name="person[first_name]" id="person_first_name" /></br>
+                    <input required="required" placeholder="FIRST NAME" type="text" name="person[first_name]" id="person_first_name" /></br>
+                    
+                    <input placeholder="LAST NAME (OPTIONAL)" type="text" name="person[last_name]" id="person_last_name" /></br>
 
                     <input required="required" placeholder="PHONE NUMBER" type="text" name="person[phone]" id="person_phone" /></br>
                     
-                    <!-- <input required="required" placeholder="EMAIL ADDRESS" id="person_email" name="person[email]" size="30" type="email" /></br> -->
+                    <input placeholder="EMAIL ADDRESS (OPTIONAL)" id="person_email" name="person[email]" size="30" type="email" /></br>
           
                     <input required="required" placeholder="BIRTHDAY" onfocus="(this.type='date')" id="person_birthday" name="person[birthday]" size="30" type="text" /></br>                       
           
@@ -611,7 +613,6 @@
                 <div style="clear: both;">
                 <input type="submit" value="SUBMIT" class="signup_button" id="center"/>
                 </div>  
-
             </form>
     </div>
 
