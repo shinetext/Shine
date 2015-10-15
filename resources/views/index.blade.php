@@ -586,19 +586,19 @@
                 </div>
 
                 <div class="referral_column">
-                    <input required="required" placeholder="YOUR FRIEND'S NAME" type="text" name="friends[0][first_name]"/><br><br>
-                    <input required="required" placeholder="YOUR FRIEND'S NUMBER" type="text" name="friends[0][phone]"/><br><br>      
+                    <input required="required" placeholder="YOUR FRIEND'S NUMBER" type="text" name="friends[]"/><br><br>
+                    <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br><br>      
                 </div>
 
                 <div class="referral_column">            
-                    <input placeholder="YOUR FRIEND'S NAME (OPTIONAL)" type="text" name="friends[1][first_name]"/><br><br>
-                    <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[1][phone]"/><br>
+                    <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br><br>
+                    <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br>
                 
                 </div>
 
                 <div style="clear: both;">
                 <input type="submit" value="SUBMIT" class="signup_button" id="center"/>
-                </div> 
+                </div>  
             </form>
     </div>
 
