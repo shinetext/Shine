@@ -528,9 +528,7 @@
                     <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
                     <input type="hidden" name="redirect_to" value="https://www.mobilecommons.com/redirect_to_instructions" />
 
-                    <input required="required" placeholder="FIRST NAME" type="text" name="person[first_name]" id="person_first_name" /></br>
-                    
-                    <input required="required" placeholder="LAST NAME" type="text" name="person[last_name]" id="person_last_name" /></br>
+                    <input required="required" placeholder="NAME" type="text" name="person[first_name]" id="person_first_name" /></br>
 
                     <input required="required" placeholder="PHONE NUMBER" type="text" name="person[phone]" id="person_phone" /></br>
                     
