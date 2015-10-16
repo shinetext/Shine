@@ -148,7 +148,7 @@
             font-size: 28px;
             text-align: center;
             color: black;
-            margin-bottom: 5%;
+            margin-bottom: 30%;
         }
 
         @media screen and (max-width:1000px) {

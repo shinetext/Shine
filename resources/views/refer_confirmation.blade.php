@@ -85,7 +85,7 @@
         .success h1 {
             font-size: 50px;
             padding-top: 10%;
-            margin-bottom: 40%;
+            margin-bottom: 100%;
         }
         </style>
     </head>
