@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return View::make('index');
 });
+
+// confirmation page (app/views/confirmation.blade.php)
+Route::get('confirmation', array('as' => 'confirmation', function(){
+    return View::make('confirmation');
+}));
