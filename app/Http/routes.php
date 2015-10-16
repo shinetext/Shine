@@ -19,3 +19,9 @@ Route::get('/', function () {
 Route::get('confirmation', array('as' => 'confirmation', function(){
     return View::make('confirmation');
 }));
+
+// temporary refer-a-friend confirmation page (app/views/refer_confirmation.blade.php)
+// TODO: add params function so there is only one confirmation redirect 
+Route::get('refer_confirmation', array('as' => 'refer_confirmation', function(){
+    return View::make('refer_confirmation');
+}));

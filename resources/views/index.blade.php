@@ -592,7 +592,7 @@
         <h2>Share Shine texts with your friends!</h2>
             <form action="https://secure.mcommons.com/profiles/join" method="post">                    
                 <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
-                <input type="hidden" name="redirect_to" value="https://www.mobilecommons.com/redirect_to_instructions" />
+                    <input type="hidden" name="redirect_to" value={{ URL::route('refer_confirmation') }} />
                 
                 <div class="referral_column">
                     <input required="required" placeholder="YOUR NAME" type="text" name="person[first_name]" id="person_first_name" /></br></br>
