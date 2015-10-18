@@ -76,13 +76,10 @@
 	    	overflow: scroll;
 	    }
 
-        .success {
+        .page h1 {
             font-family: 'Bebas Neue Bold';
             text-align: center;
             margin-top: 10%;
-        }
-
-        .success h1 {
             font-size: 50px;
             padding-top: 10%;
             margin-bottom: 100%;
@@ -104,9 +101,7 @@
     	</div>
 
     	<div class="page">
-	    	<div class="success">
-	    		<h1>Success! You're now signed up for Shine.</h1>
-	    	</div>
+	    	<h1>Success! You're now signed up for Shine.</h1>
 		</div>
     </body>
 </html>
