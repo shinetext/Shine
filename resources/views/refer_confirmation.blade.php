@@ -41,7 +41,7 @@
             display: inline; 
             float: right;
             padding: 3% 0 0.5% 0;
-            margin-top: -30px;
+            margin-top: -40px;
         }
 
         #right li img {
