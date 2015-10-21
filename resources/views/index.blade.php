@@ -515,7 +515,7 @@
                 </div>
 
                 <div id="last_text_bubble">
-                    <p>Glad to hear it. You're going to crush today. #ShineOn.</p>
+                    <p>Glad to hear it. You're going to crush it today. #ShineOn.</p>
                 </div>
             </div>
 
