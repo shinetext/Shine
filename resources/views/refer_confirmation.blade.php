@@ -101,7 +101,7 @@
     	</div>
 
     	<div class="page">
-	    	<h1>Success! You're now signed up for Shine.</h1>
+	    	<h1>SUCCESS! THANKS FOR SIGNING YOUR FRIEND(S) UP FOR SHINE! #SHINEON</h1>
 		</div>
     </body>
 </html>
