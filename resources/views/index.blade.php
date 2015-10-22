@@ -303,7 +303,7 @@
             }
 
             #shine_text_bubble{
-                background: url('{{ asset('images/chat_bubble2.png') }}');
+                background: url('{{ asset('images/chat_bubble.png') }}');
                 width: 26%;
                 background-size: 100% 70%;
                 background-repeat: no-repeat;
@@ -316,12 +316,12 @@
             }
 
             #user_text_bubble {
-                background: url('{{ asset('images/chat_bubble.png') }}');
+                background: url('{{ asset('images/chat_bubble2.png') }}');
                 width: 26%;
                 background-size: 100% 70%;
                 background-repeat: no-repeat;
                 float: right;
-                margin: -65px 10% 0 10%;
+                margin: -65px 9% 0 10%;
                 clear: both;
                 color: white;
                 padding: 2% 3% 5% 4%;
@@ -329,7 +329,7 @@
             }
 
             #shine_text_bubble_2{
-                background: url('{{ asset('images/chat_bubble2.png') }}');
+                background: url('{{ asset('images/chat_bubble.png') }}');
                 width: 26%;
                 background-size: 100% 70%;
                 background-repeat: no-repeat;
