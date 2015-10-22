@@ -178,7 +178,7 @@
                 clear: both;
             }
 
-            @media screen and (max-width:1000px) {
+            @media screen and (max-width:1150px) {
                 .header { 
                     background: none;
                     background-color: #E6E6E6;
@@ -208,7 +208,7 @@
                 left: 40%;
             }
 
-            @media screen and (max-width:1000px) {
+            @media screen and (max-width:1150px) {
                 #logo_column h3 { 
                     position: relative;
                     width: 20%;
@@ -231,7 +231,7 @@
                 font-size: 20px;
             }
 
-            @media screen and (max-width:1000px) {
+            @media screen and (max-width:1150px) {
                 input { 
                     width: 50%;
                 }
@@ -302,17 +302,7 @@
                 margin: 15% 5% 0 25%;
             }
 
-            #text_bubble {
-                border-radius: 25px;
-                background: black;
-                color: white;
-                padding: 20px;
-                width: 27%;
-                float: right;
-                margin: 1% 10% 0 10%;
-            }
-
-            #last_text_bubble {
+            #shine_text_bubble{
                 background: url('{{ asset('images/chat_bubble.png') }}');
                 width: 26%;
                 background-size: 100% 70%;
@@ -321,11 +311,37 @@
                 margin: 1% 10% 0 10%;
                 clear: both;
                 color: white;
-                padding: 1% 2% 5% 4%;
+                padding: 2% 3% 10% 4%;
                 text-align: left;
             }
 
-            @media screen and (max-width:1000px) {
+            #user_text_bubble {
+                background: url('{{ asset('images/chat_bubble2.png') }}');
+                width: 26%;
+                background-size: 100% 70%;
+                background-repeat: no-repeat;
+                float: right;
+                margin: -65px 9% 0 10%;
+                clear: both;
+                color: white;
+                padding: 2% 3% 5% 4%;
+                text-align: left;
+            }
+
+            #shine_text_bubble_2{
+                background: url('{{ asset('images/chat_bubble.png') }}');
+                width: 26%;
+                background-size: 100% 70%;
+                background-repeat: no-repeat;
+                float: right;
+                margin: -25px 10% 0 10%;
+                clear: both;
+                color: white;
+                padding: 2% 3% 6% 4%;
+                text-align: left;
+            }
+
+            @media screen and (max-width:1150px) {
                 .text_bubble_column { 
                     display:none 
                 }
@@ -506,16 +522,21 @@
 
         <div class="header">    
             <div class="text_bubble_column">
-                <div id="text_bubble">
+                <div id="shine_text_bubble">
                     <p>Welcome to Shine! We all need a little help to get through the day & feel our best self. We'll text you daily work hacks & reminders of why you're a badass.</p>
                 </div>
 
-                <div id="text_bubble">
+                <div id="user_text_bubble">
                     <p>So pumped!</p>
                 </div>
 
+<<<<<<< HEAD
                 <div id="last_text_bubble">
                     <p>Glad to hear it. You're going to crush it today. #ShineOn.</p>
+=======
+                <div id="shine_text_bubble_2">
+                    <p>Glad to hear it. You're going to crush today. #ShineOn.</p>
+>>>>>>> chat_bubbles
                 </div>
             </div>
 
