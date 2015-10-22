@@ -302,7 +302,7 @@
                 margin: 15% 5% 0 25%;
             }
 
-            #shine_text_bubble{
+            #shine_text_bubble {
                 background: url('{{ asset('images/chat_bubble.png') }}');
                 width: 26%;
                 background-size: 100% 70%;
@@ -311,7 +311,7 @@
                 margin: 1% 10% 0 10%;
                 clear: both;
                 color: white;
-                padding: 2% 3% 10% 4%;
+                padding: 1% 2% 9% 4%;
                 text-align: left;
             }
 
@@ -328,7 +328,7 @@
                 text-align: left;
             }
 
-            #shine_text_bubble_2{
+            #shine_text_bubble_2 {
                 background: url('{{ asset('images/chat_bubble.png') }}');
                 width: 26%;
                 background-size: 100% 70%;
@@ -337,7 +337,7 @@
                 margin: -25px 10% 0 10%;
                 clear: both;
                 color: white;
-                padding: 2% 3% 6% 4%;
+                padding: 1% 3% 6% 4%;
                 text-align: left;
             }
 
@@ -530,13 +530,8 @@
                     <p>So pumped!</p>
                 </div>
 
-<<<<<<< HEAD
-                <div id="last_text_bubble">
-                    <p>Glad to hear it. You're going to crush it today. #ShineOn.</p>
-=======
                 <div id="shine_text_bubble_2">
-                    <p>Glad to hear it. You're going to crush today. #ShineOn.</p>
->>>>>>> chat_bubbles
+                    <p>Glad to hear it. You're going to crush it today. #ShineOn.</p>
                 </div>
             </div>
 
