@@ -178,7 +178,7 @@
                 clear: both;
             }
 
-            @media screen and (max-width:1000px) {
+            @media screen and (max-width:1150px) {
                 .header { 
                     background: none;
                     background-color: #E6E6E6;
@@ -208,7 +208,7 @@
                 left: 40%;
             }
 
-            @media screen and (max-width:1000px) {
+            @media screen and (max-width:1150px) {
                 #logo_column h3 { 
                     position: relative;
                     width: 20%;
@@ -231,7 +231,7 @@
                 font-size: 20px;
             }
 
-            @media screen and (max-width:1000px) {
+            @media screen and (max-width:1150px) {
                 input { 
                     width: 50%;
                 }
@@ -311,7 +311,7 @@
                 margin: 1% 10% 0 10%;
                 clear: both;
                 color: white;
-                padding: 2% 3% 9% 4%;
+                padding: 2% 3% 10% 4%;
                 text-align: left;
             }
 
@@ -341,7 +341,7 @@
                 text-align: left;
             }
 
-            @media screen and (max-width:1000px) {
+            @media screen and (max-width:1150px) {
                 .text_bubble_column { 
                     display:none 
                 }
