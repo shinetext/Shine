@@ -25,3 +25,7 @@ Route::get('confirmation', array('as' => 'confirmation', function(){
 Route::get('refer_confirmation', array('as' => 'refer_confirmation', function(){
     return View::make('refer_confirmation');
 }));
+
+Route::get('test', array('as' => 'test', function(){
+    return View::make('test');
+}));
