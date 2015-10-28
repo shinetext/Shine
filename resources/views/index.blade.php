@@ -370,10 +370,14 @@
                 font-style: italic;
             }
 
-
             .testimonials_column img {
                 width: 90%;
                 height: 90%;
+            }
+
+            .testimonials_column #name {
+                float: left;
+                font-style: normal;
             }
 
             @media (max-width: 700px) {
@@ -598,17 +602,20 @@
         <h2>WORD ON THE STREET</h2>
         <div class="testimonials_column">
             <img src={{asset('images/lindsay.png')}}>
-            <p>"This week was awesome, I loved hearing my text sound go off in the AM as I was getting ready for work. It's the perfect mix of being smart, funny, and intelligent and of course accessible! Shine is DOPE!" - Lindsay Bishop</p>  
+            <p>"This week was awesome, I loved hearing my text sound go off in the AM as I was getting ready for work. It's the perfect mix of being smart, funny, and intelligent and of course accessible! Shine is DOPE!"</p>
+            <p id="name">Lindsay, Ad Sales Planner</p>  
         </div>
 
         <div class="testimonials_column">
             <img src={{asset('images/brenna.png')}}>
-            <p>"EVERYTHING I ever needed to make it through another awkward week of my version of adulting." - Brenna Smith</p>
+            <p>"EVERYTHING I ever needed to make it through another awkward week of my version of adulting. I'm always twiddling my thumbs waiting for Shine to kick my ass back into gear. #dependency"</p> 
+            <p id="name">Brenna, Graduate Student</p>
         </div>
 
         <div class="testimonials_column">
             <img src={{asset('images/jenni.png')}}>
-            <p>"Thank you so much for the positive energy. We live in such a stressful world. It's incredible what a few positive words or a funny picture can do to our psyche." - Jenni Bobbio</p>
+            <p>"Thank you so much for the positive energy. We live in such a stressful world. It's incredible what a few positive words or a funny picture can do to our psyche."</p>
+            <p id="name">Jenni, Dentist</p>
         </div>
     </div>
 
