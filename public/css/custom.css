@@ -28,7 +28,7 @@
 
 .navbar-brand {
   padding-left: 30%;
-}
+} 
 .dropdown-menu {
   font-family: 'Bebas Neue Regular';
   font-size: 22px;
@@ -37,6 +37,10 @@
 #social-icons {
   width: 15%;
   height: auto;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
 }
 
 #nav-refer {
