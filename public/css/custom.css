@@ -26,9 +26,11 @@
     background-color: white;
 }
 
+
 .navbar-brand {
   padding-left: 30%;
 } 
+
 .dropdown-menu {
   font-family: 'Bebas Neue Regular';
   font-size: 22px;
@@ -53,4 +55,23 @@
   text-align: center;
   color: black;
   text-decoration: none;
+}
+@media (max-width: 768px) {
+  .navbar-brand {
+    padding-left: 10px;
+    padding-bottom: 50px;
+  }
+
+/*  .dropdown-toggle img {
+    display: none;
+  }*/
+
+
+  .navbar .navbar-right collapsed {
+    display: inline;
+  }
+
+  #nav-refer {
+    margin: 1px;
+  }
 }
