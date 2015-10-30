@@ -11,6 +11,30 @@
         <link rel="stylesheet" href="fonts/BebasNeueBold.otf" type="text/css" charset="utf-8" /> 
         <link rel="stylesheet" href="fonts/BebasNeueRegular.otf" type="text/css" charset="utf-8" /> 
         <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+        <style>
+          @font-face {
+              font-family: 'Bebas Neue Bold';
+              src: url('fonts/BebasNeueBold.eot');
+              src: url('fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+                  url('fonts/BebasNeueBold.woff') format('woff'),
+                  url('fonts/BebasNeueBold.ttf') format('truetype'),
+                  url('fonts/BebasNeueBold.svg#FontName') format('svg');
+              font-weight: normal;
+              font-style: normal;
+          }
+
+          @font-face {
+              font-family: 'Bebas Neue Regular';
+              src: url('fonts/BebasNeueRegular.eot');
+              src: url('fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+                  url('fonts/BebasNeueRegular.woff') format('woff'),
+                  url('fonts/BebasNeueRegular.ttf') format('truetype'),
+                  url('fonts/BebasNeueRegular.svg#FontName') format('svg');
+              font-weight: normal;
+              font-style: normal;
+          }
+        </style>
     </head>
 
     <body>
