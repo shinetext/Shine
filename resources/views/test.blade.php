@@ -10,31 +10,41 @@
         <link href='https://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="fonts/BebasNeueBold.otf" type="text/css" charset="utf-8" /> 
         <link rel="stylesheet" href="fonts/BebasNeueRegular.otf" type="text/css" charset="utf-8" /> 
-        <link rel="stylesheet" type="text/css" href="css/custom.css">
-
+        <link href="{{ asset('css/custom.css') }}" rel="stylesheet" type="text/css" >
         <style>
-        @font-face {
-            font-family: 'Bebas Neue Bold';
-            src: url('fonts/BebasNeueBold.eot');
-            src: url('fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
-                url('fonts/BebasNeueBold.woff') format('woff'),
-                url('fonts/BebasNeueBold.ttf') format('truetype'),
-                url('fonts/BebasNeueBold.svg#FontName') format('svg');
-            font-weight: normal;
-            font-style: normal;
-        }
 
-        @font-face {
-            font-family: 'Bebas Neue Regular';
-            src: url('fonts/BebasNeueRegular.eot');
-            src: url('fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
-                url('fonts/BebasNeueRegular.woff') format('woff'),
-                url('fonts/BebasNeueRegular.ttf') format('truetype'),
-                url('fonts/BebasNeueRegular.svg#FontName') format('svg');
-            font-weight: normal;
-            font-style: normal;
-        }
+          @font-face {
+              font-family: 'Bebas Neue Bold';
+              src: url('fonts/BebasNeueBold.eot');
+              src: url('fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+                  url('fonts/BebasNeueBold.woff') format('woff'),
+                  url('fonts/BebasNeueBold.ttf') format('truetype'),
+                  url('fonts/BebasNeueBold.svg#FontName') format('svg');
+              font-weight: normal;
+              font-style: normal;
+          }
+
+          @font-face {
+              font-family: 'Bebas Neue Regular';
+              src: url('fonts/BebasNeueRegular.eot');
+              src: url('fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+                  url('fonts/BebasNeueRegular.woff') format('woff'),
+                  url('fonts/BebasNeueRegular.ttf') format('truetype'),
+                  url('fonts/BebasNeueRegular.svg#FontName') format('svg');
+              font-weight: normal;
+              font-style: normal;
+          }
         </style>
+
+        <script>
+          function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-68971267-1', 'auto');
+          ga('send', 'pageview');
+        </script>    
     </head>
 
     <body>
@@ -71,6 +81,13 @@
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">.col-md-1</div>
+        <div class="col-md-4">.col-md-1</div>
+      </div>
+
     </body>
 </html>
 

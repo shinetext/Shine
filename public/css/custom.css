@@ -66,12 +66,7 @@
     display: none;
   }*/
 
-
-  .navbar .navbar-right collapsed {
-    display: inline;
-  }
-
-  #nav-refer {
-    margin: 1px;
+  .col-md-4 {
+    background-color: blue;
   }
 }
