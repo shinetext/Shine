@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="fonts/BebasNeueBold.otf" type="text/css" charset="utf-8" /> 
         <link rel="stylesheet" href="fonts/BebasNeueRegular.otf" type="text/css" charset="utf-8" /> 
         <link href="{{ asset('css/custom.css') }}" rel="stylesheet" type="text/css" >
+
         <style>
 
           @font-face {
@@ -81,12 +82,52 @@
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
-      </div>
 
-      <div class="row">
-        <div class="col-md-4 col-md-offset-4">.col-md-1</div>
-        <div class="col-md-4">.col-md-1</div>
-      </div>
+<!--       <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4">hello</div>
+          <div class="col-md-4">hi</div>
+        </div> -->
+        <div class="header">    
+            <div class="text_bubble_column">
+                <div id="shine_text_bubble">
+                    <p>Welcome to Shine! We all need a little help to get through the day & feel our best self. We'll text you daily work hacks & reminders of why you're a badass.</p>
+                </div>
+
+                <div id="user_text_bubble">
+                    <p>So pumped!</p>
+                </div>
+
+                <div id="shine_text_bubble_2">
+                    <p>Glad to hear it. You're going to crush it today. #ShineOn.</p>
+                </div>
+            </div>
+
+            <div id="logo_column">
+                <img src={{asset('images/shine_logo.png')}}>
+
+                <h3>A daily text so you can slay today.</h3>
+
+                <form action="https://secure.mcommons.com/profiles/join" method="post">                    
+                    <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
+                    <input type="hidden" name="redirect_to" value={{ URL::route('confirmation') }} />
+
+                    <input required="required" placeholder="FIRST NAME" type="text" name="person[first_name]" id="person_first_name" /></br>
+                    
+                    <!-- <input placeholder="LAST NAME (OPTIONAL)" type="text" name="person[last_name]" id="person_last_name" /></br> -->
+
+                    <input required="required" placeholder="PHONE NUMBER" type="text" name="person[phone]" id="person_phone" /></br>
+          
+                    <input required="required" placeholder="BIRTHDAY" onfocus="(this.type='date')" id="person_birthday" name="person[birthday]" size="30" type="text" /></br>   
+
+                    <input placeholder="EMAIL ADDRESS (OPTIONAL)" id="person_email" name="person[email]" size="30" type="email" /></br>
+          
+                    <input type="submit" value="SIGNUP" class="signup_button"/>
+                </form>
+                
+                <!-- <span style="font-size:80%"><a href="https://www.mobilecommons.com/about/terms-and-conditions/">Msg &amp; Data Rates May Apply.</a><br />Text <b>STOP</b> to opt out. No purchase necessary.<br />Expect 4 msgs/mo. <a href="https://www.mobilecommons.com/about/terms-and-conditions/privacy-policy/">Terms and Conditions</a></span> -->
+            </div>
+        </div>
 
     </body>
 </html>

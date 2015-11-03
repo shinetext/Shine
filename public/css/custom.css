@@ -62,11 +62,165 @@
     padding-bottom: 50px;
   }
 
+  #nav-refer a {
+    margin: -20px;
+    padding: 5% 2% 5% 2%;
+    border-radius: 25px;
+    background: white;
+    font-family: 'Bebas Neue Bold';
+    font-size: 22px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    }
+  }
+
 /*  .dropdown-toggle img {
     display: none;
   }*/
 
   .col-md-4 {
     background-color: blue;
+    font-family: 'Bebas Neue Bold';
+  }
+
+  .header {
+    background-image: url('/images/girl_smiling2.png');
+    background-size: cover;
+    background-color: #E6E6E6;
+    clear: both;
+    margin-top: -10%;
+  }
+
+  @media screen and (max-width:1150px) {
+      .header { 
+          background: none;
+          background-color: #E6E6E6;
+          clear: both;
+      }
+  }
+
+  #logo_column {
+      display: block;
+      text-align: center;
+      padding-bottom: 5%;
+      font-family: 'Fira Sans';
+      position: relative;
+  }
+
+  #logo_column img {
+      max-width: 25%;
+      max-height: auto;
+  }
+
+  #logo_column h3 {
+      padding-bottom: 2%;
+      font-size: 24px;
+      width: 20%;
+      position: absolute;
+      top: 35%;
+      left: 40%;
+  }
+
+  @media screen and (max-width:1150px) {
+      #logo_column h3 { 
+          position: relative;
+          width: 20%;
+          padding-bottom: 0;
+      }
+  }
+
+  form {
+      margin-top: 5%;
+  }
+
+  input {
+      border:none;
+      background-color:#FFFFFF;
+      width: 18%;
+      padding: 10px;
+      margin: 5px;
+      border-bottom: 1px solid black;
+      font-family: 'Bebas Neue Regular';
+      font-size: 20px;
+  }
+
+  @media screen and (max-width:1150px) {
+      input { 
+          width: 50%;
+      }
+  }
+
+  .signup_button {
+    padding: 1% 5% 1% 5%;
+    width: 15%;
+    margin: 30px;
+    border-radius: 25px;
+    background:#FFC52D;
+    font-family: 'Bebas Neue Bold';
+    font-size: 28px;
+    text-align: center;
+    color: black;
+  }
+
+  @media screen and (max-width:1000px) {
+    .signup_button { 
+        width: 27%;
+    }
+  }
+
+  .text_bubble_column {
+    text-align: left;
+    font-family: 'Fira Sans';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 18% 5% 0 25%;
+    font-size: 16px;
+  }
+
+  #shine_text_bubble {
+    background: url('/images/chat_bubble.png');
+    width: 32%;
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+    float: right;
+    margin: 1% 10% 0 10%;
+    clear: both;
+    color: white;
+    padding: 3% 2% 9% 4%;
+    text-align: left;
+  }
+
+  #user_text_bubble {
+    background: url('/images/chat_bubble2.png');
+    width: 32%;
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+    float: right;
+    margin: -60px 9% 0 10%;
+    clear: both;
+    color: white;
+    padding: 3% 3% 5% 4%;
+    text-align: left;
+  }
+
+  #shine_text_bubble_2 {
+    background: url('/images/chat_bubble.png');
+    width: 32%;
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+    float: right;
+    margin: -20px 10% 0 10%;
+    clear: both;
+    color: white;
+    padding: 3% 3% 6% 4%;
+    text-align: left;
+  }
+
+  @media screen and (max-width:1150px) {
+      .text_bubble_column { 
+          display:none 
+      }
   }
 }
