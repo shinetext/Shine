@@ -23,9 +23,8 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 
 .navbar-default {
-    background-color: white;
+  background-color: white;
 }
-
 
 .navbar-brand {
   padding-left: 30%;
@@ -61,30 +60,17 @@
   .navbar-brand {
     padding-left: 10px;
     padding-bottom: 50px;
-}
-/*
-  #nav-refer a {
-    margin: -20px;
-    padding: 0 2% % 2%;
-    background: white;
-    font-family: 'Bebas Neue Bold';
-    font-size: 22px;
-    text-align: left;
-    color: black;
-    text-decoration: none;
-  }*/
+  }
 }
 
 .dropdown-toggle.hidden-sm.hidden-md.hidden-lg {
   font-family: 'Bebas Neue Bold';
   font-size: 22px;
-  /*margin-left: 20px;*/
 }
 
 #social-icons.hidden-sm.hidden-md.hidden-lg {
   font-family: 'Bebas Neue Bold';
   font-size: 22px;
-  /*margin-left: 20px;*/
 }
 
 #nav-refer.hidden-sm.hidden-md.hidden-lg {
@@ -249,7 +235,7 @@ input {
 
 .col-md-4 img {
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 150px;
   height: 150px;
 }
 
@@ -260,5 +246,143 @@ input {
 
 .col-md-4 p {
   font-family: 'Fira Sans';
-  margin-bottom: 200px;
+  font-size: 16px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.testimonials {
+  margin-top: 10%;
+  background: #E6E6E6;
+  overflow: scroll;
+}
+
+.testimonials img {
+  margin-top: 10%;
+  width: 70%;
+  height: auto;
+}
+
+.testimonials h2{
+  font-family: 'Bebas Neue Bold';
+  font-size: 40px;
+  padding: 3% 0 0 5%;
+  margin-top: 5%;
+  color: black;
+}
+
+#testimonials {
+  background: #E6E6E6;
+  overflow: scroll;
+  font-size: 16px;
+  color: black;
+  font-style: italic;
+  padding-bottom: 5%; 
+}
+
+.refer-a-friend h2{
+  margin-top: 5%;
+  padding-top: 5%;
+  font-family: 'Bebas Neue Bold';
+  font-size: 40px;
+  padding: 3% 0 0 5%;
+  text-align: left;
+}
+
+.refer-a-friend form {
+  display: block;
+  text-align: center;
+  font-family: 'Fira Sans';
+  position: relative;
+}
+
+#referral {
+  float: left;
+  padding: 0 0 100px 0;
+  display: inline-block;
+  /*width: 60%;*/
+  text-align: left;
+}
+
+#referral input {
+  width: 70%;
+  margin-left: 15%;
+}
+
+@media (max-width: 1000px) {
+  #referral {
+      display: block;
+      float: none;
+      width: 100%;
+  }
+}
+
+.contact {
+  padding-bottom: 10%;
+  overflow: scroll;
+  background: url('/images/map_icon.png'); 
+  background-repeat: no-repeat;
+  background-position: 85% 80%;
+  background-size: 18%;
+  background-color: #E6E6E6;
+}
+
+.contact h2 {
+  font-family: 'Bebas Neue Bold';
+  font-size: 40px;
+  padding: 3% 0 2% 5%;
+  margin-top: 5%;
+  color: black;
+}
+
+.contact p {
+  font-family: 'Fira Sans';
+  text-align: left;
+  padding: 0 35% 5% 5%;
+  z-index: 1;
+  font-size: 16px;
+  color: black;
+}
+
+.contact a {
+  font-style: italic;
+  color: #FFC52D;
+}
+
+.footer { 
+  list-style:none; 
+  background-color: black;
+  overflow: scroll;
+  padding-left: 5%;
+  margin-top: 0;
+}
+
+.footer h1 {
+  float: left;
+  color: white;
+  display: block;
+  position: relative;
+  font-family: 'Bebas Neue Regular';
+}
+
+.footer li { 
+  display:inline; 
+  float: right;
+  padding-top: 2%;
+  max-width: 42px;
+}
+
+.footer li img {
+  width: 75%;
+  margin-top: -20%;
+}
+
+#footer-social {
+  margin-right: 5%;
+}
+
+@media (max-width: 1000px) {
+  .footer li img{
+      margin-top: 10%;
+  }
 }
