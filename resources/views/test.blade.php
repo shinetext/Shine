@@ -49,7 +49,7 @@
     </head>
 
     <body>
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -145,11 +145,11 @@
       <div class="col-md-4">
         <img src={{asset('images/mail_icon.png')}} id="mail">
         <h3>SHARE WITH FRIENDS</h3>
+        <a name="testimonials"></a>
         <p>The best part? You can share all of this motiv-affirmation (motivation + affirmation. Yeah, we made up a word.) with your friends to give them the boost they need. A few Channing Tatum GIFs never hurt anyone, right?</p>
       </div>
 
       <div style="clear: both;"></div>
-      <a name="testimonials"></a>
       <div class="testimonials">
         <h2>WORD ON THE STREET</h2>
         <div class="col-md-4" id="testimonials">
@@ -167,13 +167,12 @@
         <div class="col-md-4" id="testimonials">
           <img src={{asset('images/jenni.png')}}>
           <p>"Thank you so much for the positive energy. We live in such a stressful world. It's incredible what a few positive words or a funny picture can do to our psyche."</p>
+          <a name="refer"></a>
           <p id="name">Jenni, Dentist</p>
         </div>
-
       </div>
 
       <div style="clear: both;">
-      <a name="refer"></a>
       <div class="refer-a-friend">
         <h2>Share Shine texts with your friends!</h2>
         <form action="https://secure.mcommons.com/profiles/join" method="post">                    
@@ -199,10 +198,10 @@
             <input type="submit" value="SUBMIT" class="signup_button" id="center"/>
             </div>  
         </form>
+      <a name="contact"></a>
       </div>
 
       <div style="clear: both;"></div>
-      <a name="contact"></a>
       <div class="contact">
           <h2>WE'RE FIGURING IT OUT WITH YOU</h2>
           <p>
