@@ -230,8 +230,35 @@ input {
 }
 
 @media screen and (max-width:1150px) {
-    .text_bubble_column { 
-        display:none 
-    }
+  .text_bubble_column { 
+      display:none 
   }
+}
+
+.col-md-4 {
+  text-align: center;
+  color: black;
+  background-color: white;
+  overflow: scroll;
+}
+
+.col-md-4 h3 {
+  font-family: 'Bebas Neue Bold';
+  font-size: 40px;
+}
+
+.col-md-4 img {
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 150px;
+}
+
+#mail {
+  height: 70%;
+  padding: 30px 0 15px 0;
+}
+
+.col-md-4 p {
+  font-family: 'Fira Sans';
+  margin-bottom: 200px;
 }
