@@ -63,9 +63,12 @@
             <ul class="nav navbar-nav">
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src={{asset('images/hamburger2.png')}}></a>
-                <a href="#" class="dropdown-toggle hidden-sm hidden-md hidden-lg" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EXPLORE</a>
+                <a href="#about" class="dropdown-toggle hidden-sm hidden-md hidden-lg">ABOUT</a>
+                <a href="#testimonials" class="dropdown-toggle hidden-sm hidden-md hidden-lg">TESTIMONIALS</a>
+                <a href="#refer" class="dropdown-toggle hidden-sm hidden-md hidden-lg">REFER-A-FRIEND</a>
+                <a href="#contact" class="dropdown-toggle hidden-sm hidden-md hidden-lg">CONTACT</a>
 
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu dropdown-toggle hidden-xs">
                   <li><a href="#about">ABOUT</a></li>
                   <li><a href="#testimonials">TESTIMONIALS</a></li>
                   <li><a href="#refer">REFER-A-FRIEND</a></li>

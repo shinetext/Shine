@@ -31,7 +31,7 @@
 } 
 
 .dropdown-menu {
-  font-family: 'Bebas Neue Regular';
+  font-family: 'Bebas Neue Bold';
   font-size: 22px;
 }
 
@@ -42,6 +42,10 @@
 
 .navbar-default .navbar-nav > li > a {
   color: black;
+}
+
+.dropdown-toggle.hidden-sm.hidden-md.hidden-lg:hover {
+  background-color: #E6E6E6;
 }
 
 #nav-refer {
