@@ -120,10 +120,14 @@
 }
 
 @media screen and (max-width:1150px) {
+    #logo_column img {
+      padding-top: 50px;
+    }
+
     #logo_column h3 { 
-        position: relative;
-        width: 20%;
-        padding-bottom: 0;
+      position: relative;
+      width: 20%;
+      padding-bottom: 0;
     }
 }
 

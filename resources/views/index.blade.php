@@ -75,13 +75,13 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li class="hidden-xs" id="social-icons"><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_Icon.png')}}></a></li>
-              <li class="hidden-sm hidden-md hidden-lg" id="social-icons"><a href="https://twitter.com/ShineText" target="_blank">Follow us on Twitter</a></li>
+              <!-- <li class="hidden-sm hidden-md hidden-lg" id="social-icons"><a href="https://twitter.com/ShineText" target="_blank">Follow us on Twitter</a></li> -->
               <li class="hidden-xs" id="social-icons"><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_Icon.png')}}></a></li>
-              <li class="hidden-sm hidden-md hidden-lg" id="social-icons"><a href="https://instagram.com/ShineText" target="_blank">Follow us on Instagram</a></li>
+              <!-- <li class="hidden-sm hidden-md hidden-lg" id="social-icons"><a href="https://instagram.com/ShineText" target="_blank">Follow us on Instagram</a></li> -->
               <li class="hidden-xs" id="social-icons"><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_Icon.png')}}></a></li>
-              <li class="hidden-sm hidden-md hidden-lg" id="social-icons"><a href="https://www.facebook.com/Shine-Text" target="_blank">Like us on Facebook</a></li>
+              <!-- <li class="hidden-sm hidden-md hidden-lg" id="social-icons"><a href="https://www.facebook.com/Shine-Text" target="_blank">Like us on Facebook</a></li> -->
               <li class="hidden-xs" id="nav-refer"><a href="#refer">REFER FRIENDS</a></li>
-              <li class="hidden-sm hidden-md hidden-lg" id="nav-refer"><a href="#refer">REFER FRIENDS</a></li>
+              <!-- <li class="hidden-sm hidden-md hidden-lg" id="nav-refer"><a href="#refer">REFER FRIENDS</a></li> -->
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
