@@ -76,7 +76,7 @@
                 </ul>
               </li>
 
-              <li><a href="#"><img src={{asset('images/shine2_logo.png')}}></a></li>
+              <li class="hidden-xs"><a href="#"><img src={{asset('images/shine2_logo.png')}}></a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li class="hidden-xs" id="social-icons"><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_Icon.png')}}></a></li>
