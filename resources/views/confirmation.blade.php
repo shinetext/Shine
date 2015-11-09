@@ -66,31 +66,6 @@
         		<h3>Spread the motiv-affirmation and share with friends!</h3>
         	</div>
 
-        	<!-- <div class="refer-a-friend">
-                <form action="https://secure.mcommons.com/profiles/join" method="post">                    
-                    <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
-                    <input type="hidden" name="redirect_to" value="https://www.mobilecommons.com/redirect_to_instructions" />
-                    
-                    <div class="referral_column">
-                        <input required="required" placeholder="YOUR NAME" type="text" name="person[first_name]" id="person_first_name" /></br></br>
-                        <input required="required" placeholder="YOUR PHONE NUMBER" type="text" name="person[phone]" id="person_phone" /></br>
-                    </div>
-
-                    <div class="referral_column">
-                        <input required="required" placeholder="YOUR FRIEND'S NUMBER" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
-                        <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>               
-                    </div>
-
-                    <div class="referral_column">            
-                        <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
-                        <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
-                    
-                    </div>
-
-                    <div style="clear: both;">
-                    <input type="submit" value="SUBMIT" class="signup_button" id="center"/>
-                    </div>   -->
-                <!-- </form> -->
             <div class="refer-a-friend">
                 <form action="https://secure.mcommons.com/profiles/join" method="post">                    
                     <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />

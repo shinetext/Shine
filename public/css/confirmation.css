@@ -45,6 +45,15 @@
 	overflow: scroll;
 }
 
+.page h1 {
+    font-family: 'Bebas Neue Bold';
+    text-align: center;
+    margin-top: 10%;
+    font-size: 50px;
+    padding-top: 10%;
+    margin-bottom: 100%;
+}
+
 .success {
     font-family: 'Bebas Neue Bold';
     text-align: center;

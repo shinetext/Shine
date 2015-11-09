@@ -2,9 +2,15 @@
 <html>
     <head>
         <title>Shine</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="fonts/BebasNeueBold.otf" type="text/css" charset="utf-8" /> 
         <link rel="stylesheet" href="fonts/BebasNeueRegular.otf" type="text/css" charset="utf-8" /> 
+        <link href="{{ asset('css/confirmation.css') }}" rel="stylesheet" type="text/css" >
         
         <style>
 	    @font-face {
@@ -28,62 +34,6 @@
 	        font-weight: normal;
 	        font-style: normal;
 	    }
-
-        .nav-bar { 
-            list-style:none; 
-        }
-
-        #right {
-            padding-right: 100px;
-        }
-
-        #right li { 
-            display: inline; 
-            float: right;
-            padding: 3% 0 0.5% 0;
-            margin-top: -40px;
-        }
-
-        #right li img {
-            max-width: 70%;
-            max-height: auto;
-        }
-
-        @media screen and (max-width: 1000px) {
-            #right {
-                display: none;
-            }
-        }
-
-        #left {
-            padding-left: 100px;
-        }
-
-        #left li {
-            display: inline;
-            float: left;
-            display: block;
-            margin: -5px 0 0 -30px;
-        }
-
-        #left li img {
-            padding: 0 0 0 15px;
-        }
-
-	    .page {
-	    	background-color: #E6E6E6;
-	    	clear: both;
-	    	overflow: scroll;
-	    }
-
-        .page h1 {
-            font-family: 'Bebas Neue Bold';
-            text-align: center;
-            margin-top: 10%;
-            font-size: 50px;
-            padding-top: 10%;
-            margin-bottom: 100%;
-        }
         </style>
 
     <script>
@@ -99,17 +49,16 @@
     </head>
 
     <body>
-    	<div class="nav-bar">
-    		<ul id="left">
-    			<li><a href={{ URL::to('/') }}><img src={{asset('images/shine2_logo.png')}}></a></li>
-    		</ul>
-            
-            <ul id="right">
-                <li><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_Icon.png')}}></a></li>
-                <li><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_Icon.png')}}></a></li>
-                <li><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_Icon.png')}}></a></li>
-            </ul>
-    	</div>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href={{ URL::to('/') }}><img src={{asset('images/shine2_logo.png')}}></a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden-xs" id="social-icons"><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_Icon.png')}}></a></li>
+                    <li class="hidden-xs" id="social-icons"><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_Icon.png')}}></a></li>
+                    <li class="hidden-xs" id="social-icons"><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_Icon.png')}}></a></li>
+                </ul>
+            </div><!-- /.container-fluid -->
+        </nav>
 
     	<div class="page">
 	    	<h1>SUCCESS! THANKS FOR SIGNING YOUR FRIEND(S) UP FOR SHINE! #SHINEON</h1>
