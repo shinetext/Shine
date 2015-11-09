@@ -55,7 +55,7 @@
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only"></span><img src={{asset('images/hamburger2.png')}}>
             </button>
-            <a class="navbar-brand" href="#"><img src={{asset('images/shine2_logo.png')}}></a>
+            <a class="navbar-brand hidden-sm hidden-md hidden-lg" href="#"><img src={{asset('images/shine2_logo.png')}}></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -75,6 +75,8 @@
                   <li><a href="#contact">CONTACT</a></li>
                 </ul>
               </li>
+
+              <li><a href="#"><img src={{asset('images/shine2_logo.png')}}></a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li class="hidden-xs" id="social-icons"><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_Icon.png')}}></a></li>
