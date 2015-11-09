@@ -61,7 +61,7 @@
         </nav>
 
     	<div class="page">
-	    	<h1>SUCCESS! THANKS FOR SIGNING YOUR FRIEND(S) UP FOR SHINE! #SHINEON</h1>
+	    	<h1 id="refer_success">SUCCESS! THANKS FOR SIGNING YOUR FRIEND(S) UP FOR SHINE! #SHINEON</h1>
 		</div>
     </body>
 </html>
