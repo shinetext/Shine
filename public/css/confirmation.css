@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'Bebas Neue Bold';
+  src: url('fonts/BebasNeueBold.eot');
+  src: url('fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/BebasNeueBold.woff') format('woff'),
+      url('fonts/BebasNeueBold.ttf') format('truetype'),
+      url('fonts/BebasNeueBold.svg#FontName') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Regular';
+  src: url('fonts/BebasNeueRegular.eot');
+  src: url('fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+      url('fonts/BebasNeueRegular.woff') format('woff'),
+      url('fonts/BebasNeueRegular.ttf') format('truetype'),
+      url('fonts/BebasNeueRegular.svg#FontName') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+.navbar-default {
+    background-color: white;
+}
+
+#social-icons {
+    width: 15%;
+    height: auto;
+    padding-left: 13%;
+}
+
+.navbar-brand {
+    padding-left: 5%;
+}
+.navbar-right {
+    margin-right: -5%;
+}
+
+.page {
+	background-color: #E6E6E6;
+	clear: both;
+	overflow: scroll;
+}
+
+.success {
+    font-family: 'Bebas Neue Bold';
+    text-align: center;
+    margin-top: 10%;
+}
+
+.success h1 {
+    font-size: 50px;
+}
+
+.success h3 {
+	font-family: 'Fira Sans';
+	font-size: 22px;
+}
+
+.refer-a-friend form {
+  display: block;
+  text-align: center;
+  font-family: 'Fira Sans';
+  position: relative;
+}
+
+#referral {
+  float: left;
+  padding: 0 0 100px 0;
+  display: inline-block;
+  text-align: left;
+}
+
+#referral input {
+  width: 70%;
+  margin-left: 15%;
+}
+
+@media (max-width: 1000px) {
+    .success h1 {
+        padding-top: 10%;
+    }
+
+    #referral {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+}
+
+form {
+    margin-top: 5%;
+}
+
+input {
+    border:none;
+    background-color:#FFFFFF;
+    width: 18%;
+    padding: 10px;
+    margin: 5px;
+    border-bottom: 1px solid black;
+    font-family: 'Bebas Neue Regular';
+    font-size: 20px;
+}
+
+@media screen and (max-width:1150px) {
+    input { 
+        width: 50%;
+    }
+}
+
+.signup_button {
+  padding: 1% 5% 1% 5%;
+  width: 15%;
+  margin: 30px 30px 100% 30px;
+  border-radius: 25px;
+  background:#FFC52D;
+  font-family: 'Bebas Neue Bold';
+  font-size: 28px;
+  text-align: center;
+  color: black;
+}
+
+@media screen and (max-width:1000px) {
+  .signup_button { 
+      width: 27%;
+  }
+}
