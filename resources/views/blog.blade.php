@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Shine</title>
+    <link rel="shortcut icon" href={{asset('images/favicon.ico')}}>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="{{ asset('css/confirmation.css') }}" rel="stylesheet" type="text/css" >
 
