@@ -41,7 +41,7 @@
 }
 
 .dropdown-toggle.hidden-sm.hidden-md.hidden-lg {
-  font-family: 'Bebas Neue Bold';
+  font-family: 'Bebas Neue Regular';
 }
 
 .dropdown-toggle.hidden-sm.hidden-md.hidden-lg:hover {
@@ -61,17 +61,17 @@
 }
 
 .dropdown-toggle.hidden-sm.hidden-md.hidden-lg {
-  font-family: 'Bebas Neue Bold';
+  font-family: 'Bebas Neue Regular';
   font-size: 22px;
 }
 
 #social-icons.hidden-sm.hidden-md.hidden-lg {
-  font-family: 'Bebas Neue Bold';
+  font-family: 'Bebas Neue Regular';
   font-size: 22px;
 }
 
 #nav-refer.hidden-sm.hidden-md.hidden-lg {
-  font-family: 'Bebas Neue Bold';
+  font-family: 'Bebas Neue Regular';
   font-size: 22px;
   padding: 0;
   margin: 0 30% 0 30%;
