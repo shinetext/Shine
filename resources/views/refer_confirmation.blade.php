@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Shine</title>
-        <link rel="shortcut icon" href={{asset('images/favicon.ico')}}>
+        <link rel="shortcut icon" href="//shinetext.herokuapp.com/images/favicon.ico" type="image/vnd.microsoft.icon" />
         <link rel="manifest" href="/manifest.json">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
