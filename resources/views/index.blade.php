@@ -113,7 +113,7 @@
         <div id="logo_column">
           <img src={{asset('images/shine_logo.png')}}>
 
-          <h3>A daily text so you can slay today.</h3>
+          <h3>A daily text to help you slay the day.</h3>
 
           <form action="https://secure.mcommons.com/profiles/join" method="post">                    
               <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
@@ -153,7 +153,7 @@
         <img src={{asset('images/mail_icon.png')}} id="mail">
         <h3>SHARE WITH FRIENDS</h3>
         <a name="testimonials"></a>
-        <p>The best part? You can share all of this motiv-affirmation (motivation + affirmation. Yeah, we made up a word.) with your friends to give them the boost they need. A few Channing Tatum GIFs never hurt anyone, right?</p>
+        <p>The best part? You can share all of this motiv-affirmation (motivation + affirmation. Yeah, we made up a word) with your friends to give them the boost they need. A few Channing Tatum GIFs never hurt anyone, right?</p>
       </div>
 
       <div style="clear: both;"></div>
