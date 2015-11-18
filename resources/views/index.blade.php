@@ -58,7 +58,7 @@
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only"></span><img src={{asset('images/hamburger2.png')}}>
+              <span class="sr-only"></span><img src={{asset('images/hamburger.png')}}>
             </button>
             <a class="navbar-brand hidden-sm hidden-md hidden-lg" href="#"><img src={{asset('images/shine2_logo.png')}}></a>
           </div>
@@ -67,7 +67,7 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src={{asset('images/hamburger2.png')}}></a>
+                <a href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src={{asset('images/hamburger.png')}}></a>
                 <a href="#about" class="dropdown-toggle hidden-sm hidden-md hidden-lg">ABOUT</a>
                 <a href="#testimonials" class="dropdown-toggle hidden-sm hidden-md hidden-lg">TESTIMONIALS</a>
                 <a href="#refer" class="dropdown-toggle hidden-sm hidden-md hidden-lg">REFER-A-FRIEND</a>

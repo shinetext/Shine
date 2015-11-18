@@ -40,6 +40,16 @@
   color: black;
 }
 
+.dropdown-toggle.hidden-xs img {
+  width: 50%;
+  padding-top: 20%;
+  margin-left: 25%;
+}
+
+.hidden-xs img {
+  margin-left: -25%;
+}
+
 .dropdown-toggle.hidden-sm.hidden-md.hidden-lg {
   font-family: 'Bebas Neue Regular';
 }
@@ -75,6 +85,16 @@
   font-size: 22px;
   padding: 0;
   margin: 0 30% 0 30%;
+}
+
+.navbar-toggle img {
+  width: 50%;
+  padding-top: 5%;
+}
+
+.navbar-toggle.collapsed img {
+  width: 50%;
+  padding-top: 5%;
 }
 
 .header {
