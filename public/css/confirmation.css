@@ -69,7 +69,7 @@
 }
 
 #refer_success {
-    margin-bottom: 100%;
+    margin-bottom: 30%;
 }
 
 .refer-a-friend form {
@@ -127,7 +127,7 @@ input {
 .signup_button {
   padding: 1% 5% 1% 5%;
   width: 15%;
-  margin: 30px 30px 100% 30px;
+  margin: 30px 30px 10% 30px;
   border-radius: 25px;
   background:#FFC52D;
   font-family: 'Bebas Neue Bold';
@@ -140,4 +140,44 @@ input {
   .signup_button { 
       width: 27%;
   }
+}
+
+.footer { 
+  list-style:none; 
+  background-color: black;
+  overflow: scroll;
+  padding-left: 5%;
+  margin-top: 0;
+}
+
+.footer h1 {
+  float: left;
+  color: white;
+  display: block;
+  position: relative;
+  font-size: 35px;
+  padding-top: 1%;
+  margin-top: 0;
+  font-family: 'Bebas Neue Regular';
+}
+
+.footer li { 
+  display:inline; 
+  float: right;
+  padding-top: 2%;
+  max-width: 42px;
+}
+
+.footer li img {
+  width: 75%;
+  margin-top: -20%;
+}
+
+#footer-social {
+  margin-right: 5%;
+}
+
+@media (max-width: 1000px) {
+  .footer li img{
+      margin-top: 10%;
 }

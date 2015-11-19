@@ -221,13 +221,13 @@
       </div>
 
       <ul class="footer">
-          <h1>SHINE</h1>
-              <div id="footer-social">
-                  <li><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_yellow.png')}}></a></li>
-                  <li><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_yellow.png')}}></a></li>
-                  <li><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_yellow.png')}}></a></li>
-              </div>
-      </div>
+        <h1>SHINE</h1>
+        <div id="footer-social">
+            <li><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_yellow.png')}}></a></li>
+            <li><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_yellow.png')}}></a></li>
+            <li><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_yellow.png')}}></a></li>
+        </div>
+      </ul>
     </body>
 </html>
 
