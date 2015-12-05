@@ -272,18 +272,17 @@ input {
 }
 
 .testimonials {
-  margin-top: 10%;
+  /*margin-top: 10%;*/
   background: #E6E6E6;
-  overflow: scroll;
 }
 
 .testimonials img {
-  margin-top: 10%;
+  /*margin-top: 10%;*/
   width: 70%;
   height: auto;
 }
 
-.testimonials h2{
+.testimonials h2 {
   font-family: 'Bebas Neue Bold';
   font-size: 40px;
   padding: 3% 0 0 5%;
@@ -291,14 +290,14 @@ input {
   color: black;
 }
 
-#testimonials {
+/*#testimonials {
   background: #E6E6E6;
   overflow: scroll;
   font-size: 16px;
   color: black;
   font-style: italic;
   padding-bottom: 5%; 
-}
+}*/
 
 /*.rays {
   width: 90%;
@@ -314,12 +313,16 @@ input {
   margin-bottom: 14%;
 }*/
 
+#carosel-example-generic {
+  margin-top: 100%;
+}
+
 .item img{
   width: 90%;
   margin: 0 0 3% 5%;
 }
 
-.refer-a-friend h2{
+.refer-a-friend h2 { 
   margin-top: 5%;
   padding-top: 5%;
   font-family: 'Bebas Neue Bold';
