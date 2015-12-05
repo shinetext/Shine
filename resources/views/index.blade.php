@@ -159,24 +159,55 @@
       <div style="clear: both;"></div>
       <div class="testimonials">
         <h2>WORD ON THE STREET</h2>
-        <div class="col-md-4" id="testimonials">
-          <img src={{asset('images/lindsay.png')}}>
-          <p>"This week was awesome, I loved hearing my text sound go off in the AM as I was getting ready for work. It's the perfect mix of being smart, funny, and intelligent and of course accessible! Shine is DOPE!"</p>
-          <p id="name">Lindsay, Ad Sales Planner</p>  
-        </div>
-
-        <div class="col-md-4" id="testimonials">
-          <img src={{asset('images/brenna.png')}}>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+         
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src={{asset('images/testimonials_1.png')}} alt="...">
+              <div class="carousel-caption">
+                  <!-- <h3>Caption</h3> -->
+              </div>
+            </div>
+            <div class="item">
+              <img src={{asset('images/testimonials_2.png')}} alt="...">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <div class="item">
+              <img src={{asset('images/christina  .png')}} alt="...">
+              <div class="carousel-caption">
+                  <h3>Christina</h3>
+              </div>
+            </div>
+          </div>
+         
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div> <!-- Carousel -->
+        <!-- <div class="col-md-4" id="testimonials">
+          <div class="rays">
+            <img src={{asset('images/sun_rays.png')}}>
+          </div>
+          <div id="user_pic">
+            <img src={{asset('images/brenna.png')}}>
+          </div>
           <p>"EVERYTHING I ever needed to make it through another awkward week of my version of adulting. I'm always twiddling my thumbs waiting for Shine to kick my ass back into gear. #dependency"</p> 
           <p id="name">Brenna, Graduate Student</p>
         </div>
-
-        <div class="col-md-4" id="testimonials">
-          <img src={{asset('images/jenni.png')}}>
-          <p>"Thank you so much for the positive energy. We live in such a stressful world. It's incredible what a few positive words or a funny picture can do to our psyche."</p>
+        </div> -->
           <a name="refer"></a>
-          <p id="name">Jenni, Dentist</p>
-        </div>
       </div>
 
       <div style="clear: both;">
@@ -230,6 +261,13 @@
         </div>
       </ul>
     </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+      $('.carousel').carousel({
+          interval: 3000
+      })
+  </script>
 </html>
 
 

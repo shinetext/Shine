@@ -300,6 +300,20 @@ input {
   padding-bottom: 5%; 
 }
 
+/*.rays {
+  width: 90%;
+  margin-left: 6%;
+}
+
+#user_pic img {
+  border-radius: 50%;
+  width: 48%;
+  height: auto;
+  margin-top: -250px;
+  margin-left: 3%;
+  margin-bottom: 14%;
+}*/
+
 .refer-a-friend h2{
   margin-top: 5%;
   padding-top: 5%;
