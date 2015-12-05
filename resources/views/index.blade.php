@@ -200,7 +200,7 @@
           <p id="name">Brenna, Graduate Student</p>
         </div> -->
           <a name="refer"></a>
-      <!-- </div> -->
+      </div>
 
       <div style="clear: both;">
       <div class="refer-a-friend">
