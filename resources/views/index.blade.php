@@ -159,6 +159,7 @@
       <div style="clear: both;"></div>
       <div class="testimonials">
         <h2>WORD ON THE STREET</h2>
+        <!-- Used this tutorial to create carousel: https://bootstrapbay.com/blog/bootstrap-3-carousel-tutorial/ -->
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
           <!-- Indicators -->
           <ol class="carousel-indicators">
