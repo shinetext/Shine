@@ -164,27 +164,19 @@
           <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <!-- <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
           </ol>
          
-          <!-- Wrapper for slides -->
+          <!-- Wrapper for slides - dimensions are screenshots of 1440 x 610 -->
           <div class="carousel-inner">
             <div class="item active">
               <img src={{asset('images/testimonials_1.png')}} alt="...">
-              <div class="carousel-caption">
-                  <!-- <h3>Caption</h3> -->
-              </div>
+<!--               <div class="carousel-caption">
+                  <h3>Caption</h3>
+              </div> -->
             </div>
             <div class="item">
               <img src={{asset('images/testimonials_2.png')}} alt="...">
-              <div class="carousel-caption">
-              </div>
-            </div>
-            <div class="item">
-              <img src={{asset('images/christina  .png')}} alt="...">
-              <div class="carousel-caption">
-                  <h3>Christina</h3>
-              </div>
             </div>
           </div>
          
@@ -196,7 +188,7 @@
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div> <!-- Carousel -->
-        <!-- <div class="col-md-4" id="testimonials">
+     <!--    <div class="col-md-4" id="testimonials">
           <div class="rays">
             <img src={{asset('images/sun_rays.png')}}>
           </div>
@@ -205,10 +197,9 @@
           </div>
           <p>"EVERYTHING I ever needed to make it through another awkward week of my version of adulting. I'm always twiddling my thumbs waiting for Shine to kick my ass back into gear. #dependency"</p> 
           <p id="name">Brenna, Graduate Student</p>
-        </div>
         </div> -->
           <a name="refer"></a>
-      </div>
+      <!-- </div> -->
 
       <div style="clear: both;">
       <div class="refer-a-friend">
@@ -243,7 +234,7 @@
       <div class="contact">
           <h2>WE'RE FIGURING IT OUT WITH YOU</h2>
           <p>
-<!--               50% of women report that they experience feelings of self-doubt about their performance and careers - compared to just 31% of men. We want to change that.<br><br>  -->
+<!--               50% of women report that they experience feelings of self-doubt about their performance and careers - compared to just 31% of men. We want to change that.<br><br> 
               As three close friends who met at work, we regularly leaned on each other for support, advice, and confidence tips and recognized a gap in the market. 
               How could we scale the support we gave each other for women across the country? That's how Shine came to be. We are three women of color with separate backgrounds in product, marketing and engineering, 
               curating content we need and want in our day to day.
