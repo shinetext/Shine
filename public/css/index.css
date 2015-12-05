@@ -314,6 +314,11 @@ input {
   margin-bottom: 14%;
 }*/
 
+.item img{
+  width: 90%;
+  margin: 0 0 3% 5%;
+}
+
 .refer-a-friend h2{
   margin-top: 5%;
   padding-top: 5%;

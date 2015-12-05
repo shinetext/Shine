@@ -160,7 +160,7 @@
       <div class="testimonials">
         <h2>WORD ON THE STREET</h2>
         <!-- Used this tutorial to create carousel: https://bootstrapbay.com/blog/bootstrap-3-carousel-tutorial/ -->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="5000">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -171,13 +171,13 @@
           <!-- Wrapper for slides - dimensions are screenshots of 1440 x 610 -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src={{asset('images/testimonials_1.png')}} alt="...">
+              <img src={{asset('images/testimonials_1.png')}}>
 <!--               <div class="carousel-caption">
                   <h3>Caption</h3>
               </div> -->
             </div>
             <div class="item">
-              <img src={{asset('images/testimonials_2.png')}} alt="...">
+              <img src={{asset('images/testimonials_2.png')}}>
             </div>
           </div>
          
@@ -235,7 +235,7 @@
       <div class="contact">
           <h2>WE'RE FIGURING IT OUT WITH YOU</h2>
           <p>
-<!--               50% of women report that they experience feelings of self-doubt about their performance and careers - compared to just 31% of men. We want to change that.<br><br> 
+              50% of women report that they experience feelings of self-doubt about their performance and careers - compared to just 31% of men. We want to change that.<br><br> 
               As three close friends who met at work, we regularly leaned on each other for support, advice, and confidence tips and recognized a gap in the market. 
               How could we scale the support we gave each other for women across the country? That's how Shine came to be. We are three women of color with separate backgrounds in product, marketing and engineering, 
               curating content we need and want in our day to day.
