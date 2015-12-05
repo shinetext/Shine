@@ -157,6 +157,7 @@
       </div>
 
       <div style="clear: both;"></div>
+      <br><br><br><br><br><br><br>
       <div class="testimonials">
         <!-- Used this tutorial to create carousel: https://bootstrapbay.com/blog/bootstrap-3-carousel-tutorial/ -->
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="5000">
