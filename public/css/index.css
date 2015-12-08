@@ -324,6 +324,7 @@ input {
 
 .partners {
   text-align: center;
+  padding-bottom: 0px;
 }
 
 #dreamers img {
@@ -339,11 +340,6 @@ input {
 #create img {
   width: 20%;
   margin: 0 1% 0 1%;
-}
-
-.partners {
-  padding-bottom: 10%;
-
 }
 
 .partners h2 {
