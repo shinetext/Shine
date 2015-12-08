@@ -70,6 +70,7 @@
                 <a href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src={{asset('images/hamburger.png')}}></a>
                 <a href="#about" class="dropdown-toggle hidden-sm hidden-md hidden-lg">ABOUT</a>
                 <a href="#testimonials" class="dropdown-toggle hidden-sm hidden-md hidden-lg">TESTIMONIALS</a>
+                <a href="#partners" class="dropdown-toggle hidden-sm hidden-md hidden-lg">PARTNERS</a>
                 <a href="#refer" class="dropdown-toggle hidden-sm hidden-md hidden-lg">REFER-A-FRIEND</a>
                 <a href="{{ URL::route('blog') }}" class="dropdown-toggle hidden-sm hidden-md hidden-lg">BLOG</a>
                 <a href="#contact" class="dropdown-toggle hidden-sm hidden-md hidden-lg">CONTACT</a>
@@ -77,6 +78,7 @@
                 <ul class="dropdown-menu dropdown-toggle hidden-xs">
                   <li><a href="#about">ABOUT</a></li>
                   <li><a href="#testimonials">TESTIMONIALS</a></li>
+                  <li><a href="#partners">PARTNERS</a></li>
                   <li><a href="#refer">REFER-A-FRIEND</a></li>
                   <li><a href="{{ URL::route('blog') }}">BLOG</a></li>
                   <li><a href="#contact">CONTACT</a></li>
@@ -200,29 +202,39 @@
           <p>"EVERYTHING I ever needed to make it through another awkward week of my version of adulting. I'm always twiddling my thumbs waiting for Shine to kick my ass back into gear. #dependency"</p> 
           <p id="name">Brenna, Graduate Student</p>
         </div> -->
-          <a name="refer"></a>
+      <a name="partners"></a>
       </div>
 
+      <div class="partners">
+        <h2>Partners we love</h2>
+        <li id="dreamers"><a href="http://www.dreamersdoers.me/" target="_blank"><img src={{asset('images/dreamers_and_doers.png')}}></a></li>
+        <li id="first"><a href="https://www.shesthefirst.org/" target="_blank"><img src={{asset('images/shes_the_first.png')}}></a></li>
+        <li id="create"><a href="http://www.createcultivate.com/blog/side-hustle-queens-part-ii" target="_blank"><img src={{asset('images/create_and_cultivate.png')}}></a></li>
+      </div>
+
+      <a name="refer"></a>
       <div style="clear: both;">
       <div class="refer-a-friend">
         <h2>Share Shine texts with your friends!</h2>
-        <form action="https://secure.mcommons.com/profiles/join" method="post">                    
-            <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
-                <input type="hidden" name="redirect_to" value={{ URL::route('refer_confirmation') }} />
-            
-            <div class="col-md-4" id="referral">
-                <input required="required" placeholder="YOUR NAME" type="text" name="person[first_name]" id="person_first_name" /></br></br>
-                <input required="required" placeholder="YOUR PHONE NUMBER" type="text" name="person[phone]" id="person_phone" /></br>
-            </div>
+        <form action="https://secure.mcommons.com/profiles/join" method="post">   
+            <div class="refer_form">                 
+              <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
+                  <input type="hidden" name="redirect_to" value={{ URL::route('refer_confirmation') }} />
+              
+              <div class="col-md-4" id="referral">
+                  <input required="required" placeholder="YOUR NAME" type="text" name="person[first_name]" id="person_first_name" /></br></br>
+                  <input required="required" placeholder="YOUR PHONE NUMBER" type="text" name="person[phone]" id="person_phone" /></br>
+              </div>
 
-            <div class="col-md-4" id="referral">
-                <input required="required" placeholder="YOUR FRIEND'S NUMBER" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
-                <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>               
-            </div>
+              <div class="col-md-4" id="referral">
+                  <input required="required" placeholder="YOUR FRIEND'S NUMBER" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
+                  <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>               
+              </div>
 
-            <div class="col-md-4" id="referral">            
-                <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
-                <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
+              <div class="col-md-4" id="referral">            
+                  <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
+                  <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
+              </div>
             </div>
 
             <div style="clear: both;">
@@ -231,6 +243,7 @@
         </form>
       <a name="contact"></a>
       </div>
+
 
       <div style="clear: both;"></div>
       <div class="contact">

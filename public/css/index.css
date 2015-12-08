@@ -317,9 +317,50 @@ input {
   margin-top: 100%;
 }
 
-.item img{
+.item img {
   width: 90%;
   margin: 0 0 3% 5%;
+}
+
+.partners {
+  text-align: center;
+}
+
+#dreamers img {
+  width: 20%;
+  margin: 0 1% 0 1%;
+}
+
+#first img {
+  width: 20%;
+  margin: 0 1% 0 1%;
+}
+
+#create img {
+  width: 20%;
+  margin: 0 1% 0 1%;
+}
+
+.partners {
+  padding-bottom: 10%;
+
+}
+
+.partners h2 {
+  margin-top: 5%;
+  padding-top: 5%;
+  font-family: 'Bebas Neue Bold';
+  font-size: 40px;
+  padding: 3% 0 0 5%;
+  text-align: left;
+}
+
+.partners li {
+  display:inline; 
+}
+
+.refer-a-friend {
+  background-color: #E6E6E6;
 }
 
 .refer-a-friend h2 { 
@@ -332,10 +373,19 @@ input {
 }
 
 .refer-a-friend form {
+  overflow: scroll;
+  background-color: #E6E6E6;
   display: block;
   text-align: center;
   font-family: 'Fira Sans';
-  position: relative;
+}
+
+.refer_form {
+    background-color: #E6E6E6;
+}
+
+#referral {
+    background-color: #E6E6E6;
 }
 
 #referral {
@@ -361,12 +411,10 @@ input {
 
 .contact {
   padding-bottom: 10%;
-  overflow: scroll;
   background: url('/images/map_icon.png'); 
   background-repeat: no-repeat;
   background-position: 85% 80%;
   background-size: 18%;
-  background-color: #E6E6E6;
 }
 
 .contact h2 {
