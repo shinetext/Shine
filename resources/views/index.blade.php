@@ -253,9 +253,11 @@
               As three close friends who met at work, we regularly leaned on each other for support, advice, and confidence tips and recognized a gap in the market. 
               How could we scale the support we gave each other for women across the country? That's how Shine came to be. We are three women of color with separate backgrounds in product, marketing and engineering, 
               curating content we need and want in our day to day.
-              <br><br>Have suggestions, thoughts, or just want to get in touch? We'd love to hear from you! <a href="mailto:theshinetext@gmail.com" target="_top">Contact us.</a><br><br>
+              <br><br>Have suggestions, thoughts, or just want to get in touch? We'd love to hear from you! 
+              <br><a href="mailto:theshinetext@gmail.com" target="_top">Contact us.</a><br><br>
               Design by <a href="http://www.kimberlyli.com/" target="_blank">Kim Li</a> and words by <a href="http://www.benkassoy.com/" target="_blank">Ben Kassoy.</a>
           </p>
+          <img src={{asset('images/Shine.jpg')}}>
       </div>
 
       <ul class="footer">

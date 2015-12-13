@@ -409,8 +409,9 @@ input {
   padding-bottom: 10%;
   background: url('/images/map_icon.png'); 
   background-repeat: no-repeat;
-  background-position: 85% 80%;
+  background-position: 55% 80%;
   background-size: 18%;
+  z-index: -1;
 }
 
 .contact h2 {
@@ -424,7 +425,7 @@ input {
 .contact p {
   font-family: 'Fira Sans';
   text-align: left;
-  padding: 0 35% 5% 5%;
+  padding: 0 45% 5% 5%;
   z-index: 1;
   font-size: 16px;
   color: black;
@@ -433,6 +434,35 @@ input {
 .contact a {
   /*font-style: italic;*/
   color: #FFC52D;
+}
+
+.contact img {
+  height: 300px;
+  margin: -30% 0 0 65%;
+  position: absolute;
+}
+
+@media (max-width: 1000px) {
+  .contact img {
+    display: none;
+  }
+
+  .contact {
+    padding-bottom: 10%;
+    background: url('/images/map_icon.png'); 
+    background-repeat: no-repeat;
+    background-position: 85% 80%;
+    background-size: 18%;
+  }
+
+  .contact p {
+    font-family: 'Fira Sans';
+    text-align: left;
+    padding: 0 35% 5% 5%;
+    z-index: 1;
+    font-size: 16px;
+    color: black;
+  }
 }
 
 .footer { 
