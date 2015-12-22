@@ -152,8 +152,14 @@
 
   #logo_column h3 { 
     position: relative;
-    width: 20%;
+    left: 25%;
+    width: 50%;
     padding-bottom: 0;
+  }
+
+  #logo_column h4 img {
+    width: 30%;
+    padding-top: 5%;
   }
 }
 
