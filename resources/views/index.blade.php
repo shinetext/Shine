@@ -117,6 +117,8 @@
 
           <h3>A daily text to help you slay the day.</h3>
 
+          <!-- <h4><img src={{asset('images/glamour.gif')}}></h4> -->
+
           <form action="https://secure.mcommons.com/profiles/join" method="post">                    
               <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
               <input type="hidden" name="redirect_to" value={{ URL::route('confirmation') }} />
@@ -210,6 +212,7 @@
         <li id="dreamers"><a href="http://www.dreamersdoers.me/" target="_blank"><img src={{asset('images/dreamers_and_doers.png')}}></a></li>
         <li id="first"><a href="https://www.shesthefirst.org/" target="_blank"><img src={{asset('images/shes_the_first.png')}}></a></li>
         <li id="create"><a href="http://www.createcultivate.com/blog/side-hustle-queens-part-ii" target="_blank"><img src={{asset('images/create_and_cultivate.png')}}></a></li>
+        <li id="lorem"><a href="http://www.loremipsum.wtf/" target="_blank"><img src={{asset('images/lorem_ipsum.png')}}></a></li>
       </div>
 
       <a name="refer"></a>

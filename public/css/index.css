@@ -106,66 +106,71 @@
 }
 
 @media screen and (max-width:1150px) {
-    .header { 
-        background: none;
-        background-color: #E6E6E6;
-        clear: both;
-        margin-top: 50px;
-    }
+  .header { 
+      background: none;
+      background-color: #E6E6E6;
+      clear: both;
+      margin-top: 50px;
+  }
 }
 
 #logo_column {
-    display: block;
-    text-align: center;
-    padding-bottom: 5%;
-    font-family: 'Fira Sans';
-    position: relative;
+  display: block;
+  text-align: center;
+  padding-bottom: 5%;
+  font-family: 'Fira Sans';
+  position: relative;
 }
 
 #logo_column img {
-    max-width: 25%;
-    max-height: auto;
+  max-width: 25%;
+  max-height: auto;
 }
 
 #logo_column h3 {
-    font-size: 24px;
-    width: 20%;
-    position: absolute;
-    top: 32%;
-    left: 40%;
+  font-size: 24px;
+  width: 20%;
+  position: absolute;
+  top: 32%;
+  left: 40%;
+  margin-bottom: 0;
+}
+
+#logo_column h4 {
+  margin-top: 0;
+}
+
+#logo_column h4 img {
+  padding-top: 0px;
 }
 
 @media screen and (max-width:1150px) {
-    #logo_column img {
-      padding-top: 50px;
-    }
+  #logo_column img {
+    padding-top: 50px;
+  }
 
-    #logo_column h3 { 
-      position: relative;
-      width: 20%;
-      padding-bottom: 0;
-    }
-}
-
-form {
-    margin-top: 5%;
+  #logo_column h3 { 
+    position: relative;
+    width: 20%;
+    padding-bottom: 0;
+  }
 }
 
 input {
-    border:none;
-    background-color:#FFFFFF;
-    width: 18%;
-    padding: 10px;
-    margin: 5px;
-    border-bottom: 1px solid black;
-    font-family: 'Bebas Neue Regular';
-    font-size: 20px;
+  border:none;
+  background-color:#FFFFFF;
+  width: 18%;
+  padding: 10px;
+  margin: 5px;
+  border-bottom: 1px solid black;
+  font-family: 'Bebas Neue Regular';
+  font-size: 20px;
 }
 
 @media screen and (max-width:1150px) {
-    input { 
-        width: 50%;
-    }
+  input { 
+      width: 50%;
+  }
 }
 
 .signup_button {
@@ -340,6 +345,10 @@ input {
 #create img {
   width: 20%;
   margin: 0 1% 0 1%;
+}
+
+#lorem img {
+  width: 20%;
 }
 
 .partners h2 {
