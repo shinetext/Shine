@@ -117,7 +117,7 @@
 
           <h3>A daily text to help you slay the day.</h3>
 
-          <!-- <h4><img src={{asset('images/glamour.gif')}}></h4> -->
+          <h4><img src={{asset('images/glamour.png')}}></h4>
 
           <form action="https://secure.mcommons.com/profiles/join" method="post">                    
               <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />

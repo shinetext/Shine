@@ -141,7 +141,8 @@
 }
 
 #logo_column h4 img {
-  padding-top: 0px;
+  width: 20%;
+  padding: 0 3% 2% 0;
 }
 
 @media screen and (max-width:1150px) {
