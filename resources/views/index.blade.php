@@ -80,7 +80,7 @@
                   <li><a href="#testimonials">TESTIMONIALS</a></li>
                   <li><a href="#partners">PARTNERS</a></li>
                   <li><a href="#refer">REFER-A-FRIEND</a></li>
-                  <li><a href="{{ URL::route('blog') }}">BLOG</a></li>
+                  <li><a href="https://blog.shinetext.com/latest">BLOG</a></li>
                   <li><a href="#contact">CONTACT</a></li>
                 </ul>
               </li>
