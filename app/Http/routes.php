@@ -29,3 +29,7 @@ Route::get('refer_confirmation', array('as' => 'refer_confirmation', function(){
 Route::get('blog', array('as' => 'blog', function(){
     return View::make('blog');
 }));
+
+Route::get('privacy-policy', array('as' => 'privacy-policy', function(){
+    return View::make('privacy-policy');
+}));
