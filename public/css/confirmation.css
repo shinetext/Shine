@@ -35,10 +35,16 @@
 .navbar-brand {
     padding-left: 5%;
 }
+
 .navbar-right {
     margin-right: -5%;
 }
 
+@media (max-width: 1000px) {
+    .navbar-default {
+        padding-bottom: 3%;
+    }
+}
 .page {
 	background-color: #E6E6E6;
 	clear: both;
