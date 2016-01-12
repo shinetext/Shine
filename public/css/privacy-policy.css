@@ -70,8 +70,8 @@
 }
 
 @media (max-width: 1000px) {
-    .success h1 {
-        padding-top: 10%;
+    .page h1 {
+        padding-top: 20%;
     }
 }
 
