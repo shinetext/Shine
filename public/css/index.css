@@ -529,12 +529,12 @@ input {
   text-decoration: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
   .footer li img {
-    margin-top: 10%;
+    margin-top: 20%;
   }
 
   #privacy-policy-link li {
-    padding-top: 4%;
+    padding: 6% 9% 0 0;
   }
 }

@@ -137,12 +137,14 @@
   .footer h1 {
     margin-top: 2%; 
   }
+}
 
+@media (max-width: 600px) {
   .footer li img {
-    margin-top: 5%;
+    margin-top: 15%;
   }
-  
+
   #privacy-policy-link li {
-    padding-top: 4%;
+    padding: 5% 9% 0 0;
   }
 }
