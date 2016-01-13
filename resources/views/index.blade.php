@@ -72,8 +72,10 @@
                 <a href="#testimonials" class="dropdown-toggle hidden-sm hidden-md hidden-lg">TESTIMONIALS</a>
                 <a href="#partners" class="dropdown-toggle hidden-sm hidden-md hidden-lg">PARTNERS</a>
                 <a href="#refer" class="dropdown-toggle hidden-sm hidden-md hidden-lg">REFER-A-FRIEND</a>
-                <a href="{{ URL::route('blog') }}" class="dropdown-toggle hidden-sm hidden-md hidden-lg">BLOG</a>
+                <a href="https://blog.shinetext.com/latest" class="dropdown-toggle hidden-sm hidden-md hidden-lg">BLOG</a>
                 <a href="#contact" class="dropdown-toggle hidden-sm hidden-md hidden-lg">CONTACT</a>
+                <a href="{{ URL::route('privacy-policy') }}"class="dropdown-toggle hidden-sm hidden-md hidden-lg">PRIVACY POLICY</a></li>
+
 
                 <ul class="dropdown-menu dropdown-toggle hidden-xs">
                   <li><a href="#about">ABOUT</a></li>
@@ -82,6 +84,7 @@
                   <li><a href="#refer">REFER-A-FRIEND</a></li>
                   <li><a href="https://blog.shinetext.com/latest">BLOG</a></li>
                   <li><a href="#contact">CONTACT</a></li>
+                  <li><a href="{{ URL::route('privacy-policy') }}">PRIVACY POLICY</a></li>
                 </ul>
               </li>
 

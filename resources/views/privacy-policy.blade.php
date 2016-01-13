@@ -75,6 +75,7 @@
 	    		<li>First and last name</li>
 	    		<li>Phone number</li>
 	    		<li>Email address</li>
+	    		<li>Birthday</li>
 	    	</ul>
 
 	    	<h2>What do we do with the information we collect?</h2>
@@ -89,11 +90,10 @@
 	    	<p>We are committed to ensuring that your information is secure. In order to prevent unauthorized access or disclosure we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online.</p>
 			
 			<h2>Cookies</h2>
-			<p>A cookie is a small file of information located in your computer. Cookies help track which websites you visit and what you do on the site.</p>
+			<p>A cookie is a small file of information placed on your computer. Cookies can help track which websites you visit and what you do on the site.</p>
 			<p>Shine Text uses cookies for the following purposes:</p>
 			<ul>
 				<li>To understand site analytics to improve site features, tailor content, and enhance user experience.</li>
-				<li>To remember and save user information for optimized experience.</li>
 			</ul>
 
 			<h2>Links to other websites</h2>
