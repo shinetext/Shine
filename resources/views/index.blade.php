@@ -73,6 +73,7 @@
                 <a href="#partners" class="dropdown-toggle hidden-sm hidden-md hidden-lg">PARTNERS</a>
                 <a href="#refer" class="dropdown-toggle hidden-sm hidden-md hidden-lg">REFER-A-FRIEND</a>
                 <a href="https://blog.shinetext.com/latest" class="dropdown-toggle hidden-sm hidden-md hidden-lg">BLOG</a>
+                <a href="#press" class="dropdown-toggle hidden-sm hidden-md hidden-lg">PRESS</a>
                 <a href="#contact" class="dropdown-toggle hidden-sm hidden-md hidden-lg">CONTACT</a>
 
                 <ul class="dropdown-menu dropdown-toggle hidden-xs">
@@ -81,6 +82,7 @@
                   <li><a href="#partners">PARTNERS</a></li>
                   <li><a href="#refer">REFER-A-FRIEND</a></li>
                   <li><a href="https://blog.shinetext.com/latest">BLOG</a></li>
+                  <li><a href="#press">PRESS</a></li>
                   <li><a href="#contact">CONTACT</a></li>
                 </ul>
               </li>
@@ -245,7 +247,6 @@
       <a name="contact"></a>
       </div>
 
-
       <div style="clear: both;"></div>
       <div class="contact">
           <h2>WE'RE FIGURING IT OUT WITH YOU</h2>
@@ -259,6 +260,13 @@
               Design by <a href="http://www.kimberlyli.com/" target="_blank">Kim Li</a> and words by <a href="http://www.benkassoy.com/" target="_blank">Ben Kassoy.</a>
           </p>
           <img src={{asset('images/Shine.jpg')}}>
+      </div>
+
+      <a name="press">
+      <div class="press">
+        <li id="observer"><a href="http://observer.com/2016/01/shine-a-daily-text-to-help-you-slay-the-day/" target="_blank"><img src={{asset('images/observer_logo.png')}}></a></li>
+        <li id="glamour"><a href="http://www.glamour.com/inspired/blogs/the-conversation/2015/12/vacation-career-tips" target="_blank"><img src={{asset('images/glamour_logo.png')}}></a></li>
+        <li id="fortune"><a href="http://fortune.com/2016/01/02/entrepreneur-work-two-jobs/" target="_blank"><img src={{asset('images/fortune_logo.png')}}></a></li>
       </div>
 
       <ul class="footer">
