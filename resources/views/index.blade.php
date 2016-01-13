@@ -212,7 +212,7 @@
         <li id="dreamers"><a href="http://www.dreamersdoers.me/" target="_blank"><img src={{asset('images/dreamers_and_doers.png')}}></a></li>
         <li id="first"><a href="https://www.shesthefirst.org/" target="_blank"><img src={{asset('images/shes_the_first.png')}}></a></li>
         <li id="create"><a href="http://www.createcultivate.com/blog/side-hustle-queens-part-ii" target="_blank"><img src={{asset('images/create_and_cultivate.png')}}></a></li>
-        <li id="lorem"><a href="http://www.loremipsum.wtf/" target="_blank"><img src={{asset('images/lorem_ipsum.png')}}></a></li>
+        <li id="lorem"><a href="http://www.loremipsum.wtf/" target="_blank"><img src={{asset('images/lorem_ipsum.jpg')}}></a></li>
       </div>
 
       <a name="refer"></a>
