@@ -131,18 +131,8 @@
   font-size: 24px;
   width: 20%;
   position: absolute;
-  top: 32%;
+  top: 35%;
   left: 40%;
-  margin-bottom: 0;
-}
-
-#logo_column h4 {
-  margin-top: 0;
-}
-
-#logo_column h4 img {
-  width: 20%;
-  padding: 0 3% 2% 0;
 }
 
 @media screen and (max-width:1150px) {
@@ -154,12 +144,7 @@
     position: relative;
     left: 25%;
     width: 50%;
-    padding-bottom: 0;
-  }
-
-  #logo_column h4 img {
-    width: 30%;
-    padding-top: 5%;
+    padding-bottom: 5%;
   }
 }
 
