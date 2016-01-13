@@ -75,7 +75,7 @@
                 <li><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_yellow.png')}}></a></li>
                 <li><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_yellow.png')}}></a></li>
                 <li><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_yellow.png')}}></a></li>
-                <div id="privacy-policy-link"><li><a href="{{ URL::route('privacy-policy') }}">PRIVACY POLICY</a></li></div>
+                <div id="privacy-policy-link"><li><a href="{{ URL::route('privacy-policy') }}" target="_blank">PRIVACY POLICY</a></li></div>
             </div>
       </ul>
     </body>
