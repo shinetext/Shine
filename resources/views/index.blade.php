@@ -74,7 +74,6 @@
                 <a href="#refer" class="dropdown-toggle hidden-sm hidden-md hidden-lg">REFER-A-FRIEND</a>
                 <a href="https://blog.shinetext.com/latest" class="dropdown-toggle hidden-sm hidden-md hidden-lg">BLOG</a>
                 <a href="#contact" class="dropdown-toggle hidden-sm hidden-md hidden-lg">CONTACT</a>
-                <a href="{{ URL::route('privacy-policy') }}" class="dropdown-toggle hidden-sm hidden-md hidden-lg">PRIVACY POLICY</a>
 
                 <ul class="dropdown-menu dropdown-toggle hidden-xs">
                   <li><a href="#about">ABOUT</a></li>
@@ -83,7 +82,6 @@
                   <li><a href="#refer">REFER-A-FRIEND</a></li>
                   <li><a href="https://blog.shinetext.com/latest">BLOG</a></li>
                   <li><a href="#contact">CONTACT</a></li>
-                  <li><a href="{{ URL::route('privacy-policy') }}">PRIVACY POLICY</a></li>
                 </ul>
               </li>
 
@@ -271,6 +269,7 @@
             <li><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_yellow.png')}}></a></li>
             <li><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_yellow.png')}}></a></li>
             <li><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_yellow.png')}}></a></li>
+            <div id="privacy-policy-link"><li><a href="{{ URL::route('privacy-policy') }}">PRIVACY POLICY</a></li></div>
         </div>
       </ul>
     </body>
