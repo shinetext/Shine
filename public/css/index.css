@@ -504,32 +504,26 @@ input {
 
 #glamour img {
   width: 15%;
-  margin: 0 1% 5% 1%;
+  margin: 0 2% 0 2%;
 }
 
 #observer img {
   width: 15%;
-  margin: 0 1% 5% 1%;
+  margin: 0 2% 0 2%;
 }
 
 #of_a_kind img {
   width: 15%;
-  margin: 0 1% 5% 1%;
+  margin: 0 2% 0 2%;
 }
 
 #fortune img {
   width: 15%;
-  margin: 0 1% 5% 1%;
+  margin: 0 2% 0 2%;
 }
 
 .press li {
   display:inline; 
-}
-
-@media screen and (max-width:600px) {
-  .press h2 { 
-      font-size: 30px;
-  }
 }
 
 .footer { 

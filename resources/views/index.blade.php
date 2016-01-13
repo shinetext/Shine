@@ -264,7 +264,6 @@
 
       <a name="press"></a>
       <div class="press">
-        <h2>Who's Talking About Shine</h2>
         <li id="observer"><a href="http://observer.com/2016/01/shine-a-daily-text-to-help-you-slay-the-day/" target="_blank"><img src={{asset('images/observer_logo.png')}}></a></li>
         <li id="of_a_kind"><a href="http://r.ofakind.com/nl/mhp1/xsnq.html?a=1xoEQduvEP&b=f65a23c9&c=mhp1&d=76c3dca4&e=715a8cdb&email=naomi.hirabayashi@gmail.com" target="_blank"><img src={{asset('images/of_a_kind_logo.png')}}></a></li>
         <li id="glamour"><a href="http://www.glamour.com/inspired/blogs/the-conversation/2015/12/vacation-career-tips" target="_blank"><img src={{asset('images/glamour_logo.png')}}></a></li>
