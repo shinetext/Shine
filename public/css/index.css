@@ -287,6 +287,12 @@ input {
   color: black;
 }
 
+@media screen and (max-width:600px) {
+  .testimonials h2 { 
+      font-size: 30px;
+  }
+}
+
 /*#testimonials {
   background: #E6E6E6;
   overflow: scroll;
@@ -356,6 +362,12 @@ input {
   display:inline; 
 }
 
+@media screen and (max-width:600px) {
+  .partners h2 { 
+      font-size: 30px;
+  }
+}
+
 .refer-a-friend {
   background-color: #E6E6E6;
 }
@@ -374,6 +386,12 @@ input {
   display: block;
   text-align: center;
   font-family: 'Fira Sans';
+}
+
+@media screen and (max-width:600px) {
+  .refer-a-friend h2 { 
+      font-size: 30px;
+  }
 }
 
 .refer_form {
@@ -465,6 +483,12 @@ input {
   }
 }
 
+@media screen and (max-width:600px) {
+  .contact h2 { 
+      font-size: 30px;
+  }
+}
+
 .press {
   text-align: center;
   background-color: #E6E6E6;
@@ -500,6 +524,12 @@ input {
 
 .press li {
   display:inline; 
+}
+
+@media screen and (max-width:600px) {
+  .press h2 { 
+      font-size: 30px;
+  }
 }
 
 .footer { 
