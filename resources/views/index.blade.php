@@ -164,7 +164,7 @@
       <br><br><br><br><br><br><br>
       <div class="testimonials">
         <!-- Used this tutorial to create carousel: https://bootstrapbay.com/blog/bootstrap-3-carousel-tutorial/ -->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="5000">
+        <div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel" data-interval="5000">
         <h2>WORD ON THE STREET</h2>
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -194,6 +194,50 @@
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div> <!-- Carousel -->
+
+        <div id="carousel-example-generic" class="carousel slide hidden-sm hidden-md hidden-lg" data-ride="carousel" data-interval="5000">
+        <h2>WORD ON THE STREET</h2>
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+          </ol>
+         
+          <!-- Wrapper for slides - dimensions are screenshots of 1440 x 610 -->
+          <div class="carousel-inner">
+            <div class="item active" id="mobile-testimonials">
+              <img src={{asset('images/brenna_individual.png')}}>
+            </div>
+            <div class="item" id="mobile-testimonials">
+              <img src={{asset('images/lindsay_individual.png')}}>
+            </div>
+            <div class="item" id="mobile-testimonials">
+              <img src={{asset('images/christina_individual.png')}}>
+            </div>
+            <div class="item" id="mobile-testimonials">
+              <img src={{asset('images/sydney_individual.png')}}>
+            </div>
+            <div class="item" id="mobile-testimonials">
+              <img src={{asset('images/farah_individual.png')}}>
+            </div>
+            <div class="item" id="mobile-testimonials">
+              <img src={{asset('images/jenni_individual.png')}}>
+            </div>
+          </div>
+         
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div> <!-- Carousel -->
+
      <!--    <div class="col-md-4" id="testimonials">
           <div class="rays">
             <img src={{asset('images/sun_rays.png')}}>
