@@ -349,6 +349,24 @@ input {
   width: 20%;
 }
 
+@media screen and (max-width:800px) {
+  #dreamers img {
+    width: 40%;
+  }
+
+  #first img {
+    width: 40%;
+  }
+
+  #create img {
+    width: 40%;
+  }
+
+  #lorem img {
+    width: 40%;
+  }
+}
+
 .partners h2 {
   margin-top: 5%;
   padding-top: 5%;
@@ -412,7 +430,7 @@ input {
 
 #referral input {
   width: 70%;
-  margin-left: 15%;
+  margin: 10% 0 0 15%;
 }
 
 @media (max-width: 1000px) {
