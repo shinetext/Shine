@@ -423,16 +423,16 @@ input {
 #referral {
   float: left;
   display: inline-block;
-  /*width: 60%;*/
   text-align: left;
+  margin-top: 2%;
 }
 
 #referral input {
   width: 70%;
-  margin: 10% 0 0 15%;
+  margin-left: 15%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   #referral {
       display: block;
       float: none;
