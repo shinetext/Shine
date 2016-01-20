@@ -240,8 +240,8 @@
               </div>
             </div>
 
-            <div style="clear: both;">
             <input type="submit" value="SUBMIT" class="signup_button" id="center"/>
+            <br><br><br>
             </div>  
         </form>
       <a name="contact"></a>
