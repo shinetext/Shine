@@ -539,6 +539,11 @@ input {
   margin: 0 2% 0 2%;
 }
 
+#psyched img {
+  width: 15%;
+  margin: 0 2% 0 2%;
+}
+
 .press li {
   display:inline; 
 }
