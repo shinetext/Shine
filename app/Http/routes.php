@@ -33,3 +33,7 @@ Route::get('blog', array('as' => 'blog', function(){
 Route::get('privacy-policy', array('as' => 'privacy-policy', function(){
     return View::make('privacy-policy');
 }));
+
+Route::get('home', array('as' => 'home', function(){
+    return View::make('home');
+}));
