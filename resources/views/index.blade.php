@@ -281,6 +281,7 @@
         <li id="observer"><a href="http://observer.com/2016/01/shine-a-daily-text-to-help-you-slay-the-day/" target="_blank"><img src={{asset('images/observer_logo.png')}}></a></li>
         <li id="of_a_kind"><a href="http://r.ofakind.com/nl/mhp1/xsnq.html?a=1xoEQduvEP&b=f65a23c9&c=mhp1&d=76c3dca4&e=715a8cdb&email=naomi.hirabayashi@gmail.com" target="_blank"><img src={{asset('images/of_a_kind_logo.png')}}></a></li>
         <li id="glamour"><a href="http://www.glamour.com/inspired/blogs/the-conversation/2015/12/vacation-career-tips" target="_blank"><img src={{asset('images/glamour_logo.png')}}></a></li>
+        <li id="cnn"><a href="http://money.cnn.com/2016/01/29/technology/startup-shine-text/index.html" target="_blank"><img src={{asset('images/CNNMoney_logo.png')}}></a></li>
         <li id="fortune"><a href="http://fortune.com/2016/01/02/entrepreneur-work-two-jobs/" target="_blank"><img src={{asset('images/fortune_logo.png')}}></a></li>
         <li id="psyched"><a href="http://www.psychedmedia.com/blog/2016/1/4/shine-at-work-even-when-you-want-to-crawl-back-into-bed" target="_blank"><img src={{asset('images/psyched_logo.png')}}></a></li>
       </div>
