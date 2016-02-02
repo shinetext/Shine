@@ -520,31 +520,36 @@ input {
 }
 
 #glamour img {
-  width: 12%;
+  width: 10%;
   margin: 0 2% 0 2%;
 }
 
 #observer img {
-  width: 12%;
+  width: 10%;
   margin: 0 2% 0 2%;
 }
 
 #of_a_kind img {
-  width: 12%;
+  width: 10%;
   margin: 0 2% 0 2%;
 }
 
 #fortune img {
-  width: 12%;
+  width: 10%;
   margin: 0 2% 0 2%;
 }
 
 #psyched img {
-  width: 12%;
+  width: 10%;
   margin: 0 2% 0 2%;
 }
 
 #cnn img {
+  width: 10%;
+  margin: 0 2% 0 2%;
+}
+
+#big_think img {
   width: 10%;
   margin: 0 2% 0 2%;
 }

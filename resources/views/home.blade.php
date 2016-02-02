@@ -284,6 +284,7 @@
         <li id="cnn"><a href="http://money.cnn.com/2016/01/29/technology/startup-shine-text/index.html" target="_blank"><img src={{asset('images/CNNMoney_logo.png')}}></a></li>
         <li id="fortune"><a href="http://fortune.com/2016/01/02/entrepreneur-work-two-jobs/" target="_blank"><img src={{asset('images/fortune_logo.png')}}></a></li>
         <li id="psyched"><a href="http://www.psychedmedia.com/blog/2016/1/4/shine-at-work-even-when-you-want-to-crawl-back-into-bed" target="_blank"><img src={{asset('images/psyched_logo.png')}}></a></li>
+        <li id="big_think"><a href="http://bigthink.com/robert-montenegro/closing-the-confidence-gap-one-text-at-a-time" target="_blank"><img src={{asset('images/big_think_logo.png')}}></a></li>
       </div>
 
       <ul class="footer">
