@@ -74,7 +74,7 @@
                 <a href="#testimonials" class="dropdown-toggle hidden-sm hidden-md hidden-lg">TESTIMONIALS</a>
                 <a href="#press" class="dropdown-toggle hidden-sm hidden-md hidden-lg">PRESS</a>
                 <a href="#refer" class="dropdown-toggle hidden-sm hidden-md hidden-lg">REFER-A-FRIEND</a>
-                <a href="https://blog.shinetext.com/latest" tartget="_blank" class="dropdown-toggle hidden-sm hidden-md hidden-lg">BLOG</a>
+                <a href="https://blog.shinetext.com/latest" target="_blank" class="dropdown-toggle hidden-sm hidden-md hidden-lg">BLOG</a>
                 <a href="#partners" class="dropdown-toggle hidden-sm hidden-md hidden-lg">PARTNERS</a>
                 <a href="#contact" class="dropdown-toggle hidden-sm hidden-md hidden-lg">CONTACT</a>
 
