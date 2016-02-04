@@ -86,19 +86,19 @@
                 <a href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src={{asset('images/hamburger.png')}}></a>
                 <a href="#about" class="dropdown-toggle hidden-sm hidden-md hidden-lg">ABOUT</a>
                 <a href="#testimonials" class="dropdown-toggle hidden-sm hidden-md hidden-lg">TESTIMONIALS</a>
-                <a href="#partners" class="dropdown-toggle hidden-sm hidden-md hidden-lg">PARTNERS</a>
-                <a href="#refer" class="dropdown-toggle hidden-sm hidden-md hidden-lg">REFER-A-FRIEND</a>
-                <a href="https://blog.shinetext.com/latest" class="dropdown-toggle hidden-sm hidden-md hidden-lg">BLOG</a>
                 <a href="#press" class="dropdown-toggle hidden-sm hidden-md hidden-lg">PRESS</a>
+                <a href="#refer" class="dropdown-toggle hidden-sm hidden-md hidden-lg">REFER-A-FRIEND</a>
+                <a href="https://blog.shinetext.com/latest" tartget="_blank" class="dropdown-toggle hidden-sm hidden-md hidden-lg">BLOG</a>
+                <a href="#partners" class="dropdown-toggle hidden-sm hidden-md hidden-lg">PARTNERS</a>
                 <a href="#contact" class="dropdown-toggle hidden-sm hidden-md hidden-lg">CONTACT</a>
 
                 <ul class="dropdown-menu dropdown-toggle hidden-xs">
                   <li><a href="#about">ABOUT</a></li>
                   <li><a href="#testimonials">TESTIMONIALS</a></li>
-                  <li><a href="#partners">PARTNERS</a></li>
-                  <li><a href="#refer">REFER-A-FRIEND</a></li>
-                  <li><a href="https://blog.shinetext.com/latest">BLOG</a></li>
                   <li><a href="#press">PRESS</a></li>
+                  <li><a href="#refer">REFER-A-FRIEND</a></li>
+                  <li><a href="https://blog.shinetext.com/latest" target="_blank">BLOG</a></li>
+                  <li><a href="#partners">PARTNERS</a></li>
                   <li><a href="#contact">CONTACT</a></li>
                 </ul>
               </li>
@@ -220,15 +220,21 @@
           <p>"EVERYTHING I ever needed to make it through another awkward week of my version of adulting. I'm always twiddling my thumbs waiting for Shine to kick my ass back into gear. #dependency"</p> 
           <p id="name">Brenna, Graduate Student</p>
         </div> -->
-      <a name="partners"></a>
+      <a name="press"></a>
       </div>
 
-      <div class="partners">
-        <h2>Partners we love</h2>
-        <li id="dreamers"><a href="http://www.dreamersdoers.me/" target="_blank"><img src={{asset('images/dreamers_and_doers.png')}}></a></li>
-        <li id="first"><a href="https://www.shesthefirst.org/" target="_blank"><img src={{asset('images/shes_the_first.png')}}></a></li>
-        <li id="create"><a href="http://www.createcultivate.com/blog/side-hustle-queens-part-ii" target="_blank"><img src={{asset('images/create_and_cultivate.png')}}></a></li>
-        <li id="lorem"><a href="http://www.loremipsum.wtf/" target="_blank"><img src={{asset('images/lorem_ipsum.jpg')}}></a></li>
+      <div class="press">
+        <h2>In the news</h2>
+          <li id="cnn"><a href="http://money.cnn.com/2016/01/29/technology/startup-shine-text/index.html" target="_blank"><img src={{asset('images/CNNMoney_logo.png')}}></a></li>
+          <div class="hidden-sm hidden-md hidden-lg"><br></div>
+          <li id="glamour"><a href="http://www.glamour.com/inspired/blogs/the-conversation/2015/12/vacation-career-tips" target="_blank"><img src={{asset('images/glamour_logo.png')}}></a></li>
+          <li id="fortune"><a href="http://fortune.com/2016/01/02/entrepreneur-work-two-jobs/" target="_blank"><img src={{asset('images/fortune_logo.png')}}></a></li>
+          <div class="hidden-xs"<br></div>
+          <li id="of_a_kind"><a href="http://r.ofakind.com/nl/mhp1/xsnq.html?a=1xoEQduvEP&b=f65a23c9&c=mhp1&d=76c3dca4&e=715a8cdb&email=naomi.hirabayashi@gmail.com" target="_blank"><img src={{asset('images/of_a_kind_logo.png')}}></a></li>
+          <li id="observer"><a href="http://observer.com/2016/01/shine-a-daily-text-to-help-you-slay-the-day/" target="_blank"><img src={{asset('images/observer_logo.png')}}></a></li>
+          <li id="psyched"><a href="http://www.psychedmedia.com/blog/2016/1/4/shine-at-work-even-when-you-want-to-crawl-back-into-bed" target="_blank"><img src={{asset('images/psyched_logo1.png')}}></a></li>
+          <li id="big_think"><a href="http://bigthink.com/robert-montenegro/closing-the-confidence-gap-one-text-at-a-time" target="_blank"><img src={{asset('images/big_think_logo.png')}}></a></li>
+        </div>
       </div>
 
       <a name="refer"></a>
@@ -278,15 +284,13 @@
           <img src={{asset('images/Shine.jpg')}}>
       </div>
 
-      <a name="press"></a>
-      <div class="press">
-        <li id="of_a_kind"><a href="http://r.ofakind.com/nl/mhp1/xsnq.html?a=1xoEQduvEP&b=f65a23c9&c=mhp1&d=76c3dca4&e=715a8cdb&email=naomi.hirabayashi@gmail.com" target="_blank"><img src={{asset('images/of_a_kind_logo.png')}}></a></li>
-        <li id="observer"><a href="http://observer.com/2016/01/shine-a-daily-text-to-help-you-slay-the-day/" target="_blank"><img src={{asset('images/observer_logo.png')}}></a></li>
-        <li id="glamour"><a href="http://www.glamour.com/inspired/blogs/the-conversation/2015/12/vacation-career-tips" target="_blank"><img src={{asset('images/glamour_logo.png')}}></a></li>
-        <li id="cnn"><a href="http://money.cnn.com/2016/01/29/technology/startup-shine-text/index.html" target="_blank"><img src={{asset('images/CNNMoney_logo.png')}}></a></li>
-        <li id="fortune"><a href="http://fortune.com/2016/01/02/entrepreneur-work-two-jobs/" target="_blank"><img src={{asset('images/fortune_logo.png')}}></a></li>
-        <li id="psyched"><a href="http://www.psychedmedia.com/blog/2016/1/4/shine-at-work-even-when-you-want-to-crawl-back-into-bed" target="_blank"><img src={{asset('images/psyched_logo.png')}}></a></li>
-        <li id="big_think"><a href="http://bigthink.com/robert-montenegro/closing-the-confidence-gap-one-text-at-a-time" target="_blank"><img src={{asset('images/big_think_logo.png')}}></a></li>
+      <a name="partners"></a>
+      <div class="partners">
+        <h4>Partners We Love</h4>
+        <li id="dreamers"><a href="http://www.dreamersdoers.me/" target="_blank"><img src={{asset('images/dreamers_and_doers.png')}}></a></li>
+        <li id="first"><a href="https://www.shesthefirst.org/" target="_blank"><img src={{asset('images/shes_the_first.png')}}></a></li>
+        <li id="create"><a href="http://www.createcultivate.com/blog/side-hustle-queens-part-ii" target="_blank"><img src={{asset('images/create_and_cultivate.png')}}></a></li>
+        <li id="lorem"><a href="http://www.loremipsum.wtf/" target="_blank"><img src={{asset('images/lorem_ipsum.jpg')}}></a></li>
       </div>
 
       <ul class="footer">
