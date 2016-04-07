@@ -20,10 +20,10 @@ Route::get('confirmation', array('as' => 'confirmation', function(){
     return View::make('confirmation');
 }));
 
-// temporary refer-a-friend confirmation page (app/views/refer_confirmation.blade.php)
-// TODO: add params function so there is only one confirmation redirect 
-Route::get('refer_confirmation', array('as' => 'refer_confirmation', function(){
-    return View::make('refer_confirmation');
+// temporary refer-a-friend confirmation page (app/views/refer-confirmation.blade.php)
+// TODO: add params function so there is only one confirmation redirect
+Route::get('refer-confirmation', array('as' => 'refer-confirmation', function(){
+    return View::make('refer-confirmation');
 }));
 
 Route::get('blog', array('as' => 'blog', function(){

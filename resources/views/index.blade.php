@@ -1,6 +1,13 @@
 @extends('layouts.master')
 
+@section('page-css')
+<link href="{{ asset('css/index.css') }}" rel="stylesheet" type="text/css" >
+@endsection
+
 @section('content')
+
+@include('layouts.navbar-index')
+
 <div class="header">
   <div class="text_bubble_column">
     <div id="shine_text_bubble">
@@ -130,7 +137,7 @@
   <form action="https://secure.mcommons.com/profiles/join" method="post">
       <div class="refer_form">
         <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
-            <input type="hidden" name="redirect_to" value={{ URL::route('refer_confirmation') }} />
+            <input type="hidden" name="redirect_to" value={{ URL::route('refer-confirmation') }} />
 
         <div class="col-md-4" id="referral">
             <input required="required" placeholder="YOUR NAME" type="text" name="person[first_name]" id="person_first_name" /></br></br>
