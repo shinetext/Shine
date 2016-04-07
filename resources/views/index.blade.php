@@ -38,10 +38,6 @@
 
         <input required="required" placeholder="Phone Number" type="text" name="person[phone]" id="person_phone" /></br>
 
-        <!-- <input required="required" placeholder="BIRTHDAY" onfocus="(this.type='date')" id="person_birthday" name="person[birthday]" size="30" type="text" /></br>    -->
-
-        <!-- <input placeholder="EMAIL ADDRESS (OPTIONAL)" id="person_email" name="person[email]" size="30" type="email" /></br> -->
-
         <input type="submit" value="SIGNUP" class="signup_button"/>
     </form>
 
@@ -140,18 +136,18 @@
             <input type="hidden" name="redirect_to" value={{ URL::route('refer-confirmation') }} />
 
         <div class="col-md-4" id="referral">
-            <input required="required" placeholder="YOUR NAME" type="text" name="person[first_name]" id="person_first_name" /></br></br>
-            <input required="required" placeholder="YOUR PHONE NUMBER" type="text" name="person[phone]" id="person_phone" /></br>
+            <input required="required" placeholder="Your Name" type="text" name="person[first_name]" id="person_first_name" /></br></br>
+            <input required="required" placeholder="Your Phone Number" type="text" name="person[phone]" id="person_phone" /></br>
         </div>
 
         <div class="col-md-4" id="referral">
-            <input required="required" placeholder="YOUR FRIEND'S NUMBER" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
-            <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
+            <input required="required" placeholder="Your Friend's Number" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
+            <input placeholder="Your Friend's Number (optional)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
         </div>
 
         <div class="col-md-4" id="referral">
-            <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
-            <input placeholder="YOUR FRIEND'S NUMBER (OPTIONAL)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
+            <input placeholder="Your Friend's Number (optional)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
+            <input placeholder="Your Friend's Number (optional)" type="text" name="friends[]"/><br /> <input type="hidden" name="friends_opt_in_path" value="OPE8B3F738CF07CE0C3AFA3F45A5E155ED" /><br>
         </div>
       </div>
 
