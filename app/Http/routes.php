@@ -35,5 +35,5 @@ Route::get('privacy-policy', array('as' => 'privacy-policy', function(){
 }));
 
 Route::get('home', array('as' => 'home', function(){
-    return View::make('home');
+    return View::make('index');
 }));
