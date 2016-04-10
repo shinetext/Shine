@@ -1,3 +1,45 @@
+#footer-social {
+  margin-right: 5%;
+}
+
+#social-icons {
+    width: 15%;
+    height: auto;
+    padding-left: 13%;
+}
+
+.footer {
+  list-style:none;
+  background-color: black;
+  overflow: scroll;
+  padding-left: 5%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.footer h1 {
+  float: left;
+  color: white;
+  display: block;
+  position: relative;
+  font-size: 35px;
+  padding-top: 1%;
+  margin-top: 0;
+  font-family: 'Bebas Neue Regular';
+}
+
+.footer li {
+  display:inline;
+  float: right;
+  padding-top: 2%;
+  max-width: 42px;
+}
+
+.footer li img {
+  width: 75%;
+  margin-top: -20%;
+}
+
 .navbar-brand {
     padding-left: 5%;
 }
@@ -10,13 +52,40 @@
   background-color: #E6E6E6;
   clear: both;
   overflow: scroll;
+  padding: 100px 15%;
 }
 
 .page h1 {
-    font-family: 'Bebas Neue Bold';
-    text-align: center;
-    font-size: 50px;
-    padding-top: 10%;
+  font-family: 'Bebas Neue Bold';
+  text-align: center;
+  font-size: 50px;
+}
+
+.page h2 {
+  font-family: 'Bebas Neue Bold';
+}
+
+.page h3 {
+  font-family: 'Bebas Neue Bold';
+}
+
+.page h4 {
+  font-family: 'Fira Sans';
+}
+
+.page p {
+  font-family: 'Fira Sans';
+  font-size: 17px;
+}
+
+.page ul {
+  font-family: 'Fira Sans';
+  font-size: 17px;
+  padding-left: 5%;
+}
+
+.page li {
+  padding-bottom: 10px;
 }
 
 @media (max-width: 1000px) {

@@ -1,9 +1,7 @@
-
-
-#social-icons {
-    width: 15%;
-    height: auto;
-    padding-left: 13%;
+/* @todo fixme. This is to nullify the padding to .page from subpage.css. This
+could be cleaner. */
+.page {
+  padding: 0;
 }
 
 .signup_button {
@@ -73,40 +71,4 @@ form {
   .signup_button {
       width: 27%;
   }
-}
-
-.footer {
-  list-style:none;
-  background-color: black;
-  overflow: scroll;
-  padding-left: 5%;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.footer h1 {
-  float: left;
-  color: white;
-  display: block;
-  position: relative;
-  font-size: 35px;
-  padding-top: 1%;
-  margin-top: 0;
-  font-family: 'Bebas Neue Regular';
-}
-
-.footer li {
-  display:inline;
-  float: right;
-  padding-top: 2%;
-  max-width: 42px;
-}
-
-.footer li img {
-  width: 75%;
-  margin-top: -20%;
-}
-
-#footer-social {
-  margin-right: 5%;
 }

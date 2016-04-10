@@ -1,11 +1,3 @@
-
-
-#social-icons {
-    width: 15%;
-    height: auto;
-    padding-left: 13%;
-}
-
 .navbar-brand {
     padding-left: 5%;
 }
@@ -13,60 +5,8 @@
     margin-right: -5%;
 }
 
-.page p {
-  font-family: 'Fira Sans';
-  font-size: 17px;
-  padding: 0 15% 0 15%;
-}
-
-.page h2 {
-  font-family: 'Bebas Neue Bold';
-  padding: 0 15% 0 15%;
-}
-
-.page ul {
-  font-family: 'Fira Sans';
-  font-size: 17px;
-  padding: 0 15% 0 20%;
-}
-
 @media (max-width: 1000px) {
   .page h1 {
     padding-top: 20%;
   }
-}
-
-.footer {
-  list-style:none;
-  background-color: black;
-  overflow: scroll;
-  padding-left: 5%;
-  margin-top: 0;
-}
-
-.footer h1 {
-  float: left;
-  color: white;
-  display: block;
-  position: relative;
-  font-size: 35px;
-  padding-top: 1%;
-  margin-top: 0;
-  font-family: 'Bebas Neue Regular';
-}
-
-.footer li {
-  display:inline;
-  float: right;
-  padding-top: 2%;
-  max-width: 42px;
-}
-
-.footer li img {
-  width: 75%;
-  margin-top: -20%;
-}
-
-#footer-social {
-  margin-right: 5%;
 }
