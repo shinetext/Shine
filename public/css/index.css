@@ -1,24 +1,4 @@
-@font-face {
-  font-family: 'Bebas Neue Bold';
-  src: url('../fonts/BebasNeueBold.otf') format('opentype'),
-      url('../fonts/BebasNeueBold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: 'Bebas Neue Regular';
-  src: url('../fonts/BebasNeueRegular.otf') format('opentype'),
-      url('../fonts/BebasNeueRegular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
-
-.navbar-default {
-  background-color: white;
-}
 
 .dropdown-menu {
   font-family: 'Bebas Neue Regular';
@@ -143,35 +123,6 @@
   }
 }
 
-input {
-  border:none;
-  background-color:#FFFFFF;
-  width: 18%;
-  padding: 10px;
-  margin: 5px;
-  border-bottom: 1px solid black;
-  font-family: 'Fira Sans';
-  font-size: 16px;
-}
-
-@media screen and (max-width:1150px) {
-  input {
-      width: 50%;
-  }
-}
-
-.signup_button {
-  padding: 1% 5% 1% 5%;
-  width: 15%;
-  margin: 30px;
-  border-radius: 25px;
-  background:#FFC52D;
-  font-family: 'Bebas Neue Bold';
-  font-size: 28px;
-  text-align: center;
-  color: black;
-}
-
 @media screen and (max-width:1000px) {
   .signup_button {
       width: 27%;
@@ -264,12 +215,10 @@ input {
 }
 
 .testimonials {
-  /*margin-top: 10%;*/
   background: #E6E6E6;
 }
 
 .testimonials img {
-  /*margin-top: 10%;*/
   width: 70%;
   height: auto;
 }
@@ -287,29 +236,6 @@ input {
       font-size: 30px;
   }
 }
-
-/*#testimonials {
-  background: #E6E6E6;
-  overflow: scroll;
-  font-size: 16px;
-  color: black;
-  font-style: italic;
-  padding-bottom: 5%;
-}*/
-
-/*.rays {
-  width: 90%;
-  margin-left: 6%;
-}
-
-#user_pic img {
-  border-radius: 50%;
-  width: 48%;
-  height: auto;
-  margin-top: -250px;
-  margin-left: 3%;
-  margin-bottom: 14%;
-}*/
 
 #carosel-example-generic {
   margin-top: 100%;
@@ -470,7 +396,6 @@ input {
 }
 
 .contact a {
-  /*font-style: italic;*/
   color: #FFC52D;
 }
 
@@ -595,31 +520,4 @@ input {
 
 #footer-social {
   margin-right: 5%;
-}
-
-#privacy-policy-link li {
-  color: white;
-  font-family: 'Bebas Neue Regular';
-  font-size: 20px;
-  max-width: 100%;
-  padding: 20px 2% 0 0;
-}
-
-#privacy-policy-link a {
-  color: white;
-}
-
-#privacy-policy-link a:hover {
-  color: white;
-  text-decoration: none;
-}
-
-@media (max-width: 600px) {
-  .footer li img {
-    margin-top: 20%;
-  }
-
-  #privacy-policy-link li {
-    padding: 6% 9% 0 0;
-  }
 }
