@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
 @section('page-css')
+<link href="{{ asset('css/subpage.css') }}" rel="stylesheet" type="text/css" >
 <link href="{{ asset('css/privacy-policy.css') }}" rel="stylesheet" type="text/css" >
 @endsection
 
@@ -52,7 +53,7 @@
   <p>If we decide to change our privacy policy, we will post those changes on this page.</p>
 
   <h2>Got questions?</h2>
-  <p>Email us at <a href="mailto:theshinetext@gmail.com" target="_top">theshinetext@gmail.com</a></p>
+  <p>Email us at <a href="mailto:contactus@shinetext.com" target="_top">contactus@shinetext.com</a></p>
 
   <h2>Thank you!</h2>
   <br><br><br>

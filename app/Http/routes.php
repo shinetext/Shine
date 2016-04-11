@@ -15,25 +15,32 @@ Route::get('/', function () {
     return View::make('index');
 });
 
-// confirmation page (app/views/confirmation.blade.php)
-Route::get('confirmation', array('as' => 'confirmation', function(){
+Route::get('confirmation', ['as' => 'confirmation', function() {
     return View::make('confirmation');
-}));
+}]);
 
 // temporary refer-a-friend confirmation page (app/views/refer-confirmation.blade.php)
 // TODO: add params function so there is only one confirmation redirect
-Route::get('refer-confirmation', array('as' => 'refer-confirmation', function(){
+Route::get('refer-confirmation', ['as' => 'refer-confirmation', function() {
     return View::make('refer-confirmation');
-}));
+}]);
 
-Route::get('blog', array('as' => 'blog', function(){
+Route::get('blog', ['as' => 'blog', function(){
     return View::make('blog');
-}));
+}]);
 
-Route::get('privacy-policy', array('as' => 'privacy-policy', function(){
+Route::get('privacy-policy', ['as' => 'privacy-policy', function() {
     return View::make('privacy-policy');
-}));
+}]);
 
-Route::get('home', array('as' => 'home', function(){
+Route::get('home', ['as' => 'home', function() {
     return View::make('index');
-}));
+}]);
+
+Route::get('faq', ['as' => 'faq', function() {
+  return View::make('faq');
+}]);
+
+Route::get('jobs', ['as' => 'jobs', function() {
+  return View::make('jobs');
+}]);

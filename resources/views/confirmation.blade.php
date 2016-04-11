@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
 @section('page-css')
+<link href="{{ asset('css/subpage.css') }}" rel="stylesheet" type="text/css" >
 <link href="{{ asset('css/confirmation.css') }}" rel="stylesheet" type="text/css" >
 @endsection
 

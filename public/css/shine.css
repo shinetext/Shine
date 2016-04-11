@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Bebas Neue Bold';
+  src: url('../fonts/BebasNeueBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Regular';
+  src: url('../fonts/BebasNeueRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#privacy-policy-link li {
+  color: white;
+  font-family: 'Bebas Neue Regular';
+  font-size: 20px;
+  max-width: 100%;
+  padding: 20px 2% 0 0;
+}
+
+#privacy-policy-link a {
+  color: white;
+}
+
+#privacy-policy-link a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  background-color: #FFFFFF;
+  width: 18%;
+  padding: 10px;
+  margin: 5px;
+  border-bottom: 1px solid black;
+  font-family: 'Fira Sans';
+  font-size: 16px;
+}
+
+.navbar-default {
+  background-color: white;
+}
+
+.signup_button {
+  padding: 1% 5% 1% 5%;
+  width: 15%;
+  margin: 30px;
+  border-radius: 25px;
+  background:#FFC52D;
+  font-family: 'Bebas Neue Bold';
+  font-size: 28px;
+  text-align: center;
+  color: black;
+}
+
+@media screen and (max-width:1150px) {
+  input {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer li img {
+    margin-top: 20%;
+  }
+
+  #privacy-policy-link li {
+    padding: 5% 9% 0 0;
+  }
+}
