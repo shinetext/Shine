@@ -1,21 +1,13 @@
 @font-face {
   font-family: 'Bebas Neue Bold';
-  src: url('fonts/BebasNeueBold.eot');
-  src: url('fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
-      url('fonts/BebasNeueBold.woff') format('woff'),
-      url('fonts/BebasNeueBold.ttf') format('truetype'),
-      url('fonts/BebasNeueBold.svg#FontName') format('svg');
+  src: url('../fonts/BebasNeueBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Bebas Neue Regular';
-  src: url('fonts/BebasNeueRegular.eot');
-  src: url('fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
-      url('fonts/BebasNeueRegular.woff') format('woff'),
-      url('fonts/BebasNeueRegular.ttf') format('truetype'),
-      url('fonts/BebasNeueRegular.svg#FontName') format('svg');
+  src: url('../fonts/BebasNeueRegular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -66,13 +58,13 @@
 
 .page h2 {
   font-family: 'Bebas Neue Bold';
-  padding: 0 15% 0 15%;	
+  padding: 0 15% 0 15%;
 }
 
 .page ul {
   font-family: 'Fira Sans';
   font-size: 17px;
-  padding: 0 15% 0 20%;	
+  padding: 0 15% 0 20%;
 }
 
 @media (max-width: 1000px) {
@@ -81,8 +73,8 @@
     }
 }
 
-.footer { 
-  list-style:none; 
+.footer {
+  list-style:none;
   background-color: black;
   overflow: scroll;
   padding-left: 5%;
@@ -100,8 +92,8 @@
   font-family: 'Bebas Neue Regular';
 }
 
-.footer li { 
-  display:inline; 
+.footer li {
+  display:inline;
   float: right;
   padding-top: 2%;
   max-width: 42px;
@@ -135,7 +127,7 @@
 
 @media (max-width: 1000px) {
   .footer h1 {
-    margin-top: 2%; 
+    margin-top: 2%;
   }
 }
 

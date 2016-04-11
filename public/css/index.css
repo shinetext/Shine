@@ -1,21 +1,15 @@
 @font-face {
   font-family: 'Bebas Neue Bold';
-  src: url('fonts/BebasNeueBold.eot');
-  src: url('fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
-      url('fonts/BebasNeueBold.woff') format('woff'),
-      url('fonts/BebasNeueBold.ttf') format('truetype'),
-      url('fonts/BebasNeueBold.svg#FontName') format('svg');
+  src: url('../fonts/BebasNeueBold.otf') format('opentype'),
+      url('../fonts/BebasNeueBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Bebas Neue Regular';
-  src: url('fonts/BebasNeueRegular.eot');
-  src: url('fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
-      url('fonts/BebasNeueRegular.woff') format('woff'),
-      url('fonts/BebasNeueRegular.ttf') format('truetype'),
-      url('fonts/BebasNeueRegular.svg#FontName') format('svg');
+  src: url('../fonts/BebasNeueRegular.otf') format('opentype'),
+      url('../fonts/BebasNeueRegular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -106,7 +100,7 @@
 }
 
 @media screen and (max-width:1150px) {
-  .header { 
+  .header {
       background: none;
       background-color: #E6E6E6;
       clear: both;
@@ -129,6 +123,7 @@
 
 #logo_column h3 {
   font-size: 24px;
+  font-weight: 400;
   width: 20%;
   position: absolute;
   top: 35%;
@@ -140,7 +135,7 @@
     padding-top: 50px;
   }
 
-  #logo_column h3 { 
+  #logo_column h3 {
     position: relative;
     left: 25%;
     width: 50%;
@@ -155,12 +150,12 @@ input {
   padding: 10px;
   margin: 5px;
   border-bottom: 1px solid black;
-  font-family: 'Bebas Neue Regular';
-  font-size: 20px;
+  font-family: 'Fira Sans';
+  font-size: 16px;
 }
 
 @media screen and (max-width:1150px) {
-  input { 
+  input {
       width: 50%;
   }
 }
@@ -178,7 +173,7 @@ input {
 }
 
 @media screen and (max-width:1000px) {
-  .signup_button { 
+  .signup_button {
       width: 27%;
   }
 }
@@ -233,8 +228,8 @@ input {
 }
 
 @media screen and (max-width:1150px) {
-  .text_bubble_column { 
-      display:none 
+  .text_bubble_column {
+      display:none
   }
 }
 
@@ -288,7 +283,7 @@ input {
 }
 
 @media screen and (max-width:600px) {
-  .testimonials h2 { 
+  .testimonials h2 {
       font-size: 30px;
   }
 }
@@ -299,7 +294,7 @@ input {
   font-size: 16px;
   color: black;
   font-style: italic;
-  padding-bottom: 5%; 
+  padding-bottom: 5%;
 }*/
 
 /*.rays {
@@ -339,7 +334,7 @@ input {
 
 .press img {
   width: 15%;
-  margin: 0 2% 0 2%; 
+  margin: 0 2% 0 2%;
 }
 
 #of_a_kind img {
@@ -361,7 +356,7 @@ input {
 }
 
 @media screen and (max-width:600px) {
-  .press h2 { 
+  .press h2 {
       font-size: 30px;
   }
 
@@ -398,7 +393,7 @@ input {
   background-color: #E6E6E6;
 }
 
-.refer-a-friend h2 { 
+.refer-a-friend h2 {
   margin-top: 5%;
   font-family: 'Bebas Neue Bold';
   font-size: 40px;
@@ -415,7 +410,7 @@ input {
 }
 
 @media screen and (max-width:600px) {
-  .refer-a-friend h2 { 
+  .refer-a-friend h2 {
       font-size: 30px;
   }
 }
@@ -450,7 +445,7 @@ input {
 
 .contact {
   padding-bottom: 10%;
-  background: url('/images/map_icon.png'); 
+  background: url('/images/map_icon.png');
   background-repeat: no-repeat;
   background-position: 55% 80%;
   background-size: 18%;
@@ -492,7 +487,7 @@ input {
 
   .contact {
     padding-bottom: 10%;
-    background: url('/images/map_icon.png'); 
+    background: url('/images/map_icon.png');
     background-repeat: no-repeat;
     background-position: 85% 80%;
     background-size: 18%;
@@ -509,7 +504,7 @@ input {
 }
 
 @media screen and (max-width:600px) {
-  .contact h2 { 
+  .contact h2 {
       font-size: 30px;
   }
 }
@@ -562,18 +557,19 @@ input {
 }
 
 .partners li {
-  display:inline; 
+  display:inline;
 }
 
 .press li {
-  display:inline; 
+  display:inline;
 }
 
-.footer { 
-  list-style:none; 
+.footer {
+  list-style:none;
   background-color: black;
   overflow: scroll;
   padding-left: 5%;
+  margin-bottom: 0;
   margin-top: 0;
 }
 
@@ -585,8 +581,8 @@ input {
   font-family: 'Bebas Neue Regular';
 }
 
-.footer li { 
-  display:inline; 
+.footer li {
+  display:inline;
   float: right;
   padding-top: 2%;
   max-width: 42px;
