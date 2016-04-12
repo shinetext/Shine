@@ -23,10 +23,10 @@
     </div>
   </div>
 
-  <div id="logo_column">
+  <div id="logo-column">
     <img src={{asset('images/shine_logo.png')}}>
 
-    <h3>A daily text to help you slay the day.</h3>
+    <h3>Daily work and life advice sent to you in a text message every morning. We got you.</h3>
 
     <form action="https://secure.mcommons.com/profiles/join" method="post">
         <input type="hidden" name="opt_in_path[]" value="OP4B1A27AC508266A1F4373419CE1BE391" />
@@ -49,20 +49,20 @@
 <div class="col-md-4">
   <img src={{asset('images/coffee_icon.png')}}>
   <h3>A.M. MOTIVATION</h3>
-  <p>We curate and create content to send you every morning around your lifestyle. Learn how positive affirmations, the perfect playlist, and a work bestie can boost confidence and reduce stress at the office.</p>
+  <p>We curate and create content to send you every morning around how to live with more intentionality to reach your work and life goals. With positive affirmations, tactical tips and the occasional gif, our daily Shine Text will give you all the feels.</p>
 </div>
 
 <div class="col-md-4">
   <img src={{asset('images/lightning2_icon.png')}}>
   <h3>SAY BYE TO ANXIETY </h3>
-  <p>Daily affirmations are proven to reprogram negative thought patterns. Shine texts help target dysfunctional beliefs through short positive statements (a common practice in Cognitive Behavioral Therapy and modern meditation).</p>
+  <p>You are not alone. We want to help you realize how amazing you are and how we all deal with a little stress. Daily affirmations are proven to reprogram negative thought patterns. Shine Texts help target dysfunctional beliefs through short positive statements (a common practice in Cognitive Behavioral Therapy and modern meditation).</p>
 </div>
 
 <div class="col-md-4">
   <img src={{asset('images/mail_icon.png')}} id="mail">
   <h3>SHARE WITH FRIENDS</h3>
   <a name="testimonials"></a>
-  <p>The best part? You can share all of this motiv-affirmation (motivation + affirmation. Yeah, we made up a word) with your friends to give them the boost they need. A few Channing Tatum GIFs never hurt anyone, right?</p>
+  <p>The best part? You can share all of this motiv-affirmation (motivation + affirmation. Yeah, we made up a word) with your friends to give them the boost they need. After you join the movement of living with intentionality, invite your friends to be their best selves too!</p>
 </div>
 
 <div style="clear: both;"></div>
