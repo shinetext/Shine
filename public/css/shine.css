@@ -56,10 +56,8 @@ footer li a {
 
 footer ul {
   display: inline;
-  float: right;
   list-style: none;
   margin-bottom: 0;
-  text-align: right;
 }
 
 input {
@@ -92,5 +90,25 @@ input {
 @media screen and (max-width:1150px) {
   input {
     width: 50%;
+  }
+}
+
+@media (min-width: 600px) {
+  footer ul {
+    float: right;
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    text-align: center;
+  }
+
+  footer h1 {
+    display: none;
+  }
+
+  footer ul {
+    padding-left: 0;
   }
 }

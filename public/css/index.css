@@ -228,12 +228,6 @@
   color: black;
 }
 
-@media screen and (max-width:600px) {
-  .testimonials h2 {
-      font-size: 30px;
-  }
-}
-
 #carosel-example-generic {
   margin-top: 100%;
 }
@@ -280,7 +274,11 @@
 
 @media screen and (max-width:600px) {
   .press h2 {
-      font-size: 30px;
+    font-size: 30px;
+  }
+
+  .testimonials h2 {
+    font-size: 30px;
   }
 
   #cnn img {
