@@ -12,21 +12,48 @@
   font-style: normal;
 }
 
-#privacy-policy-link li {
+body {
+  height: 100%;
+}
+
+footer {
+  background-color: black;
+  list-style: none;
+  padding: 20px;
+}
+
+footer a {
   color: white;
   font-family: 'Bebas Neue Regular';
   font-size: 20px;
-  max-width: 100%;
-  padding: 20px 2% 0 0;
 }
 
-#privacy-policy-link a {
-  color: white;
-}
-
-#privacy-policy-link a:hover {
+footer a:hover {
   color: white;
   text-decoration: none;
+}
+
+footer h1 {
+  color: white;
+  display: inline;
+  font-family: 'Bebas Neue Regular';
+}
+
+footer img {
+  width: 32px;
+}
+
+footer li {
+  display: inline;
+  padding: 0 6px;
+}
+
+footer ul {
+  display: inline;
+  float: right;
+  list-style: none;
+  margin-bottom: 0;
+  text-align: right;
 }
 
 input {
@@ -59,15 +86,5 @@ input {
 @media screen and (max-width:1150px) {
   input {
     width: 50%;
-  }
-}
-
-@media (max-width: 600px) {
-  .footer li img {
-    margin-top: 20%;
-  }
-
-  #privacy-policy-link li {
-    padding: 5% 9% 0 0;
   }
 }
