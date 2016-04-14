@@ -438,11 +438,12 @@
 }
 
 .partners h4 {
-  font-family: 'Fira Sans';
-  text-align: center;
-  font-size: 18px;
-  padding-top: 2%;
   color: gray;
+  font-family: 'Fira Sans';
+  font-size: 18px;
+  margin-top: 0;
+  padding-top: 2%;
+  text-align: center;
 }
 
 #dreamers img {
