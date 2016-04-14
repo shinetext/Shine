@@ -12,21 +12,52 @@
   font-style: normal;
 }
 
-#privacy-policy-link li {
-  color: white;
-  font-family: 'Bebas Neue Regular';
-  font-size: 20px;
-  max-width: 100%;
-  padding: 20px 2% 0 0;
+body {
+  height: 100%;
 }
 
-#privacy-policy-link a {
+footer {
+  background-color: black;
+  list-style: none;
+  padding: 20px;
+}
+
+footer a {
   color: white;
 }
 
-#privacy-policy-link a:hover {
+footer a:hover {
   color: white;
   text-decoration: none;
+}
+
+footer h1 {
+  display: inline;
+  font-family: 'Bebas Neue Regular';
+}
+
+footer img {
+  width: 32px;
+}
+
+footer li {
+  display: inline;
+  padding: 0 12px;
+}
+
+footer li.social-icon {
+  padding: 0 6px;
+}
+
+footer li a {
+  font-family: 'Bebas Neue Regular';
+  font-size: 20px;
+}
+
+footer ul {
+  display: inline;
+  list-style: none;
+  margin-bottom: 0;
 }
 
 input {
@@ -62,12 +93,22 @@ input {
   }
 }
 
+@media (min-width: 600px) {
+  footer ul {
+    float: right;
+  }
+}
+
 @media (max-width: 600px) {
-  .footer li img {
-    margin-top: 20%;
+  footer {
+    text-align: center;
   }
 
-  #privacy-policy-link li {
-    padding: 5% 9% 0 0;
+  footer h1 {
+    display: none;
+  }
+
+  footer ul {
+    padding-left: 0;
   }
 }

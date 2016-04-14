@@ -47,15 +47,37 @@
     <body>
       @yield('content')
 
-      <ul class="footer">
-        <h1>SHINE</h1>
-        <div id="footer-social">
-            <li><a href="https://twitter.com/ShineText" target="_blank"><img src={{asset('images/twitter_yellow.png')}}></a></li>
-            <li><a href="https://instagram.com/ShineText" target="_blank"><img src={{asset('images/instagram_yellow.png')}}></a></li>
-            <li><a href="https://www.facebook.com/Shine-Text" target="_blank"><img src={{asset('images/facebook_yellow.png')}}></a></li>
-            <div id="privacy-policy-link"><li><a href="{{ URL::route('privacy-policy') }}" target="_blank">PRIVACY POLICY</a></li></div>
-        </div>
-      </ul>
+      <footer>
+        <h1>
+            <a href="/">SHINE</a>
+        </h1>
+        <ul>
+            <li>
+                <a href="{{ URL::route('faq') }}">FAQ</a>
+            </li>
+            <li>
+                <a href="{{ URL::route('jobs') }}">JOBS</a>
+            </li>
+            <li>
+                <a href="{{ URL::route('privacy-policy') }}">PRIVACY POLICY</a>
+            </li>
+            <li class="social-icon">
+                <a href="https://www.facebook.com/Shine-Text" target="_blank">
+                    <img src={{asset('images/facebook_yellow.png')}}>
+                </a>
+            </li>
+            <li class="social-icon">
+                <a href="https://instagram.com/ShineText" target="_blank">
+                    <img src={{asset('images/instagram_yellow.png')}}>
+                </a>
+            </li>
+            <li class="social-icon">
+                <a href="https://twitter.com/ShineText" target="_blank">
+                    <img src={{asset('images/twitter_yellow.png')}}>
+                </a>
+            </li>
+        </ul>
+      </footer>
     </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </html>

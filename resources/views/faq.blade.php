@@ -10,7 +10,7 @@
 <div class="page">
   <h1>SHINE FAQ</h1>
 
-  <p>Hey, you! Thanks for coming to our FAQ page. We’re here to answer any questions you have. If you don’t see your answer below, email us at help@shinetext.com and we’ll get back to you as soon as possible.</p>
+  <p>Hey, you! Thanks for coming to our FAQ page. We’re here to answer any questions you have. If you don’t see your answer below, email us at <a href="mailto:help@shinetext.com" target="_blank">help@shinetext.com</a> and we’ll get back to you as soon as possible.</p>
   <p>Thanks for your interest in Shine!</p>
   <p>Naomi + Marah</p>
   <p>(Co-Founders and Co-CEOs)</p>
@@ -22,7 +22,7 @@
   <p>Monday-Friday around 8:15 am in your time zone.</p>
 
   <h2>Can I change the time the texts arrive?</h2>
-  <p>Right now, we’re able to adjust delivery time by time zone. If you want to push back the arrival time by a few hours, email us at help@shinetext.com with your phone # and timing preference.</p>
+  <p>Right now, we’re able to adjust delivery time by time zone. If you want to push back the arrival time by a few hours, email us at <a href="mailto:help@shinetext.com" target="_blank">help@shinetext.com</a> with your phone # and timing preference.</p>
 
   <h2>Is Shine free?</h2>
   <p>Yep, Shine is free!</p>
@@ -38,7 +38,7 @@
   <p>Not yet. We’d love to offer Shine globally, but resources wise, we’re currently only able to offer it to people in the US.</p>
 
   <h2>How do you opt out?</h2>
-  <p>To opt out, text "QUIT" to 30644. We’re sad to see you go so if you have any feedback on how Shine could improve, work best for you, etc. let us know by sending feedback to feedback@shinetext.com.</p>
+  <p>To opt out, text "QUIT" to 30644. We’re sad to see you go so if you have any feedback on how Shine could improve, work best for you, etc. let us know by sending feedback to <a href="mailto:feedback@shinetext.com" target="_blank">feedback@shinetext.com</a>.</p>
 
   <h2>Do we disclose any information to outside parties?</h2>
   <p>Nope, we don’t get down like that. Check out our <a href="http://www.shinetext.com/privacy-policy" target="_blank">Privacy Policy</a> for more info.</p>
