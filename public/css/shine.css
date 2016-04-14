@@ -24,8 +24,6 @@ footer {
 
 footer a {
   color: white;
-  font-family: 'Bebas Neue Regular';
-  font-size: 20px;
 }
 
 footer a:hover {
@@ -34,7 +32,6 @@ footer a:hover {
 }
 
 footer h1 {
-  color: white;
   display: inline;
   font-family: 'Bebas Neue Regular';
 }
@@ -45,7 +42,16 @@ footer img {
 
 footer li {
   display: inline;
+  padding: 0 12px;
+}
+
+footer li.social-icon {
   padding: 0 6px;
+}
+
+footer li a {
+  font-family: 'Bebas Neue Regular';
+  font-size: 20px;
 }
 
 footer ul {

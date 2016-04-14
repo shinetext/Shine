@@ -48,24 +48,30 @@
       @yield('content')
 
       <footer>
-        <h1>SHINE</h1>
+        <h1>
+            <a href="/">SHINE</a>
+        </h1>
         <ul>
             <li>
-                <a href="{{ URL::route('privacy-policy') }}" target="_blank">
-                    PRIVACY POLICY
-                </a>
+                <a href="{{ URL::route('faq') }}">FAQ</a>
             </li>
             <li>
+                <a href="{{ URL::route('jobs') }}">JOBS</a>
+            </li>
+            <li>
+                <a href="{{ URL::route('privacy-policy') }}">PRIVACY POLICY</a>
+            </li>
+            <li class="social-icon">
                 <a href="https://www.facebook.com/Shine-Text" target="_blank">
                     <img src={{asset('images/facebook_yellow.png')}}>
                 </a>
             </li>
-            <li>
+            <li class="social-icon">
                 <a href="https://instagram.com/ShineText" target="_blank">
                     <img src={{asset('images/instagram_yellow.png')}}>
                 </a>
             </li>
-            <li>
+            <li class="social-icon">
                 <a href="https://twitter.com/ShineText" target="_blank">
                     <img src={{asset('images/twitter_yellow.png')}}>
                 </a>
