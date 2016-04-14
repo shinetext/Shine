@@ -1,5 +1,3 @@
-
-
 .dropdown-menu {
   font-family: 'Bebas Neue Regular';
   font-size: 22px;
@@ -88,38 +86,37 @@
   }
 }
 
-#logo_column {
+#logo-column {
   display: block;
   text-align: center;
-  padding-bottom: 5%;
+  padding: 5% 0;
   font-family: 'Fira Sans';
   position: relative;
 }
 
-#logo_column img {
+#logo-column img {
   max-width: 25%;
   max-height: auto;
 }
 
-#logo_column h3 {
+#logo-column h3 {
   font-size: 24px;
   font-weight: 400;
-  width: 20%;
-  position: absolute;
-  top: 35%;
-  left: 40%;
+  margin: 40px 0;
+  position: relative;
+  left: 38%;
+  width: 24%;
 }
 
 @media screen and (max-width:1150px) {
-  #logo_column img {
+  #logo-column img {
     padding-top: 50px;
   }
 
-  #logo_column h3 {
+  #logo-column h3 {
     position: relative;
     left: 25%;
     width: 50%;
-    padding-bottom: 5%;
   }
 }
 
@@ -231,12 +228,6 @@
   color: black;
 }
 
-@media screen and (max-width:600px) {
-  .testimonials h2 {
-      font-size: 30px;
-  }
-}
-
 #carosel-example-generic {
   margin-top: 100%;
 }
@@ -283,7 +274,11 @@
 
 @media screen and (max-width:600px) {
   .press h2 {
-      font-size: 30px;
+    font-size: 30px;
+  }
+
+  .testimonials h2 {
+    font-size: 30px;
   }
 
   #cnn img {
@@ -437,15 +432,16 @@
 .partners {
   text-align: center;
   padding-bottom: 0px;
-  background-color: #E6E6E6;
+  background-color: white;
 }
 
 .partners h4 {
-  font-family: 'Fira Sans';
-  text-align: center;
-  font-size: 18px;
-  padding-top: 2%;
   color: gray;
+  font-family: 'Fira Sans';
+  font-size: 18px;
+  margin-top: 0;
+  padding-top: 2%;
+  text-align: center;
 }
 
 #dreamers img {
@@ -486,38 +482,5 @@
 }
 
 .press li {
-  display:inline;
-}
-
-.footer {
-  list-style:none;
-  background-color: black;
-  overflow: scroll;
-  padding-left: 5%;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.footer h1 {
-  float: left;
-  color: white;
-  display: block;
-  position: relative;
-  font-family: 'Bebas Neue Regular';
-}
-
-.footer li {
-  display:inline;
-  float: right;
-  padding-top: 2%;
-  max-width: 42px;
-}
-
-.footer li img {
-  width: 75%;
-  margin-top: -20%;
-}
-
-#footer-social {
-  margin-right: 5%;
+  display: inline;
 }

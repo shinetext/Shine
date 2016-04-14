@@ -17,18 +17,16 @@
           <a href="#testimonials" class="dropdown-toggle hidden-sm hidden-md hidden-lg">TESTIMONIALS</a>
           <a href="#press" class="dropdown-toggle hidden-sm hidden-md hidden-lg">PRESS</a>
           <a href="#refer" class="dropdown-toggle hidden-sm hidden-md hidden-lg">REFER-A-FRIEND</a>
-          <a href="https://blog.shinetext.com/latest" target="_blank" class="dropdown-toggle hidden-sm hidden-md hidden-lg">BLOG</a>
           <a href="#partners" class="dropdown-toggle hidden-sm hidden-md hidden-lg">PARTNERS</a>
-          <a href="#contact" class="dropdown-toggle hidden-sm hidden-md hidden-lg">CONTACT</a>
+          <a href="https://blog.shinetext.com/latest" target="_blank" class="dropdown-toggle hidden-sm hidden-md hidden-lg">BLOG</a>
 
           <ul class="dropdown-menu dropdown-toggle hidden-xs">
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#testimonials">TESTIMONIALS</a></li>
             <li><a href="#press">PRESS</a></li>
             <li><a href="#refer">REFER-A-FRIEND</a></li>
-            <li><a href="https://blog.shinetext.com/latest" target="_blank">BLOG</a></li>
             <li><a href="#partners">PARTNERS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="https://blog.shinetext.com/latest" target="_blank">BLOG</a></li>
           </ul>
         </li>
 
