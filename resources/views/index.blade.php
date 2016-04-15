@@ -36,7 +36,9 @@
 
       <input placeholder="Last Name (optional)" type="text" name="person[last_name]" id="person_last_name" /></br>
 
-      <input required="required" placeholder="Phone Number" type="text" name="person[phone]" id="person_phone" /></br>
+      <input required="required" placeholder="Phone Number" type="tel" name="person[phone]" id="person_phone" /></br>
+
+      <input placeholder="Email (optional)" type="email" name="person[email]" /></br>
 
       <input type="submit" value="SIGNUP" class="signup_button"/>
     </form>
