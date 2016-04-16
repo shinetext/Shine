@@ -11,7 +11,6 @@
 .footer {
   list-style:none;
   background-color: black;
-  overflow: scroll;
   padding-left: 5%;
   margin-bottom: 0;
   margin-top: 0;
@@ -51,7 +50,7 @@
 .page {
   background-color: #E6E6E6;
   clear: both;
-  overflow: scroll;
+  overflow: auto;
   padding: 100px 15%;
 }
 
