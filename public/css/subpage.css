@@ -1,3 +1,7 @@
+body {
+  background-color: #E6E6E6;
+}
+
 #footer-social {
   margin-right: 5%;
 }
@@ -40,11 +44,7 @@
 }
 
 .navbar-brand {
-    padding-left: 5%;
-}
-
-.navbar-right {
-    margin-right: -5%;
+  height: inherit;
 }
 
 .page {
@@ -90,8 +90,5 @@
 @media (max-width: 1000px) {
   .footer h1 {
     margin-top: 2%;
-  }
-  .navbar-default {
-    padding-bottom: 3%;
   }
 }
