@@ -1,3 +1,7 @@
+.about {
+  margin: 150px 0;
+}
+
 .anchor {
   display: block;
   position: relative;
@@ -200,8 +204,6 @@
 }
 
 .col-md-4 img {
-  margin: 0 auto;
-  margin-top: 150px;
   height: 150px;
 }
 

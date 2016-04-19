@@ -47,25 +47,27 @@
 </div>
 
 <a name="about" class="anchor"></a>
-<div class="col-md-4">
-  <img src={{asset('images/coffee_icon.png')}}>
-  <h3>A.M. MOTIVATION</h3>
-  <p>We curate and create content to send you every morning around how to live with more intentionality to reach your work and life goals. With positive affirmations, tactical tips and the occasional gif, our daily Shine Text will give you all the feels.</p>
+<div class="about">
+  <div class="col-md-4">
+    <img src={{asset('images/coffee_icon.png')}}>
+    <h3>A.M. MOTIVATION</h3>
+    <p>We curate and create content to send you every morning around how to live with more intentionality to reach your work and life goals. With positive affirmations, tactical tips and the occasional gif, our daily Shine Text will give you all the feels.</p>
+  </div>
+
+  <div class="col-md-4">
+    <img src={{asset('images/lightning2_icon.png')}}>
+    <h3>SAY BYE TO ANXIETY </h3>
+    <p>You are not alone. We want to help you realize how amazing you are and how we all deal with a little stress. Daily affirmations are proven to reprogram negative thought patterns. Shine Texts help target dysfunctional beliefs through short positive statements (a common practice in Cognitive Behavioral Therapy and modern meditation).</p>
+  </div>
+
+  <div class="col-md-4">
+    <img src={{asset('images/mail_icon.png')}} id="mail">
+    <h3>SHARE WITH FRIENDS</h3>
+    <p>The best part? You can share all of this motiv-affirmation (motivation + affirmation. Yeah, we made up a word) with your friends to give them the boost they need. After you join the movement of living with intentionality, invite your friends to be their best selves too!</p>
+  </div>
+  <div style="clear: both;"></div>
 </div>
 
-<div class="col-md-4">
-  <img src={{asset('images/lightning2_icon.png')}}>
-  <h3>SAY BYE TO ANXIETY </h3>
-  <p>You are not alone. We want to help you realize how amazing you are and how we all deal with a little stress. Daily affirmations are proven to reprogram negative thought patterns. Shine Texts help target dysfunctional beliefs through short positive statements (a common practice in Cognitive Behavioral Therapy and modern meditation).</p>
-</div>
-
-<div class="col-md-4">
-  <img src={{asset('images/mail_icon.png')}} id="mail">
-  <h3>SHARE WITH FRIENDS</h3>
-  <p>The best part? You can share all of this motiv-affirmation (motivation + affirmation. Yeah, we made up a word) with your friends to give them the boost they need. After you join the movement of living with intentionality, invite your friends to be their best selves too!</p>
-</div>
-
-<div style="clear: both;"></div>
 <div class="refer">
   <a name="refer" class="anchor"></a>
   <h2>Share Shine texts with your friends!</h2>
