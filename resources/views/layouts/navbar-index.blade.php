@@ -22,9 +22,9 @@
 
           <ul class="dropdown-menu dropdown-toggle hidden-xs">
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="#testimonials">TESTIMONIALS</a></li>
-            <li><a href="#press">PRESS</a></li>
             <li><a href="#refer">REFER-A-FRIEND</a></li>
+            <li><a href="#press">PRESS</a></li>
+            <li><a href="#testimonials">TESTIMONIALS</a></li>
             <li><a href="#partners">PARTNERS</a></li>
             <li><a href="https://blog.shinetext.com/latest" target="_blank">BLOG</a></li>
           </ul>

@@ -1,3 +1,14 @@
+.about {
+  margin: 150px 0;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
 .dropdown-menu {
   font-family: 'Bebas Neue Regular';
   font-size: 22px;
@@ -185,7 +196,6 @@
   text-align: center;
   color: black;
   background-color: white;
-  overflow: scroll;
 }
 
 .col-md-4 h3 {
@@ -194,8 +204,6 @@
 }
 
 .col-md-4 img {
-  margin: 0 auto;
-  margin-top: 150px;
   height: 150px;
 }
 
@@ -213,11 +221,6 @@
 
 .testimonials {
   background: #E6E6E6;
-}
-
-.testimonials img {
-  width: 70%;
-  height: auto;
 }
 
 .testimonials h2 {
@@ -252,6 +255,10 @@
 .press img {
   width: 15%;
   margin: 0 2% 0 2%;
+}
+
+.press li {
+  display: inline;
 }
 
 #of_a_kind img {
@@ -310,11 +317,11 @@
   }
 }
 
-.refer-a-friend {
+.refer {
   background-color: #E6E6E6;
 }
 
-.refer-a-friend h2 {
+.refer h2 {
   margin-top: 5%;
   font-family: 'Bebas Neue Bold';
   font-size: 40px;
@@ -322,8 +329,7 @@
   text-align: left;
 }
 
-.refer-a-friend form {
-  overflow: scroll;
+.refer form {
   background-color: #E6E6E6;
   display: block;
   text-align: center;
@@ -331,13 +337,13 @@
 }
 
 @media screen and (max-width:600px) {
-  .refer-a-friend h2 {
+  .refer h2 {
       font-size: 30px;
   }
 }
 
-.refer_form {
-    background-color: #E6E6E6;
+.refer-form {
+  background-color: #E6E6E6;
 }
 
 #referral {
@@ -425,7 +431,7 @@
 
 @media screen and (max-width:600px) {
   .contact h2 {
-      font-size: 30px;
+    font-size: 30px;
   }
 }
 
@@ -435,6 +441,15 @@
   background-color: white;
 }
 
+.partners h2 {
+  margin-top: 5%;
+  padding-top: 5%;
+  font-family: 'Bebas Neue Bold';
+  font-size: 40px;
+  padding: 3% 0 0 5%;
+  text-align: left;
+}
+
 .partners h4 {
   color: gray;
   font-family: 'Fira Sans';
@@ -442,6 +457,10 @@
   margin-top: 0;
   padding-top: 2%;
   text-align: center;
+}
+
+.partners li {
+  display: inline;
 }
 
 #dreamers img {
@@ -462,25 +481,4 @@
 #lorem img {
   width: 18%;
   margin: 0 2% 1% 1%;
-}
-
-@media screen and (max-width:800px) {
-
-}
-
-.partners h2 {
-  margin-top: 5%;
-  padding-top: 5%;
-  font-family: 'Bebas Neue Bold';
-  font-size: 40px;
-  padding: 3% 0 0 5%;
-  text-align: left;
-}
-
-.partners li {
-  display:inline;
-}
-
-.press li {
-  display: inline;
 }
