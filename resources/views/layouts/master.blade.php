@@ -56,9 +56,6 @@
                 <a href="{{ URL::route('faq') }}">FAQ</a>
             </li>
             <li>
-                <a href="{{ URL::route('jobs') }}">JOBS</a>
-            </li>
-            <li>
                 <a href="{{ URL::route('privacy-policy') }}">PRIVACY POLICY</a>
             </li>
             <li class="social-icon">
@@ -81,5 +78,3 @@
     </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </html>
-
-
